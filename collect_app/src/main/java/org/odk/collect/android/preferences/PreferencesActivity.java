@@ -225,14 +225,16 @@ public class PreferencesActivity extends PreferenceActivity implements OnPrefere
       }
     });
 
-    boolean changeProtocol = adminPreferences.getBoolean(
-        AdminPreferencesActivity.KEY_CHANGE_SERVER, true);
-    if (!(changeProtocol || adminMode)) {
+    // KoBo: Disable the "Platform" setting.
+//    boolean changeProtocol = adminPreferences.getBoolean(
+//        AdminPreferencesActivity.KEY_CHANGE_SERVER, true);
+    if (true) {
       serverCategory.removePreference(mProtocolPreference);
     }
-    boolean changeProtocolSettings = adminPreferences.getBoolean(
-        AdminPreferencesActivity.KEY_CHANGE_PROTOCOL_SETTINGS, true);
-    if (!(changeProtocolSettings || adminMode)) {
+    // KoBo: Disable the "Configure platform settings" setting.
+//    boolean changeProtocolSettings = adminPreferences.getBoolean(
+//        AdminPreferencesActivity.KEY_CHANGE_PROTOCOL_SETTINGS, true);
+    if (true) {
       serverCategory.removePreference(mProtocolSettings);
     }
 
@@ -266,9 +268,10 @@ public class PreferencesActivity extends PreferenceActivity implements OnPrefere
         });
     mSelectedGoogleAccountPreference.setSummary(mSelectedGoogleAccountPreference.getValue());
 
-    boolean googleAccountAvailable = adminPreferences.getBoolean(
-        AdminPreferencesActivity.KEY_CHANGE_GOOGLE_ACCOUNT, true);
-    if (!(googleAccountAvailable || adminMode)) {
+    // KoBo: Disable the "Google account" setting.
+//    boolean googleAccountAvailable = adminPreferences.getBoolean(
+//        AdminPreferencesActivity.KEY_CHANGE_GOOGLE_ACCOUNT, true);
+    if (true) {
       serverCategory.removePreference(mSelectedGoogleAccountPreference);
     }
 
