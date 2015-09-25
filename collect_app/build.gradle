@@ -19,7 +19,7 @@ android {
     compileSdkVersion("Google Inc.:Google APIs:19")
     buildToolsVersion("22.0.1")
     defaultConfig {
-        applicationId("org.odk.collect.android")
+        applicationId('org.koboc.collect.android')
         minSdkVersion(8)
         targetSdkVersion(8)
         versionCode(1053)
@@ -43,13 +43,6 @@ android {
         }
     }
     productFlavors {
-        kobo {
-            minSdkVersion 8
-            applicationId 'org.kobotoolbox.collect.android'
-            targetSdkVersion 8
-            versionCode 1053
-            versionName '1.4.7'
-        }
     }
 }
 
