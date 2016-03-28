@@ -1,6 +1,6 @@
 # collect
 
-This project is __*actively maintained*__
+The KoBo fork of this project is not actively maintained. For the latest ODK Collect source, please visit [`opendatakit/collect` on Github](https://github.com/opendatakit/collect).
 
 It is the ODK 1.0 Android application.
 
