@@ -22,9 +22,9 @@
   <string name="capture_image">Сделать снимок</string>
   <string name="capture_video">Записать видео</string>
   <string name="change_language">Выбрать язык</string>
-  <string name="change_password">Пароль ODK</string>
+  <string name="change_password">Пароль KoBoToolbox</string>
   <string name="change_protocol_settings_default">Настройки сервера</string>
-  <string name="change_username">Имя пользователя ODK</string>
+  <string name="change_username">Имя пользователя KoBoToolbox</string>
   <string name="clearanswer_confirm">Удалить ответ к \"%s\"?</string>
   <string name="clear_answer">Удалить ответ</string>
   <string name="clear_answer_ask">Удалить этот ответ?</string>
@@ -85,7 +85,7 @@
   <string name="location_accuracy">Точность %1$s м.</string>
   <string name="longitude">Долгота</string>
   <string name="main_menu">Главное меню</string>
-  <string name="main_menu_details">Сбор данных становится легче…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Удалить сохранённую форму</string>
   <string name="mark_finished">Пометить форму, как завершённую</string>
   <string name="noselect_error">Не было выбрано ни одной формы!</string>
@@ -129,7 +129,7 @@
   <string name="username">Имя пользователя</string>
   <string name="view_hierarchy">Показать иерархию</string>
   <string name="general_preferences">Общие настройки</string>
-  <string name="click_to_web">Нажмите, чтобы посетить сайт</string>
+  <string name="click_to_web">KoBoCollect is part of KoBoToolbox (kobotoolbox.org)\n\nKoBoCollect is based on the OpenDataKit</string>
   <string name="client">Пользовательский интерфейс</string>
   <string name="show_splash">Показывать логотип</string>
   <string name="show_splash_summary">Показывается при запуске приложения</string>
@@ -302,7 +302,7 @@
   <string name="invalid_oauth">Неверный OAuth 2 токен</string>
   <string name="picasa_upload_error">Не удалось загрузить несуществующее фото: %1$s</string>
   <string name="odk_auth_auth_fail">Ошибка аутентификации при автоматической отправке. Пожалуйста, проверьте настройки</string>
-  <string name="odk_auto_note">Уведомление автоматической отправки ODK</string>
+  <string name="odk_auto_note">Уведомление автоматической отправки KoBoToolbox</string>
   <string name="notification_error">Ошибка отображения текста уведомления</string>
   <string name="delete_after_send">Удалить после отправки</string>
   <string name="delete_after_send_summary">Удаляет завершённые формы и их медиа после отправки данных на сервер</string>
