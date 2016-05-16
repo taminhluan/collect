@@ -15,7 +15,6 @@
   <string name="cancel">取消</string>
   <string name="cancel_loading_form">取消</string>
   <string name="cancel_location">取消</string>
-  <string name="cancel_saving_form">取消</string>
   <string name="cannot_edit_completed_form">此表格在标记为已完成之后不可更改. 它可能已被加密.</string>
   <string name="capture_audio">录音</string>
   <string name="capture_image">照相</string>
@@ -80,7 +79,7 @@
   <string name="location_accuracy">精度为  %1$s m</string>
   <string name="longitude">经度</string>
   <string name="main_menu">主菜单</string>
-  <string name="main_menu_details">让数据收集简单…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">删除已保存表格</string>
   <string name="mark_finished">标记表格为完成</string>
   <string name="noselect_error">没有选定表格!</string>
@@ -121,17 +120,17 @@
   <string name="username">用户名</string>
   <string name="view_hierarchy">跳到提示</string>
   <string name="general_preferences">设置</string>
-  <string name="click_to_web">点击访问 http://opendatakit.org</string>
+  <string name="click_to_web">KoBoCollect is part of KoBoToolbox (kobotoolbox.org)\n\nKoBoCollect is based on the OpenDataKit</string>
   <string name="client">用户界面</string>
   <string name="show_splash">显示开始界面</string>
   <string name="show_splash_summary">当应用开始时显示</string>
   <string name="splash_path">选定的开始图片</string>
-  <string name="default_splash_path">ODK默认图片</string>
+  <string name="default_splash_path">KoBoToolbox默认图片</string>
   <string name="select_another_image">选择其他图片</string>
   <string name="use_odk_default">使用默认图片</string>
   <string name="change_splash_path">修改图片</string>
   <string name="show_location">显示位置</string>
-  <string name="app_url">http://opendatakit.org</string>
+  <string name="app_url">http://www.kobotoolbox.org</string>
   <string name="keep_changes">保存修改</string>
   <string name="go_to_location">转到位置</string>
   <string name="change_formlist_url">表格列表路径 (附加到服务器URL之后)</string>
@@ -165,7 +164,6 @@
   <string name="edit_prompt">修改提示</string>
   <string name="selected_google_account_text">Google账号</string>
   <string name="server_platform_odk_aggregate">ODK Aggregate</string>
-  <string name="server_platform_google_forms">Google表格</string>
   <string name="server_platform_other">其他</string>
   <string name="font_size_extra_large">极大</string>
   <string name="font_size_large">大</string>
@@ -232,7 +230,6 @@
   <string name="swipe_instructions">您在 %s 的开始. 如屏幕所示滑动以前进或后退.</string>
   <string name="buttons_instructions">您在 %s 的开始. 点击下面的箭头按钮以前进或后退.</string>
   <string name="swipe_buttons_instructions">您在 %s 的开始. 如屏幕所示滑动或点击下面的箭头按钮以前进或后退.</string>
-  <string name="change_url_default">URL</string>
   <string name="launch_printer">初始化打印</string>
   <string name="no_printer">请求的打印机未被安装. 请安装打印机.</string>
   <string name="constraint_behavior">约束检查</string>

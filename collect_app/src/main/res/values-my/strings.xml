@@ -15,7 +15,6 @@
   <string name="cancel">ပယ္ရန္</string>
   <string name="cancel_loading_form">ပယ္ရန္</string>
   <string name="cancel_location">ပယ္ရန္</string>
-  <string name="cancel_saving_form">ပယ္ရန္</string>
   <string name="cannot_edit_completed_form">ျပည့္စံုေအာင္ ျဖည့္စြက္ၿပီးသား ပံုစံမ်ားကို ျပင္ဆင္၍ မရပါ</string>
   <string name="capture_audio">အသံသြင္းရန္</string>
   <string name="capture_image">ဓါတ္ပံုရိုက္ရန္</string>
@@ -80,7 +79,7 @@
   <string name="location_accuracy">တိက်မွန္ကန္မွု %1$s m</string>
   <string name="longitude">ေလာင္ဂ်ီတြဒ္</string>
   <string name="main_menu">ပင္မစာရင္းစဥ္</string>
-  <string name="main_menu_details">အခ်က္အလက္ေကာက္ယူမွုလြယ္ကူေစရန္</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">သိမ္းထားေသာပံုစံအားဖ်က္ရန္</string>
   <string name="mark_finished">အၿပီးသတ္ထားေသာပံုစံအားမွတ္သားရန္</string>
   <string name="noselect_error">ပံုစံေရြးခ်ယ္ထားျခင္းမရိွပါ</string>
@@ -121,7 +120,7 @@
   <string name="username">သံုးစြဲသူအမည္</string>
   <string name="view_hierarchy">ခ်က္ျခင္းသြားရန္</string>
   <string name="general_preferences">မူလပံုစံအားေျပာင္းရန္</string>
-  <string name="click_to_web"> http://opendatakit.org သို႔သြားရန္</string>
+  <string name="click_to_web">KoBoCollect is part of KoBoToolbox (kobotoolbox.org)\n\nKoBoCollect is based on the OpenDataKit</string>
   <string name="client">ကြန္ယက္ခ်ိတ္ယက္ခ်ိတ္ဆက္ထားသူမ်ား</string>
   <string name="show_splash">Splash Screen အားျပရန္</string>
   <string name="show_splash_summary">အသံုးျပဳမွုစတင္ခ်ိန္တြင္ျပရန္</string>
@@ -131,7 +130,7 @@
   <string name="use_odk_default">ရိွရင္းစြဲပံုကိုသံုးရန္</string>
   <string name="change_splash_path">ပံုေျပာင္းရန္</string>
   <string name="show_location">တည္ေနရာျပရန္</string>
-  <string name="app_url">http://opendatakit.org</string>
+  <string name="app_url">http://www.kobotoolbox.org</string>
   <string name="keep_changes">ေျပာင္းလဲမွုမ်ားကို သိမ္းဆည္းရန္</string>
   <string name="go_to_location">တည္ေနရာသို႔သြားရန္</string>
   <string name="change_formlist_url">ပံုစံစာရင္းရိွသည့္ေနရာ (appended to Server URL)</string>
@@ -165,7 +164,6 @@
   <string name="edit_prompt">ခ်က္ျခင္းျပင္ဆင္ရန္</string>
   <string name="selected_google_account_text">ဂူးဂယ္ (လ္) အေကာင့္</string>
   <string name="server_platform_odk_aggregate">ODK Aggregate</string>
-  <string name="server_platform_google_forms">ဂူးဂယ္ (လ္) ပံုစံ</string>
   <string name="server_platform_other">အျခား</string>
   <string name="font_size_extra_large">အလြန္ႀကီး</string>
   <string name="font_size_large">အႀကီး</string>
@@ -232,7 +230,6 @@
   <string name="swipe_instructions">You are at the start of %s. Swipe the screen as shown below to go backward and forward.</string>
   <string name="buttons_instructions">You are at the start of %s. Tap the arrow buttons below to go backward and forward.</string>
   <string name="swipe_buttons_instructions">You are at the start of %s. Swipe the screen as shown below or tap the arrow buttons to go backward and forward.</string>
-  <string name="change_url_default">URL</string>
   <string name="launch_printer">Initiate Printing</string>
   <string name="no_printer">The requested printer is not installed. Please install the printer.</string>
 </resources>

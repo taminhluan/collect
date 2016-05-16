@@ -7,7 +7,7 @@
         android:title="@string/app_name" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://opendatakit.org" />
+            android:data="http://www.kobotoolbox.org" />
     </PreferenceScreen>
 
     <PreferenceCategory
@@ -21,6 +21,15 @@
             android:entryValues="@array/protocol_entry_values"
             android:key="protocol"
             android:title="@string/protocol" />
+        // KoBo: Insert the "URL" preference directly into the setting menu.
+        <EditTextPreference
+            android:id="@+id/server_url"
+            android:defaultValue="@string/default_server_url"
+            android:dialogTitle="@string/change_server_url"
+            android:inputType="textNoSuggestions"
+            android:key="server_url"
+            android:title="@string/server_url"
+            />
         <PreferenceScreen
         	android:key="protocol_settings"
         	android:title="@string/protocol_settings"/>

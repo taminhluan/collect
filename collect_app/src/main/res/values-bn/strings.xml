@@ -7,7 +7,6 @@
   <string name="cancel">বাতিল</string>
   <string name="cancel_loading_form">বাতিল</string>
   <string name="cancel_location">বাতিল</string>
-  <string name="cancel_saving_form">বাতিল</string>
   <string name="capture_image">ছবি তোলা </string>
   <string name="change_language">ভাসা পরিবর্তন </string>
   <string name="clear_answer">জবাটাকে সরান</string>
@@ -40,7 +39,7 @@
   <string name="leaving_repeat_ask">আরো একগ্রুপ যোগ করুন</string>
   <string name="loading_form">লোড হচ্ছে ফরম</string>
   <string name="main_menu">প্রধান মেনু</string>
-  <string name="main_menu_details">সুষ্ঠু ডাটা সংগ্রহ</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">সংরক্ষিত ফরম মুছে দিন </string>
   <string name="mark_finished">মার্ক ফরম চূড়ান্ত হিসেবে </string>
   <string name="noselect_error">দুঃখিত আপনি কোন ধরনের নির্বাচন না </string>
