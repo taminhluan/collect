@@ -2738,7 +2738,7 @@ public class FormEntryActivity extends AppCompatActivity implements AnimationLis
     }
 
     private void sendSavedBroadcast() {
-        sendBroadcast(new Intent("org.odk.collect.android.FormSaved"));
+        sendBroadcast(new Intent("org.koboc.collect.android.FormSaved"));
     }
 
     @Override

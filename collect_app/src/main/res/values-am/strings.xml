@@ -17,8 +17,8 @@
   <string name="capture_osm">OpenMapKitን አስጀምር</string>
   <string name="capture_video">ቪዲዮ ቅዳ</string>
   <string name="change_language">ቋንቋ ይቀይሩ</string>
-  <string name="change_password">ODK የይለፍ ቃል</string>
-  <string name="change_username">ODK የተጠቃሚ ስም</string>
+  <string name="change_password">የይለፍ ቃል</string>
+  <string name="change_username">የተጠቃሚ ስም</string>
   <string name="clearanswer_confirm">የ \" 1 %s \" ምላሽ ይወግድ?</string>
   <string name="clear_answer">ምላሹን አስወግድ</string>
   <string name="clear_answer_ask">ይህ ምላሽ ይወገድ?</string>
@@ -132,7 +132,7 @@
   <string name="save_form_as">ይህን ቅጽ ይሰይሙ</string>
   <string name="save_as_error">የተቀመጠው ስም ባዶ መሆን የለበትም!</string>
   <string name="selected_google_account_text">የ Google መለያ</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox</string>
   <string name="server_platform_other">ሌላ</string>
   <string name="font_size_extra_large">በጣም ትልቅ</string>
   <string name="font_size_large">ትልቅ</string>

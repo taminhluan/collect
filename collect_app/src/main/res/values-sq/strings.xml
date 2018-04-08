@@ -119,7 +119,7 @@
   <string name="client">Fasada e përdoruesit</string>
   <string name="show_splash_summary">Shfaqet me hapjen e aplikacionit</string>
   <string name="splash_path">Zgjidh imazhin për faqen hyrëse</string>
-  <string name="default_splash_path">Alternativa e parapërcaktuar ODK</string>
+  <string name="default_splash_path">Alternativa e parapërcaktuar Kobo</string>
   <string name="select_another_image">Zgjidh një imazh tjetër</string>
   <string name="use_odk_default">Përdor imazhin e parapërcaktuar</string>
   <string name="change_splash_path">Ndrysho imazhin</string>
@@ -437,5 +437,6 @@
   <string name="form_entry">Hiq përzgjedhjen për ta fshehur nga Form Entry</string>
   <string name="use_device_language">Përdor gjuhën e aparatit</string>
   <string name="not_supported_offline_layer_format">Shtresa offline që përzgjodhët përdor format PBF, i cili nuk është i suportuar.</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox</string>
   <!--Displays dates in specialized calendars with the Gregorian dates in parentheses. This is translated so right-to-left languages can specify the correct order-->
 </resources>

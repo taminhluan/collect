@@ -67,7 +67,7 @@ the specific language governing permissions and limitations under the License.
         android:name="org.koboc.collect.android.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.odk.collect.android.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="org.koboc.collect.android.permission.MAPS_RECEIVE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <supports-screens
@@ -264,7 +264,7 @@ the specific language governing permissions and limitations under the License.
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
             <intent-filter>
-                <action android:name="org.odk.collect.android.FormSaved" />
+                <action android:name="org.koboc.collect.android.FormSaved" />
             </intent-filter>
         </receiver>
         <!--
