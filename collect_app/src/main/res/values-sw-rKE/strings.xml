@@ -72,7 +72,7 @@
   <string name="location_provider_accuracy">Ukitumia %1$s. Usahihi ni %2$s m.</string>
   <string name="location_accuracy">Usahihi ni %1$s m</string>
   <string name="main_menu">Menu kuu</string>
-  <string name="main_menu_details">Ukusanyaji wa data umefanywa rahisi….</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Ondoa fomu iliyo hifadhiwa</string>
   <string name="mark_finished">sahihisha fomu kama iliyo kamilika</string>
   <string name="noselect_error">Samahani, hujachagua fomu yoyote!</string>
@@ -144,7 +144,7 @@
   <string name="save_as_error">Jina lilohifadhiwa halifai kuwa tupu</string>
   <string name="edit_prompt">Hariri ilani</string>
   <string name="selected_google_account_text">Akaunti ya Google</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Nyingine</string>
   <string name="font_size_extra_large">Kubwa zaidi</string>
   <string name="font_size_large">Kubwa</string>

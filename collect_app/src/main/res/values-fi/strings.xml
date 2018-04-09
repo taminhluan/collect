@@ -86,7 +86,7 @@
   <string name="location_provider_accuracy">%1$s käytössä. Tarkkuus %2$s m.</string>
   <string name="location_accuracy">Tarkkuus %1$s m</string>
   <string name="main_menu">Päävalikko</string>
-  <string name="main_menu_details">Helpompaa tiedonkeruuta</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Poista tallennettu lomake</string>
   <string name="mark_finished">Merkitse lomake valmiiksi</string>
   <string name="noselect_error">Pahoittelen, et ole valinnut yhtään lomaketta!</string>
@@ -166,7 +166,7 @@
   <string name="save_as_error">Tallennettu nimi ei saa olla tyhjä!</string>
   <string name="edit_prompt">Vastauksen muokkaus</string>
   <string name="selected_google_account_text">Google-tili</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Muu</string>
   <string name="font_size_extra_large">Erittäin suuri</string>
   <string name="font_size_large">Suuri</string>
@@ -268,7 +268,7 @@
   <string name="go_drive">Oma Drive</string>
   <string name="go_shared">Minun kanssani jaetut</string>
   <string name="modified_on_date_at_time">\'Muokattu\' EEE, dd MMM yyyy \'kello\' HH:mm</string>
-  <string name="aggregate_preferences">ODK Aggregate -asetukset</string>
+  <string name="aggregate_preferences">KoboToolbox Aggregate -asetukset</string>
   <string name="other_preferences">Muut alustan asetukset</string>
   <string name="google_preferences">Google Sheets -asetukset</string>
   <string name="google_sheets_url_hint">Lomakkeiden täytyy asettaa URL lähetystä varten. Jos ei, käytetään tätä URL:ää.</string>
@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">Käyttäjänimen alussa tai lopussa ei saa olla välilyöntimerkkejä</string>
   <string name="google_play_services_error_occured">Google Maps -palveluun ei saada yhteyttä. Onko Google Play Services asennettu?</string>
   <string name="about_preferences">Lisätietoja</string>
-  <string name="tell_your_friends">Jaa ODK Collect</string>
-  <string name="tell_your_friends_msg">Keräävätkö kollegasi vielä dataa paperilla? Jaa ODK Collect heidän kanssaan.</string>
+  <string name="tell_your_friends">Jaa KoboCollect</string>
+  <string name="tell_your_friends_msg">Keräävätkö kollegasi vielä dataa paperilla? Jaa KoboCollect heidän kanssaan.</string>
   <string name="leave_a_review">Kirjoita Play Store -arvio</string>
   <string name="leave_a_review_msg">Sinun (toivottavasti myönteinen) arviosi lisää sovelluksen näkyvyyttä Play Store -kaupassa.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">Tila, viimeistellyt ensin</string>
   <string name="sort_by_status_desc">Tila, viimeistelemättömät ensin</string>
   <string name="sort_the_list">Lajittele lista</string>
-  <string name="request_permissions_google_account">ODK Collect tarvitsee pääsyn Google-tilillesi hakeakseen tyhjiä lomakkeita ja lähettääkseen täytettyjä lomakkeita.</string>
+  <string name="request_permissions_google_account">KoboCollect tarvitsee pääsyn Google-tilillesi hakeakseen tyhjiä lomakkeita ja lähettääkseen täytettyjä lomakkeita.</string>
   <string name="filter_the_list">Suodata listaa</string>
   <string name="language">Kieli</string>
   <string name="google_auth_io_exception_msg">API-kutsuja ei pystytä tekemään. Jos käytät paikallista ohjelmaversiota, katso projektin readme.</string>

@@ -74,7 +74,7 @@
   <string name="location_provider_accuracy">Duke përdorur %1$s. Saktësia është %2$s m.</string>
   <string name="location_accuracy">Saktësia është %1$s m</string>
   <string name="main_menu">Menuja kryesore</string>
-  <string name="main_menu_details">Mbledhja e të dhënave, e thjeshtëzuar…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Fshi formularin e ruajtur</string>
   <string name="mark_finished">Shëno formularin si të përfunduar</string>
   <string name="noselect_error">Ndjesë, ju nuk keni përzgjedhur asnjë formular</string>
@@ -241,7 +241,7 @@
   <string name="high_resolution_summary">Mundëso regjistrimin video me rezolucion të lartë</string>
   <string name="go_shared">Ndarë me mua</string>
   <string name="modified_on_date_at_time">\'Modifikuar më\' EEE, MMM dd, yyyy \'at\' HH:mm</string>
-  <string name="aggregate_preferences">Parametrat e ODK Aggregate</string>
+  <string name="aggregate_preferences">Parametrat e KoboToolbox Aggregate</string>
   <string name="other_preferences">Parametrat e tjetër platforme</string>
   <string name="google_preferences">Parametrat e Google Sheets</string>
   <string name="google_sheets_url_hint">Formularët duhet të kenë një URL ku dërgohen. Nëse jo, do të përdoret kjo URL.</string>
@@ -369,7 +369,7 @@
   <string name="instance_scan_completed">Skanimi përfundoi</string>
   <string name="instance_scan_count">%1$d formë/a u shtuan.</string>
   <string name="sort_the_list">Rendit listën</string>
-  <string name="request_permissions_google_account">ODK Collect ka nevojë të aksesojë loogarinë tuaj në Google në mënyrë që të marrë formularë bosh dhe të ngarkojë formularë të plotësuar</string>
+  <string name="request_permissions_google_account">KoboCollect ka nevojë të aksesojë loogarinë tuaj në Google në mënyrë që të marrë formularë bosh dhe të ngarkojë formularë të plotësuar</string>
   <string name="filter_the_list">Filtro listën</string>
   <string name="language">Gjuha</string>
   <string name="google_auth_io_exception_msg">Nuk është e mundur të kryhen thirrje API. Nëse jeni duke përdorur një ndërtim lokal, lutemi rishihni instruksionet (readme) e projektit. </string>

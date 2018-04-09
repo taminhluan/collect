@@ -75,7 +75,7 @@
   <string name="location_provider_accuracy">Usando %1$s. Precisão de %2$s m.</string>
   <string name="location_accuracy">Precisão de %1$s m</string>
   <string name="main_menu">Menu Principal</string>
-  <string name="main_menu_details">Coleta de dados facilitada…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Apagar Formulário Salvo</string>
   <string name="mark_finished">Marcar formulário como finalizado</string>
   <string name="noselect_error">Desculpe, você não selecionou nenhum formulário!</string>
@@ -155,7 +155,7 @@ Escolher Imagem</string>
   <string name="save_as_error">Nome salvo não pode ser em vazio!</string>
   <string name="edit_prompt">Editar Prompt</string>
   <string name="selected_google_account_text">Conta Google</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Outro</string>
   <string name="font_size_extra_large">Extra Grande</string>
   <string name="font_size_large">Grande</string>

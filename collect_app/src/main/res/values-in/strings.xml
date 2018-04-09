@@ -78,7 +78,7 @@
   <string name="location_provider_accuracy">Dengan %1$s. Tingkat akurasi %2$s meter.</string>
   <string name="location_accuracy">Tingkat akurasi adalah %1$s meter</string>
   <string name="main_menu">Menu Utama</string>
-  <string name="main_menu_details">Pengumpulan data menjadi lebih mudah…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Hapus formulir</string>
   <string name="mark_finished">Tandai formulir ini telah siap kirim</string>
   <string name="noselect_error">Maaf, anda belum memilih formulir!</string>
@@ -158,7 +158,7 @@
   <string name="save_as_error">Nama tidak boleh kosong!</string>
   <string name="edit_prompt">Ubah risalah</string>
   <string name="selected_google_account_text">Akun Google</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Lainnya</string>
   <string name="font_size_extra_large">Sangat besar</string>
   <string name="font_size_large">Besar</string>
@@ -223,7 +223,7 @@
   <string name="replace_bearing">Mengganti arah suatu titik</string>
   <string name="getting_bearing">Memuat arah suatu titik</string>
   <string name="accept_bearing">Merekam arah suatu titik</string>
-  <string name="sdcard_unmounted">ODK Collect tidak dapat mengakses SD card. Mungkin itu terpasang melalui USB? (kondisi saat ini: %s)</string>
+  <string name="sdcard_unmounted">KoboCollect tidak dapat mengakses SD card. Mungkin itu terpasang melalui USB? (kondisi saat ini: %s)</string>
   <string name="ext_file_no_data_error">File tidak memiliki data!</string>
   <string name="ext_conflicting_columns_error">Semua kolom %s sesuai!</string>
   <string name="ext_sortBy_numeric_error">Kolom terfilter anda harus hanya berisi nilai numerik. Nilai yang  konflik adalah \'%s\'.</string>
@@ -259,7 +259,7 @@
   <string name="go_drive">Drive saya</string>
   <string name="go_shared">Berbagi dengan saya</string>
   <string name="modified_on_date_at_time">\'dirubah pada tanggal\' EEE, MMM dd, yyyy \'di jam\' HH:mm</string>
-  <string name="aggregate_preferences">Pengaturan ODK Aggregate</string>
+  <string name="aggregate_preferences">Pengaturan KoboToolbox Aggregate</string>
   <string name="other_preferences">Pengaturan platform lainnya</string>
   <string name="google_preferences">Pengaturan Google Sheets</string>
   <string name="google_sheets_url_hint">Tautan pengajuan harus ditetapkan pada formulir. Jika tidak, tautan ini yang akan digunakan.</string>
@@ -414,7 +414,7 @@
   <string name="sort_by_status_asc">Statusnya finalisasi terlebih dahulu</string>
   <string name="sort_by_status_desc">Statusnya tidak difinalisasi terlebih dahulu</string>
   <string name="sort_the_list">Urutkan daftar</string>
-  <string name="request_permissions_google_account">ODK Collect membutuhkan akses akun Google anda untuk mendapatkan formulir kosong dan mengirimkan isi formulir.</string>
+  <string name="request_permissions_google_account">KoboCollect membutuhkan akses akun Google anda untuk mendapatkan formulir kosong dan mengirimkan isi formulir.</string>
   <string name="filter_the_list">Pilah daftar</string>
   <string name="language">Bahasa</string>
   <string name="google_auth_io_exception_msg">Tidak dapat memanggil API. Jika Anda melakukan kompilasi  lokal, silahkan baca readme.</string>

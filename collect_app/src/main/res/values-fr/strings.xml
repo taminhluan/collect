@@ -86,7 +86,7 @@
   <string name="location_provider_accuracy">Utilisation de %1$s. La précision est de %2$s m.</string>
   <string name="location_accuracy">La précision est de %1$s mètres.</string>
   <string name="main_menu">Menu principal</string>
-  <string name="main_menu_details">La collecte de données rendue plus facile…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Supprimer formulaire sauvegardé</string>
   <string name="mark_finished">Marquer le formulaire comme finalisé</string>
   <string name="noselect_error">Désolé, vous n\'avez pas sélectionné un formulaire.</string>
@@ -166,7 +166,7 @@
   <string name="save_as_error">Le nom ne peut pas être vide !</string>
   <string name="edit_prompt">Ligne de modification</string>
   <string name="selected_google_account_text">Compte Google</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Autre</string>
   <string name="font_size_extra_large">Très grand</string>
   <string name="font_size_large">Grand</string>
@@ -268,7 +268,7 @@
   <string name="go_drive">Mon Drive</string>
   <string name="go_shared">Partagé avec moi</string>
   <string name="modified_on_date_at_time">\'Modifié\' EEE, MMM dd, yyyy \'à\' HH:mm</string>
-  <string name="aggregate_preferences">Paramètres d\'ODK Aggregate</string>
+  <string name="aggregate_preferences">Paramètres d\'KoboToolbox Aggregate</string>
   <string name="other_preferences">Autres paramètres de la plate-forme</string>
   <string name="google_preferences">Paramettres de Google Sheets</string>
   <string name="google_sheets_url_hint">Les formulaires doivent définir une URL de soumission. Si ce n\'est pas le cas, cette URL sera utilisée.</string>
@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">Les espaces ne sont pas permis au début ou à la fin du nom d\'utilisateur</string>
   <string name="google_play_services_error_occured">Impossible d’accéder à Google Maps. Google Play Services est-il installé ?</string>
   <string name="about_preferences">À propos</string>
-  <string name="tell_your_friends">Partager ODK Collect</string>
-  <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier? Partager ODK Collecter avec eux.</string>
+  <string name="tell_your_friends">Partager KoboCollect</string>
+  <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier? Partager KoboCollecter avec eux.</string>
   <string name="leave_a_review">Laissez un avis sur Play Store</string>
   <string name="leave_a_review_msg">Votre avis (ce qu\'on espère est positif) augmente la visibilité de l\'application dans le Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">Statut, les finalisés en premier</string>
   <string name="sort_by_status_desc">Statut, les non finalisés en premier</string>
   <string name="sort_the_list">Trier la liste</string>
-  <string name="request_permissions_google_account">ODK Collect a besoin d\'accéder à votre compte Google pour obtenir des formulaires vierges et soumettre des formulaires complétés.</string>
+  <string name="request_permissions_google_account">KoboCollect a besoin d\'accéder à votre compte Google pour obtenir des formulaires vierges et soumettre des formulaires complétés.</string>
   <string name="filter_the_list">Filtrer la liste</string>
   <string name="language">Langue</string>
   <string name="google_auth_io_exception_msg">Impossible de faire des appels API. Si vous exécutez une compilation locale, veuillez lire le fichier \"Readme\" du projet.</string>

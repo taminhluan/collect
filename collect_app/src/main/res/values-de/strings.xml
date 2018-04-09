@@ -86,7 +86,7 @@
   <string name="location_provider_accuracy">Verwendung von %1$s. Genauigkeit beträgt %2$s m.</string>
   <string name="location_accuracy">Genauigkeit beträgt %1$s m</string>
   <string name="main_menu">Haupt-Menü</string>
-  <string name="main_menu_details">Datenerhebung leicht gemacht…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Formulare löschen</string>
   <string name="mark_finished">Formular als vollständig markieren</string>
   <string name="noselect_error">Keine Formulare ausgewählt!</string>
@@ -166,7 +166,7 @@
   <string name="save_as_error">Gespeicherter Name darf nicht leer sein!</string>
   <string name="edit_prompt">Eingabe ändern</string>
   <string name="selected_google_account_text">Google-Konto</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Andere</string>
   <string name="font_size_extra_large">Sehr gross</string>
   <string name="font_size_large">Groß</string>
@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">Leerzeichen am Anfang und Ende von Benutzernamen nicht erlaubt</string>
   <string name="google_play_services_error_occured">Zugriff auf Google Maps nicht möglich. Sind die Google Play Services installiert?</string>
   <string name="about_preferences">Über</string>
-  <string name="tell_your_friends">ODK Collect teilen</string>
-  <string name="tell_your_friends_msg">Erfassen Ihre Kollegen Daten immer noch auf Papier. Empfehlen Sie Ihnen ODK Collect.</string>
+  <string name="tell_your_friends">KoboCollect teilen</string>
+  <string name="tell_your_friends_msg">Erfassen Ihre Kollegen Daten immer noch auf Papier. Empfehlen Sie Ihnen KoboCollect.</string>
   <string name="leave_a_review">Geben Sie eine Play Store Bewertung ab</string>
   <string name="leave_a_review_msg">Ihre (hoffentlich positive) Bewertung steigert die Bekanntheit der App im Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">Status, vollständig zuerst</string>
   <string name="sort_by_status_desc">Status, unvollständig zuerst</string>
   <string name="sort_the_list">Die Liste sortieren</string>
-  <string name="request_permissions_google_account">ODK Collect benötigt Zugriff auf Ihr Google-Konto um leere Formulare zu laden und ausgefüllte Formulare hochzuladen.</string>
+  <string name="request_permissions_google_account">KoboCollect benötigt Zugriff auf Ihr Google-Konto um leere Formulare zu laden und ausgefüllte Formulare hochzuladen.</string>
   <string name="filter_the_list">Liste filtern</string>
   <string name="language">Sprache</string>
   <string name="google_auth_io_exception_msg">API-Aufrufe nicht möglich. Wenn Sie einen lokalen Build laufen lassen, beachten Sie die Readme des Projekts.</string>

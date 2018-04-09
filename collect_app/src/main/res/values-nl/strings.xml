@@ -82,7 +82,7 @@
   <string name="location_provider_accuracy">Gebruikt %1$s. Nauwkeurigheid is %2$s m.</string>
   <string name="location_accuracy">Nauwkeurigheid is %1$s m</string>
   <string name="main_menu">Hoofdmenu</string>
-  <string name="main_menu_details">Data collection made easier…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Verwijder formulieren</string>
   <string name="mark_finished">Definitief maken</string>
   <string name="noselect_error">Sorry, u heeft geen formulier gekozen!</string>
@@ -162,7 +162,7 @@
   <string name="save_as_error">Formuliernaam mag niet leeg zijn!</string>
   <string name="edit_prompt">Edit Prompt</string>
   <string name="selected_google_account_text">Google Account</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Anders</string>
   <string name="font_size_extra_large">Extra groot</string>
   <string name="font_size_large">Groot</string>
@@ -263,7 +263,7 @@
   <string name="go_drive">Mijn Drive</string>
   <string name="go_shared">Gedeeld met mij</string>
   <string name="modified_on_date_at_time">\'Gewijzigd op\' EEE dd MMM yyyy \'om\' HH:mm</string>
-  <string name="aggregate_preferences">ODK Aggregate instellingen</string>
+  <string name="aggregate_preferences">KoboToolbox Aggregate instellingen</string>
   <string name="other_preferences">Andere platform instellingen</string>
   <string name="google_preferences">Google Sheets instellingen</string>
   <string name="no_google_account">Geen Google account geselecteerd!</string>

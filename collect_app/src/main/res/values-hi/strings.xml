@@ -82,7 +82,7 @@
   <string name="location_provider_accuracy">%1$sको प्रयोग कर रहा है. शुद्धता %2$sमीटर है.</string>
   <string name="location_accuracy">शुद्धता %1$s मीटर है</string>
   <string name="main_menu">मुख्य मेन्यू</string>
-  <string name="main_menu_details">डेटा कलेक्शन अब आसान…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">संरक्षित फॉर्म मिटायें</string>
   <string name="mark_finished">फॉर्म पूरा करें</string>
   <string name="noselect_error">क्षमा करें, आपने कोई फॉर्म नही चुना है!</string>
@@ -162,7 +162,7 @@
   <string name="save_as_error">संरक्षित नाम रिक्त नहीं होना चाहिए!</string>
   <string name="edit_prompt">Prompt को संशोधित करें</string>
   <string name="selected_google_account_text">गूगल अकाउंट</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">अन्य</string>
   <string name="font_size_extra_large">ज्यादा बड़ा</string>
   <string name="font_size_large">बड़ा</string>
@@ -263,7 +263,7 @@
   <string name="go_drive">माई ड्राइव</string>
   <string name="go_shared">मेरे साथ साझा किया हुआ </string>
   <string name="modified_on_date_at_time">EEE, MMM dd, yyyy \'पर संशोधित\' HH:mm \'पर\' </string>
-  <string name="aggregate_preferences">ODK Aggregate सेटिंग्स</string>
+  <string name="aggregate_preferences">KoboToolbox Aggregate सेटिंग्स</string>
   <string name="other_preferences">अन्य प्लेटफ़ॉर्म सेटिंग्स</string>
   <string name="google_preferences">गुगल सीट सेटिंग</string>
   <string name="google_sheets_url_hint">फॉर्म को एक सबमिशन URL सेट करना होगा यदि नहीं तो इस URL का उपयोग किया जाएगा।</string>

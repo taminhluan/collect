@@ -43,7 +43,7 @@ public class AboutActivity extends AppCompatActivity implements
 
     private static final String LICENSES_HTML_PATH = "file:///android_asset/open_source_licenses.html";
     private static final String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=";
-    private static final String ODK_WEBSITE = "https://opendatakit.org";
+    private static final String ODK_WEBSITE = "http://www.kobotoolbox.org";
     private static final String ODK_FORUM = "https://forum.opendatakit.org";
 
     private CustomTabHelper websiteTabHelper;
@@ -59,7 +59,8 @@ public class AboutActivity extends AppCompatActivity implements
 
         int[][] items = {
                 {R.drawable.ic_website, R.string.odk_website, R.string.odk_website_summary},
-                {R.drawable.ic_forum, R.string.odk_forum, R.string.odk_forum_summary},
+                // KOBO override: disable forum link
+                // {R.drawable.ic_forum, R.string.odk_forum, R.string.odk_forum_summary},
                 {R.drawable.ic_share, R.string.tell_your_friends, R.string.tell_your_friends_msg},
                 {R.drawable.ic_review_rate, R.string.leave_a_review, R.string.leave_a_review_msg},
                 {R.drawable.ic_stars, R.string.all_open_source_licenses, R.string.all_open_source_licenses_msg}

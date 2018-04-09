@@ -74,7 +74,7 @@
   <string name="location_provider_accuracy">รับพิกัดผ่าน %1$s ค่าความแม่นยำที่ %2$s เมตร</string>
   <string name="location_accuracy">ความแม่นยำ %1$s เมตร</string>
   <string name="main_menu">เมนูหลัก</string>
-  <string name="main_menu_details">Data collection made easier…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">ลบแบบสำรวจที่บันทึกไว้</string>
   <string name="mark_finished">ทำเครื่องหมายแบบสำรวจว่าเสร็จเรียบร้อยแล้ว</string>
   <string name="noselect_error">ขออภัย ท่านยังไม่ได้เลือกแบบสำรวจ</string>
@@ -151,7 +151,7 @@
   <string name="save_as_error">Saved name must not be blank!</string>
   <string name="edit_prompt">แก้ไขจุดที่เลือก</string>
   <string name="selected_google_account_text">บัญชีกูเกิล</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">อื่นๆ</string>
   <string name="font_size_extra_large">ขนาดใหญ่พิเศษ</string>
   <string name="font_size_large">ขนาดใหญ่</string>
@@ -244,7 +244,7 @@
   <string name="go_drive">My Drive</string>
   <string name="go_shared">แบ่งปันกับฉัน</string>
   <string name="modified_on_date_at_time">\'แก้ไขเมื่อ\' EEE, MMM dd, yyy \'เวลา\' HH:mm</string>
-  <string name="aggregate_preferences">ตั้งค่า ODK Aggregate</string>
+  <string name="aggregate_preferences">ตั้งค่า KoboToolbox Aggregate</string>
   <string name="other_preferences">ตั้งค่า Platform อื่น</string>
   <string name="google_preferences">การตั้งค่า Google Sheets</string>
   <string name="drive_get_file">ได้รับ %1$s และไฟล์ภาพและเสียง</string>
@@ -359,7 +359,7 @@
   <string name="deleted_form">แบบสำรวจที่ถูกลบ</string>
   <string name="instance_scan_completed">สแกนเสร็จสิ้น</string>
   <string name="sort_the_list">จัดเรียงรายการ</string>
-  <string name="request_permissions_google_account">ODK Collect ต้องการเชื่อมต่อกับบัญชี Google เพื่อนำเข้าแบบสำรวจเปล่าและส่งข้อมูลที่เก็บแล้ว</string>
+  <string name="request_permissions_google_account">KoboCollect ต้องการเชื่อมต่อกับบัญชี Google เพื่อนำเข้าแบบสำรวจเปล่าและส่งข้อมูลที่เก็บแล้ว</string>
   <string name="language">ภาษา</string>
   <string name="form_metadata_title">Metadata ของแบบสำรวจ</string>
   <string name="form_metadata">Form metadata</string>

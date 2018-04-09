@@ -32,3 +32,7 @@ out/
 .externalNativeBuild/
 .navigation/
 captures/
+
+# Kobo-specific tools
+node_modules
+kobocollect*

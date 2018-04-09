@@ -86,7 +86,7 @@
   <string name="location_provider_accuracy">%1$s を使用しています。精度は %2$s mです。</string>
   <string name="location_accuracy">精度は %1$s mです</string>
   <string name="main_menu">メイン メニュー</string>
-  <string name="main_menu_details">データが簡単に収集できます…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">保存されたフォームを削除</string>
   <string name="mark_finished">フォームを確定済にします</string>
   <string name="noselect_error">申し訳ありません、フォームが選択されていません!</string>
@@ -166,7 +166,7 @@
   <string name="save_as_error">保存する名前は空にできません!</string>
   <string name="edit_prompt">プロンプトを編集</string>
   <string name="selected_google_account_text">Google アカウント</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">その他</string>
   <string name="font_size_extra_large">特大</string>
   <string name="font_size_large">大</string>
@@ -268,7 +268,7 @@
   <string name="go_drive">マイ ドライブ</string>
   <string name="go_shared">私と共有</string>
   <string name="modified_on_date_at_time">yyyy/MM/dd HH:mm \'に変更しました\'</string>
-  <string name="aggregate_preferences">ODK Aggregate 設定</string>
+  <string name="aggregate_preferences">KoboToolbox Aggregate 設定</string>
   <string name="other_preferences">その他のプラットフォーム設定</string>
   <string name="google_preferences">Google スプレッドシート設定</string>
   <string name="google_sheets_url_hint">フォームは送信 URL を設定する必要があります。 そうしない場合に、この URL が使用されます。</string>
@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">ユーザー名の先頭または末尾に空白は使用できません</string>
   <string name="google_play_services_error_occured">Google マップにアクセスできません。 Google Play サービスはインストールされていますか?</string>
   <string name="about_preferences">アプリについて</string>
-  <string name="tell_your_friends">ODK Collect を共有</string>
-  <string name="tell_your_friends_msg">あなたの同僚はまだ紙でデータを収集しているのですか? ODK Collect を彼らと共有しましょう。</string>
+  <string name="tell_your_friends">KoboCollect を共有</string>
+  <string name="tell_your_friends_msg">あなたの同僚はまだ紙でデータを収集しているのですか? KoboCollect を彼らと共有しましょう。</string>
   <string name="leave_a_review">Play ストアにレビューを残す</string>
   <string name="leave_a_review_msg">あなたの (肯定的な) レビューが Play ストアでアプリの認知度を向上させてくれます</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">ステータス順、確定済が最初</string>
   <string name="sort_by_status_desc">ステータス順、未確定が最初</string>
   <string name="sort_the_list">一覧の並び替え</string>
-  <string name="request_permissions_google_account">ODK Collect は、空白のフォームを取得して、入力フォームを送信するために、Google アカウントへのアクセスが必要です。</string>
+  <string name="request_permissions_google_account">KoboCollect は、空白のフォームを取得して、入力フォームを送信するために、Google アカウントへのアクセスが必要です。</string>
   <string name="filter_the_list">一覧をフィルター</string>
   <string name="language">言語</string>
   <string name="google_auth_io_exception_msg">API 呼び出しを行うことができません。 ローカルビルドを実行している場合は、プロジェクトのreadmeを確認してください。</string>

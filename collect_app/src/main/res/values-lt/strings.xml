@@ -70,7 +70,7 @@
   <string name="location_provider_accuracy">Naudojama %1$s. Tikslumas yra %2$s m.</string>
   <string name="location_accuracy">Tikslumas yra %1$s m</string>
   <string name="main_menu">Pagr. meniu</string>
-  <string name="main_menu_details">Duomenų surinkimas tapo lengvesnis…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Ištrinti užpildytą formą</string>
   <string name="mark_finished">Pažymėti formą kaip užbaigtą</string>
   <string name="noselect_error">Deja, Jūs nepažymėjote jokių formų!</string>
@@ -142,7 +142,7 @@
   <string name="save_as_error">Pavadinimas negali būti tuščias!</string>
   <string name="edit_prompt">Keisti atsakymą</string>
   <string name="selected_google_account_text">Google sąskaita</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Kita</string>
   <string name="font_size_extra_large">Labai didelis</string>
   <string name="font_size_large">Didelis</string>

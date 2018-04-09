@@ -58,7 +58,7 @@
   <string name="leave_repeat_yes">Ekleme</string>
   <string name="loading_form">Form Yükleniyor</string>
   <string name="main_menu">Ana Menu</string>
-  <string name="main_menu_details">Daha Kolay veri toplama…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Kayitli Formu Sil</string>
   <string name="mark_finished">Bitirilen Formu işaretle</string>
   <string name="noselect_error">Herhangi bir form seçilmedi !</string>
@@ -120,7 +120,7 @@
   <string name="save_form_as">Form ismi </string>
   <string name="save_as_error">İsim alani boş bırakilamaz</string>
   <string name="selected_google_account_text">Google account</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Diğer</string>
   <string name="font_size_extra_large">Çok Büyük</string>
   <string name="font_size_large">Büyük</string>

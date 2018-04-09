@@ -76,7 +76,7 @@
   <string name="location_provider_accuracy">Korzystam z %1$s. Dokładność rzędu %2$s m.</string>
   <string name="location_accuracy">Dokładność rzędu %1$s m</string>
   <string name="main_menu">Menu Główne</string>
-  <string name="main_menu_details">Łatwiejsze zbieranie danych…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Skasuj Zapisany Formularz</string>
   <string name="mark_finished">Zaznacz formularz jako zakończony</string>
   <string name="noselect_error">Przykro mi, nie zaznaczyłeś żadnego formularza!</string>
@@ -153,7 +153,7 @@
   <string name="save_as_error">Zapisana nazwa nie może być pusta!</string>
   <string name="edit_prompt">Edytuj Pytanie</string>
   <string name="selected_google_account_text">Konto Google</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Inny</string>
   <string name="font_size_extra_large">Extra Duży</string>
   <string name="font_size_large">Duży</string>
@@ -253,7 +253,7 @@
   <string name="go_drive">Mój Dysk</string>
   <string name="go_shared">Dzielone ze Mną</string>
   <string name="modified_on_date_at_time">\'Zmieniony\' EEE, MMM dd, yyyy \'o\' HH:mm</string>
-  <string name="aggregate_preferences">Ustawienia ODK Aggregate</string>
+  <string name="aggregate_preferences">Ustawienia KoboToolbox Aggregate</string>
   <string name="other_preferences">Inne ustawienia platformy</string>
   <string name="google_preferences">Ustawienia Google Sheets</string>
   <string name="drive_get_file">Pobieram %1$s i pliki medialne.</string>

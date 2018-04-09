@@ -84,7 +84,7 @@
   <string name="location_provider_accuracy">Использую %1$s. Точность %2$s м.</string>
   <string name="location_accuracy">Точность %1$s м.</string>
   <string name="main_menu">Главное меню</string>
-  <string name="main_menu_details">Сбор данных становится легче…</string>
+  <string name="main_menu_details">Part of KoBoToolbox</string>
   <string name="manage_files">Удалить сохранённую форму</string>
   <string name="mark_finished">Пометить форму, как завершённую</string>
   <string name="noselect_error">Не было выбрано ни одной формы!</string>
@@ -164,7 +164,7 @@
   <string name="save_as_error">Имя формы не может быть пустым!</string>
   <string name="edit_prompt">Изменить вопрос</string>
   <string name="selected_google_account_text">Учётная запись Google</string>
-  <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
   <string name="server_platform_other">Другое</string>
   <string name="font_size_extra_large">Очень большой</string>
   <string name="font_size_large">Большой</string>
@@ -266,7 +266,7 @@
   <string name="go_drive">Мой диск</string>
   <string name="go_shared">Доступные мне</string>
   <string name="modified_on_date_at_time">\'Изменено\' EEE, MMM dd, yyyy \'в\' HH:mm</string>
-  <string name="aggregate_preferences">Настройки ODK Aggregate</string>
+  <string name="aggregate_preferences">Настройки KoboToolbox Aggregate</string>
   <string name="other_preferences">Настройки других платформ</string>
   <string name="google_preferences">Настройки Google Таблиц</string>
   <string name="google_sheets_url_hint">В формах должен быть указан URL отправки. В противном случае, этот URL будет использоваться в качестве URL отправки</string>
@@ -290,8 +290,8 @@
   <string name="username_error_whitespace">Не допускается использовать пробельные символы в начале и конце имени пользователя</string>
   <string name="google_play_services_error_occured">Не удалось получить доступ к Google Картам. Установлены ли службы Google Play?</string>
   <string name="about_preferences">О программе</string>
-  <string name="tell_your_friends">Поделиться ODK Collect</string>
-  <string name="tell_your_friends_msg">Ваши колеги всё ещё ведут сбор данных на бумаге? Поделитесь ODK Collect с ними.</string>
+  <string name="tell_your_friends">Поделиться KoboCollect</string>
+  <string name="tell_your_friends_msg">Ваши колеги всё ещё ведут сбор данных на бумаге? Поделитесь KoboCollect с ними.</string>
   <string name="leave_a_review">Оставить отзыв в Play Store</string>
   <string name="leave_a_review_msg">Ваш отзыв (надеемся, положительный) делает приложение более заметным в Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -428,7 +428,7 @@
   <string name="sort_by_status_asc">По статусу, завершённые сначала</string>
   <string name="sort_by_status_desc">По статусу, незавершённые сначала</string>
   <string name="sort_the_list">Сортировать список</string>
-  <string name="request_permissions_google_account">ODK Collect требуется доступ к Вашему аккаунту Google, чтобы получать пустые формы и отправлять заполненные формы.</string>
+  <string name="request_permissions_google_account">KoboCollect требуется доступ к Вашему аккаунту Google, чтобы получать пустые формы и отправлять заполненные формы.</string>
   <string name="filter_the_list">Фильтровать список</string>
   <string name="language">Язык</string>
   <string name="google_auth_io_exception_msg">Не удалось вызвать API. Если Вы запустили локальную сборку, пожалуйста, почитайте readme проекта.</string>
