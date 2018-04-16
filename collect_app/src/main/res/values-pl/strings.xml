@@ -17,8 +17,8 @@
   <string name="recapture_osm">Ponów oznaczanie OSM </string>
   <string name="capture_video">Nagraj Wideo</string>
   <string name="change_language">Zmień Język</string>
-  <string name="change_password">Hasło KoBo</string>
-  <string name="change_username">Nazwa użytkownika KoBo</string>
+  <string name="change_password">Hasło KoBoToolbox</string>
+  <string name="change_username">Nazwa użytkownika KoBoToolbox</string>
   <string name="clearanswer_confirm">Czy usunąć odpowiedź na \"%s\"?</string>
   <string name="clear_answer">Usuń odpowiedź</string>
   <string name="clear_answer_ask">Czy Usunąć Tę Odpowiedź?</string>
@@ -120,7 +120,7 @@
   <string name="general_preferences">Ustawienia Ogólne</string>
   <string name="show_splash_summary">Pokazuje się, gdy aplikacja startuje</string>
   <string name="splash_path">Wybrany obraz ekranu powitalnego</string>
-  <string name="default_splash_path">Domyślne KoBo</string>
+  <string name="default_splash_path">Domyślne KoBoToolbox</string>
   <string name="select_another_image">Wybierz inny obraz</string>
   <string name="use_odk_default">Użyj obraz domyślny</string>
   <string name="change_splash_path">Zmień obraz</string>
@@ -153,7 +153,7 @@
   <string name="save_as_error">Zapisana nazwa nie może być pusta!</string>
   <string name="edit_prompt">Edytuj Pytanie</string>
   <string name="selected_google_account_text">Konto Google</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Inny</string>
   <string name="font_size_extra_large">Extra Duży</string>
   <string name="font_size_large">Duży</string>
@@ -253,7 +253,7 @@
   <string name="go_drive">Mój Dysk</string>
   <string name="go_shared">Dzielone ze Mną</string>
   <string name="modified_on_date_at_time">\'Zmieniony\' EEE, MMM dd, yyyy \'o\' HH:mm</string>
-  <string name="aggregate_preferences">Ustawienia KoBoToolbox Aggregate</string>
+  <string name="aggregate_preferences">Ustawienia KoBoToolbox</string>
   <string name="other_preferences">Inne ustawienia platformy</string>
   <string name="google_preferences">Ustawienia Google Sheets</string>
   <string name="drive_get_file">Pobieram %1$s i pliki medialne.</string>
@@ -326,7 +326,7 @@
   <string name="geotrace_view_change_location">Pokaż lub Zmień GeoTrace</string>
   <string name="bearing">Namiar: %.3f</string>
   <string name="direction">Kierunek: %s</string>
-  <string name="select_odk_shortcut">Wybierz skrót KoBo</string>
+  <string name="select_odk_shortcut">Wybierz skrót KoBoToolbox</string>
   <string name="bad_uri">Zły URI: %s</string>
   <string name="unrecognized_uri">Nierozpoznany URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -362,7 +362,7 @@
   <string name="encryption_error_message">Formularz %s nie został zapisany jako zakończony.</string>
   <string name="analytics_preferences">Dane użytkowania</string>
   <string name="analytics">Zbieraj anonimowe dane dotyczące użytkowania</string>
-  <string name="analytics_summary">Anonimowe dane dotyczące użytkowania pomagają zespołowi KoBo priorytetyzować poprawki i funkcjonalność</string>
+  <string name="analytics_summary">Anonimowe dane dotyczące użytkowania pomagają zespołowi KoBoToolbox priorytetyzować poprawki i funkcjonalność</string>
   <string name="select_all">Zaznacz Wszystkie</string>
   <string name="clear_all">Odznacz Wszystkie</string>
   <string name="reset_settings">Wszystkie ustawienia (ustawienia wewnętrzne, ustawienia zapisane)</string>

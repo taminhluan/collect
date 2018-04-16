@@ -30,7 +30,7 @@ replace({
 
 replace({
     regex: "ODK Aggregate",
-    replacement: "KoBoToolbox Aggregate",
+    replacement: "KoBoToolbox",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true
@@ -54,7 +54,7 @@ replace({
 
 replace({
     regex: 'ODK',
-    replacement: "KoBo",
+    replacement: "KoBoToolbox",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true

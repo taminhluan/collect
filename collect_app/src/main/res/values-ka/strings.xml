@@ -116,7 +116,7 @@
   <string name="general_preferences">შეცვლა</string>
   <string name="show_splash_summary">აჩვენებს, როდესაც ირთვება აპლიკაცია</string>
   <string name="splash_path">არჩეული სპლეშ-სურათი</string>
-  <string name="default_splash_path">KoBo დეფოლტი</string>
+  <string name="default_splash_path">KoBoToolbox დეფოლტი</string>
   <string name="select_another_image">სხვა სურათების არჩევა</string>
   <string name="use_odk_default">გამოიყენე დეფოლტ-სურათი</string>
   <string name="change_splash_path">სურათის შეცვლა</string>
@@ -149,7 +149,7 @@
   <string name="save_as_error">სახელი არ უნდა იყოს ცარიელი!</string>
   <string name="edit_prompt">გამოპასუხების რედაქტირება</string>
   <string name="selected_google_account_text">Google ექაუნთი</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">სხვა</string>
   <string name="font_size_extra_large">ძალიან დიდი</string>
   <string name="font_size_large">დიდი</string>
@@ -218,7 +218,7 @@
   <string name="survey_saving_saving_message">მიმდინარეობს SD-ბარათზე შენახვა</string>
   <string name="google_drive">Google Drive</string>
   <string name="go_drive">ჩემი Drive</string>
-  <string name="aggregate_preferences">KoBoToolbox Aggregate-ის პარამეტრები</string>
+  <string name="aggregate_preferences">KoBoToolbox-ის პარამეტრები</string>
   <string name="notification_error">შეცდომა შეტყობინების ტექსტის ჩვენებისას</string>
   <string name="delete_after_send">გაგზავნის შემდგომ წაშლა</string>
   <string name="change_server_url">სერვერის ვებ-მისამართი</string>

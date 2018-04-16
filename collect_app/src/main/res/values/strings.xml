@@ -37,8 +37,8 @@
     <string name="recapture_osm">Redo OSM Tagging</string>
     <string name="capture_video">Record Video</string>
     <string name="change_language">Change Language</string>
-    <string name="change_password">KoBo Password</string>
-    <string name="change_username">KoBo Username</string>
+    <string name="change_password">KoBoToolbox Password</string>
+    <string name="change_username">KoBoToolbox Username</string>
     <string name="clearanswer_confirm">Remove the response to \"%s\"?</string>
     <string name="clear_answer">Remove response</string>
     <string name="clear_answer_ask">Remove This Response?</string>
@@ -144,7 +144,7 @@
     <string name="client">User interface</string>
     <string name="show_splash_summary">Shows when application starts</string>
     <string name="splash_path">Selected splash image</string>
-    <string name="default_splash_path">KoBo Default</string>
+    <string name="default_splash_path">KoBoToolbox Default</string>
     <string name="select_another_image">Select another image</string>
     <string name="use_odk_default">Use default image</string>
     <string name="change_splash_path">Change image</string>
@@ -363,7 +363,7 @@
     <string name="geotrace_view_change_location">View or Change GeoTrace</string>
     <string name="bearing">Bearing: %.3f</string>
     <string name="direction">Direction: %s</string>
-    <string name="select_odk_shortcut">Select KoBo Shortcut</string>
+    <string name="select_odk_shortcut">Select KoBoToolbox Shortcut</string>
     <string name="bad_uri">Bad URI: %s</string>
     <string name="unrecognized_uri">Unrecognized URI: %s</string>
     <!-- &lt; and &gt; surrounds the text so it will appear as <no form loaded> -->
@@ -382,9 +382,9 @@
     <string name="parser_exception">XPathParser Exception: \"%s\"</string>
     <string name="selected_answer">Selected: %s</string>
     <string name="version_number">Version: %s</string>
-    <string name="odk_website">Visit the KoBo website</string>
+    <string name="odk_website">Visit the KoBoToolbox website</string>
     <string name="odk_website_summary">KoBoToolbox is used to collect data for social good in challenging environments.</string>
-    <string name="odk_forum">Join the KoBo forum</string>
+    <string name="odk_forum">Join the KoBoToolbox forum</string>
     <string name="odk_forum_summary">Join the forum to get support, request features, contribute code/translations! </string>
     <string name="all_open_source_licenses">Open source libraries/licenses</string>
     <string name="all_open_source_licenses_msg">We stand on the shoulders of giants!</string>
@@ -407,7 +407,7 @@
     <string name="encryption_error_message">%s Form has not been saved as finalized.</string>
     <string name="analytics_preferences">Usage data</string>
     <string name="analytics">Collect anonymous usage data</string>
-    <string name="analytics_summary">Anonymous usage data helps the KoBo team prioritize fixes and features</string>
+    <string name="analytics_summary">Anonymous usage data helps the KoBoToolbox team prioritize fixes and features</string>
     <string name="select_all">Select All</string>
     <string name="clear_all">Clear All</string>
     <string name="reset_settings">All settings (internal settings, saved settings)</string>

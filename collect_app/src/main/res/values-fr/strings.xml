@@ -25,8 +25,8 @@
   <string name="recapture_osm">Refaire le balisage d\'OSM</string>
   <string name="capture_video">Enregistrer une vidéo</string>
   <string name="change_language">Changer la langue</string>
-  <string name="change_password">Mot de passe KoBo</string>
-  <string name="change_username">Nom d\'utilisateur KoBo</string>
+  <string name="change_password">Mot de passe KoBoToolbox</string>
+  <string name="change_username">Nom d\'utilisateur KoBoToolbox</string>
   <string name="clearanswer_confirm">Enlever la réponse à \"%s\" ?</string>
   <string name="clear_answer">Enlever la réponse</string>
   <string name="clear_answer_ask">Enlever cette réponse ?</string>
@@ -132,7 +132,7 @@
   <string name="client">Interface utilisateur</string>
   <string name="show_splash_summary">Montrer lors du démarrage</string>
   <string name="splash_path">Image sélectionnée</string>
-  <string name="default_splash_path">Défaut d\'KoBo</string>
+  <string name="default_splash_path">Défaut d\'KoBoToolbox</string>
   <string name="select_another_image">Sélectionner une autre Image</string>
   <string name="use_odk_default">Utiliser l\'Image par Défaut</string>
   <string name="change_splash_path">Modifier l\'image</string>
@@ -166,7 +166,7 @@
   <string name="save_as_error">Le nom ne peut pas être vide !</string>
   <string name="edit_prompt">Ligne de modification</string>
   <string name="selected_google_account_text">Compte Google</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Autre</string>
   <string name="font_size_extra_large">Très grand</string>
   <string name="font_size_large">Grand</string>
@@ -268,7 +268,7 @@
   <string name="go_drive">Mon Drive</string>
   <string name="go_shared">Partagé avec moi</string>
   <string name="modified_on_date_at_time">\'Modifié\' EEE, MMM dd, yyyy \'à\' HH:mm</string>
-  <string name="aggregate_preferences">Paramètres d\'KoBoToolbox Aggregate</string>
+  <string name="aggregate_preferences">Paramètres d\'KoBoToolbox</string>
   <string name="other_preferences">Autres paramètres de la plate-forme</string>
   <string name="google_preferences">Paramettres de Google Sheets</string>
   <string name="google_sheets_url_hint">Les formulaires doivent définir une URL de soumission. Si ce n\'est pas le cas, cette URL sera utilisée.</string>
@@ -277,7 +277,7 @@
   <string name="google_set_account">Vous avez choisi Google Sheets comme serveur. Merci de sélectionner un compte Google correspondant dans les paramètres généraux avant de continuer.</string>
   <string name="media_upload_error">Le téléversement du fichier média inexistant a échoué : %1$s</string>
   <string name="odk_auth_auth_fail">Erreur d\'authentification d\'envoi automatique KoBo, assurez-vous que vos paramètres sont corrects</string>
-  <string name="odk_auto_note">Notification d\'envoi automatique KoBo</string>
+  <string name="odk_auto_note">Notification d\'envoi automatique KoBoToolbox</string>
   <string name="notification_error">Erreur d\'affichage du texte de notification</string>
   <string name="delete_after_send">Supprimer après l\'envoi</string>
   <string name="delete_after_send_summary">Suppression des médias et formulaire finalisés après l\'envoi au serveur</string>
@@ -335,7 +335,7 @@
   <string name="polygon_or_polyline">Enregistrer le TracéGéo sous</string>
   <string name="minutes">Minutes</string>
   <string name="geo_clear_warning">Objet déjà créé. Souhaitez-vous l\'effacer ?</string>
-  <string name="geo_exit_warning">Annuler les changements et revenir à KoBo</string>
+  <string name="geo_exit_warning">Annuler les changements et revenir à KoBoToolbox</string>
   <string name="polygon_validator">3 points minimum sont nécessaires pour créer un Polygone</string>
   <string name="dialog_continue">Continuer</string>
   <string name="clear">Effacer</string>
@@ -354,7 +354,7 @@
   <string name="geotrace_view_change_location">Voir ou Modifier le TracéGéo</string>
   <string name="bearing">Palier: %.3f</string>
   <string name="direction">Direction: %s</string>
-  <string name="select_odk_shortcut">Sélectionnez le raccourci KoBo</string>
+  <string name="select_odk_shortcut">Sélectionnez le raccourci KoBoToolbox</string>
   <string name="bad_uri">Mauvais URI: %s</string>
   <string name="unrecognized_uri">URI non reconnu: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -375,7 +375,7 @@
   <string name="version_number">Version: %s</string>
   <string name="odk_website">Visiter le site web de Open Data Kit</string>
   <string name="odk_website_summary">KoBoToolbox est utilisé pour collecter des données dans des environnements difficiles.</string>
-  <string name="odk_forum">Rejoindre le Forum KoBo</string>
+  <string name="odk_forum">Rejoindre le Forum KoBoToolbox</string>
   <string name="odk_forum_summary">Rejoignez le forum pour obtenir de l\'aide, demander des fonctionnalités, contribuer au code et aux traductions! </string>
   <string name="all_open_source_licenses">Licences et librairies open source</string>
   <string name="all_open_source_licenses_msg">Nous sommes debout sur les épaules de géants.</string>
@@ -396,7 +396,7 @@
   <string name="encryption_error_message">Le formulaire %s n\'a pas été enregistré comme finalisé.</string>
   <string name="analytics_preferences">Données d\'utilisation</string>
   <string name="analytics">Collecter des données d\'utilisation anonymes</string>
-  <string name="analytics_summary">Les données anonymes d\'utilisation aident l\'équipe KoBo à prioriser les correctifs et les fonctionnalités</string>
+  <string name="analytics_summary">Les données anonymes d\'utilisation aident l\'équipe KoBoToolbox à prioriser les correctifs et les fonctionnalités</string>
   <string name="select_all">Tout sélectionner</string>
   <string name="clear_all">Tout effacer</string>
   <string name="reset_settings">Tous les paramètres (configuration interne, paramètres enregistrés)</string>

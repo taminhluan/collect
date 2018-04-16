@@ -15,8 +15,8 @@
   <string name="capture_osm">Anzisha OpenMapkit</string>
   <string name="capture_video">Rekodi Video</string>
   <string name="change_language">Badili Lugha</string>
-  <string name="change_password">Nywila ya KoBo</string>
-  <string name="change_username">Jina la mtumiaji wa KoBo</string>
+  <string name="change_password">Nywila ya KoBoToolbox</string>
+  <string name="change_username">Jina la mtumiaji wa KoBoToolbox</string>
   <string name="clearanswer_confirm">Ondoa jibu la \"%s\"?</string>
   <string name="clear_answer">Ondoa Jawabu</string>
   <string name="clear_answer_ask">Ondoa jawabu hili?</string>
@@ -114,7 +114,7 @@
   <string name="general_preferences">Badili Mpangilio</string>
   <string name="show_splash_summary">Inaonyesha wakati programu inapoanza</string>
   <string name="splash_path">Picha ya ukurasa wa kuanza iliyochaguliwa</string>
-  <string name="default_splash_path">KoBo Ya</string>
+  <string name="default_splash_path">KoBoToolbox Ya</string>
   <string name="select_another_image">Chagua Picha Nyingine</string>
   <string name="use_odk_default">Tumia Picha Kuu</string>
   <string name="change_splash_path">Badili Picha</string>
@@ -147,7 +147,7 @@
   <string name="save_as_error">Jina la Kuhifadhi haipaswi kuwa tupu!</string>
   <string name="edit_prompt">Batilisha chanzo</string>
   <string name="selected_google_account_text">Google Account</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Nyingine</string>
   <string name="font_size_extra_large">Kubwa sana</string>
   <string name="font_size_large">Kubwa</string>

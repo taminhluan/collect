@@ -14,8 +14,8 @@
   <string name="capture_image">Udělat fotku</string>
   <string name="capture_video">Nahrát video</string>
   <string name="change_language">Změnit jazyk</string>
-  <string name="change_password">Heslo do KoBo</string>
-  <string name="change_username">Uživatelské jméno do KoBo</string>
+  <string name="change_password">Heslo do KoBoToolbox</string>
+  <string name="change_username">Uživatelské jméno do KoBoToolbox</string>
   <string name="clearanswer_confirm">Odstranit odpověď na \"%s\"?</string>
   <string name="clear_answer">Odstranit odpověď</string>
   <string name="clear_answer_ask">Odstranit tuto odpověď?</string>
@@ -114,7 +114,7 @@
   <string name="general_preferences">Obecná nastavení</string>
   <string name="show_splash_summary">Zobrazit při startu aplikace</string>
   <string name="splash_path">Vyberte úvodní obrázek</string>
-  <string name="default_splash_path">Výchozí obrazovka KoBo</string>
+  <string name="default_splash_path">Výchozí obrazovka KoBoToolbox</string>
   <string name="select_another_image">Vybrat další obrázek</string>
   <string name="use_odk_default">Použít výchozí obrázek</string>
   <string name="change_splash_path">Změnit obrázek</string>
@@ -147,7 +147,7 @@
   <string name="save_as_error">Uložené jméno nesmí být prázdné!</string>
   <string name="edit_prompt">Editovat otázku</string>
   <string name="selected_google_account_text">Účet Google</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Jiný</string>
   <string name="font_size_extra_large">Extra velký</string>
   <string name="font_size_large">Velký</string>
@@ -243,7 +243,7 @@
   <string name="go_drive">Můj disk</string>
   <string name="go_shared">Sdíleno se mnou</string>
   <string name="modified_on_date_at_time">\'Upraveno v \' EEE, dd MMM, yyyy \'v\' HH:mm</string>
-  <string name="aggregate_preferences">Nastavení KoBoToolbox Aggregate</string>
+  <string name="aggregate_preferences">Nastavení KoBoToolbox</string>
   <string name="other_preferences">Ostatní nastavení platformy</string>
   <string name="drive_get_file">Získávám %1$s a mediální soubory</string>
   <string name="no_google_account">Není vybrán žádný účet Google!</string>

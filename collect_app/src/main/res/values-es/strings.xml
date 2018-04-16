@@ -165,7 +165,7 @@
   <string name="save_as_error">¡El nombre no puede estar en blanco!</string>
   <string name="edit_prompt">Editar entrada</string>
   <string name="selected_google_account_text">Cuenta de Google</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Otro</string>
   <string name="font_size_extra_large">Extra Grande</string>
   <string name="font_size_large">Grande</string>
@@ -268,7 +268,7 @@
   <string name="go_drive">Mi Drive</string>
   <string name="go_shared">Compartido conmigo</string>
   <string name="modified_on_date_at_time">\'Modificado el\' EEE, MMM dd, yyyy \'a las\' HH:mm</string>
-  <string name="aggregate_preferences">Ajustes de KoBoToolbox Aggregate</string>
+  <string name="aggregate_preferences">Ajustes de KoBoToolbox</string>
   <string name="other_preferences">Ajustes de Otras Plataformas</string>
   <string name="google_preferences">Características de Google Sheets</string>
   <string name="google_sheets_url_hint">Los formularios deben establecer una URL para envio. Si no lo hacen, se usará la siguiente URL</string>
@@ -374,7 +374,7 @@
   <string name="version_number">Versión: %s</string>
   <string name="odk_website">Visitar el sitio web</string>
   <string name="odk_website_summary">KoBoToolbox es usado para toma de datos  y beneficiar la sociedad en ambientes desafiantes</string>
-  <string name="odk_forum">Unirse al foro de KoBo</string>
+  <string name="odk_forum">Unirse al foro de KoBoToolbox</string>
   <string name="odk_forum_summary">Únase al foro para obtener soporte, solicitar mejoras, contribuir con el código, traducir!</string>
   <string name="all_open_source_licenses">Licencias/librerias de Código Abierto</string>
   <string name="all_open_source_licenses_msg">Sostenidos a hombros de gigantes!</string>

@@ -18,7 +18,7 @@
   <string name="recapture_osm">أعادة تعليم ال OSM</string>
   <string name="capture_video">سجل فيديو</string>
   <string name="change_language">تغيير اللغة</string>
-  <string name="change_password">KoBo كلمة المرور</string>
+  <string name="change_password">KoBoToolbox كلمة المرور</string>
   <string name="change_username">إسم المستخدم</string>
   <string name="clearanswer_confirm">حذف الإجابة ل \"%s\"؟</string>
   <string name="clear_answer">حذف الإجابة</string>
@@ -123,7 +123,7 @@
   <string name="client">إعدادات واجهة المستخدم</string>
   <string name="show_splash_summary">اظهار عند بدء التطبيق</string>
   <string name="splash_path">اختيار صورة البداية</string>
-  <string name="default_splash_path">KoBo الإفتراضي</string>
+  <string name="default_splash_path">KoBoToolbox الإفتراضي</string>
   <string name="select_another_image">حدد صورة أخرى</string>
   <string name="use_odk_default">استخدام الصورة الإفتراضية</string>
   <string name="change_splash_path">تغيير الصورة</string>
@@ -258,7 +258,7 @@
   <string name="go_drive">المحرك الخاص بي</string>
   <string name="go_shared">مشاركة معي</string>
   <string name="modified_on_date_at_time">\'تم التعديل ب \' yyyy, dd MMM, EEE  \'في الساعة\' mm:HH</string>
-  <string name="aggregate_preferences">اعدادات  KoBoToolbox Aggregate</string>
+  <string name="aggregate_preferences">اعدادات  KoBoToolbox</string>
   <string name="other_preferences">اعدادات البرنامج الاخرى</string>
   <string name="google_preferences">اعدادات صفحات الجوجل</string>
   <string name="google_sheets_url_hint">إشارة عنوان أوراق جوجل</string>
@@ -356,9 +356,9 @@
   <string name="parser_exception">محلل الاخطاء \"%s\</string>
   <string name="selected_answer">المحددة %s</string>
   <string name="version_number">رقم الاصدار %s</string>
-  <string name="odk_website">موقع KoBo</string>
-  <string name="odk_website_summary">ملخص موقع KoBo</string>
-  <string name="odk_forum">نقاشات KoBo</string>
+  <string name="odk_website">موقع KoBoToolbox</string>
+  <string name="odk_website_summary">ملخص موقع KoBoToolbox</string>
+  <string name="odk_forum">نقاشات KoBoToolbox</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">غرب %1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->

@@ -124,7 +124,7 @@
   <string name="client">Användargränssnitt</string>
   <string name="show_splash_summary">Visas när programmet startas</string>
   <string name="splash_path">Vald välkomstbild</string>
-  <string name="default_splash_path">KoBo standard</string>
+  <string name="default_splash_path">KoBoToolbox standard</string>
   <string name="select_another_image">Välj en annan bild</string>
   <string name="use_odk_default">Använd standardbild</string>
   <string name="change_splash_path">Byt bild</string>
@@ -158,7 +158,7 @@
   <string name="save_as_error">Sparat namn får inte vara tomt!</string>
   <string name="edit_prompt">Inmatningstext</string>
   <string name="selected_google_account_text">Google-konto</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Övrig</string>
   <string name="font_size_extra_large">Extra stor</string>
   <string name="font_size_large">Stor</string>
@@ -259,15 +259,15 @@
   <string name="go_drive">My Drive</string>
   <string name="go_shared">Delat med mig</string>
   <string name="modified_on_date_at_time">\'Ändrad\' yyyy-MM-dd (EEE) \'kl\' HH:mm</string>
-  <string name="aggregate_preferences">KoBoToolbox Aggregate inställningar</string>
+  <string name="aggregate_preferences">KoBoToolbox inställningar</string>
   <string name="other_preferences">Övriga plattformsinställningar</string>
   <string name="google_preferences">Google Sheets inställningar</string>
   <string name="google_sheets_url_hint">Formulären måste ange en uppladdnings-URL. Om dem inte gör det används denna URL.</string>
   <string name="drive_get_file">Hämtar %1$s och mediafiler.</string>
   <string name="no_google_account">Inget Google-konto valt!</string>
   <string name="google_set_account">Du har valt Google Sheets som din server, vänligen välj motsvarande Google-konto under allmänna inställningar innan du fortsätter</string>
-  <string name="odk_auth_auth_fail">KoBo autentiseringsfel vid automatisk sändning. Kontrollera att inställningarna är korrekta.</string>
-  <string name="odk_auto_note">KoBo notifiering vid automatisk sändning</string>
+  <string name="odk_auth_auth_fail">KoBoToolbox autentiseringsfel vid automatisk sändning. Kontrollera att inställningarna är korrekta.</string>
+  <string name="odk_auto_note">KoBoToolbox notifiering vid automatisk sändning</string>
   <string name="notification_error">Fel vid visning av notifikationstext</string>
   <string name="delete_after_send">Radera efter sändning</string>
   <string name="delete_after_send_summary">Raderar avslutade formulär och media efter dessa sänts till servern</string>
@@ -340,7 +340,7 @@
   <string name="geotrace_view_change_location">Visa eller redigera GeoTrace</string>
   <string name="bearing">Riktning: %.3f</string>
   <string name="direction">Riktning: %s</string>
-  <string name="select_odk_shortcut">Välj KoBo genväg</string>
+  <string name="select_odk_shortcut">Välj KoBoToolbox genväg</string>
   <string name="bad_uri">Ogiltig URI: %s</string>
   <string name="unrecognized_uri">Okänd URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -361,7 +361,7 @@
   <string name="version_number">Version: %s</string>
   <string name="odk_website">Besök KoBos hemsida</string>
   <string name="odk_website_summary">KoBoToolbox används för att samla in data för socialt arbete i utmanande miljöer</string>
-  <string name="odk_forum">Gå med i KoBo forumet</string>
+  <string name="odk_forum">Gå med i KoBoToolbox forumet</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">V %1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->

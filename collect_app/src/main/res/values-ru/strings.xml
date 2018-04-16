@@ -25,8 +25,8 @@
   <string name="recapture_osm">Переделать метки OSM</string>
   <string name="capture_video">Записать видео</string>
   <string name="change_language">Выбрать язык</string>
-  <string name="change_password">Пароль KoBo</string>
-  <string name="change_username">Имя пользователя KoBo</string>
+  <string name="change_password">Пароль KoBoToolbox</string>
+  <string name="change_username">Имя пользователя KoBoToolbox</string>
   <string name="clearanswer_confirm">Удалить ответ к \"%s\"?</string>
   <string name="clear_answer">Удалить ответ</string>
   <string name="clear_answer_ask">Удалить этот ответ?</string>
@@ -164,7 +164,7 @@
   <string name="save_as_error">Имя формы не может быть пустым!</string>
   <string name="edit_prompt">Изменить вопрос</string>
   <string name="selected_google_account_text">Учётная запись Google</string>
-  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">Другое</string>
   <string name="font_size_extra_large">Очень большой</string>
   <string name="font_size_large">Большой</string>
@@ -266,7 +266,7 @@
   <string name="go_drive">Мой диск</string>
   <string name="go_shared">Доступные мне</string>
   <string name="modified_on_date_at_time">\'Изменено\' EEE, MMM dd, yyyy \'в\' HH:mm</string>
-  <string name="aggregate_preferences">Настройки KoBoToolbox Aggregate</string>
+  <string name="aggregate_preferences">Настройки KoBoToolbox</string>
   <string name="other_preferences">Настройки других платформ</string>
   <string name="google_preferences">Настройки Google Таблиц</string>
   <string name="google_sheets_url_hint">В формах должен быть указан URL отправки. В противном случае, этот URL будет использоваться в качестве URL отправки</string>
@@ -274,7 +274,7 @@
   <string name="no_google_account">Учётная запись Google не выбрана!</string>
   <string name="google_set_account">Вы выбрали Google Таблицы в качестве сервера. Перед тем, как продолжить, пожалуйста, укажите соответствующую учётную запись Google в общих настройках.</string>
   <string name="odk_auth_auth_fail">Ошибка аутентификации при автоматической отправке KoBo. Пожалуйста, проверьте настройки</string>
-  <string name="odk_auto_note">Уведомление автоматической отправки KoBo</string>
+  <string name="odk_auto_note">Уведомление автоматической отправки KoBoToolbox</string>
   <string name="notification_error">Ошибка отображения текста уведомления</string>
   <string name="delete_after_send">Удалить после отправки</string>
   <string name="delete_after_send_summary">Удаляет завершённые формы и их медиа после отправки данных на сервер</string>
@@ -351,7 +351,7 @@
   <string name="geotrace_view_change_location">Показать или изменить геослед</string>
   <string name="bearing">Азимут: %.3f</string>
   <string name="direction">Направление: %s</string>
-  <string name="select_odk_shortcut">Выбрать ярлык KoBo</string>
+  <string name="select_odk_shortcut">Выбрать ярлык KoBoToolbox</string>
   <string name="bad_uri">Неправильный URI: %s</string>
   <string name="unrecognized_uri">Не удалось распознать URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -370,9 +370,9 @@
   <string name="parser_exception">Исключение XPathParser: \"%s\"</string>
   <string name="selected_answer">Выбрано: %s</string>
   <string name="version_number">Версия: %s</string>
-  <string name="odk_website">Посетить вебсайт KoBo</string>
+  <string name="odk_website">Посетить вебсайт KoBoToolbox</string>
   <string name="odk_website_summary">KoBoToolbox используется для сбора данных на общее благо в трудных условиях.</string>
-  <string name="odk_forum">Войти на форум KoBo</string>
+  <string name="odk_forum">Войти на форум KoBoToolbox</string>
   <string name="odk_forum_summary">Зайдите на форум, чтобы получить тех. поддержку, оставить предложение, принять участие в разработке/переводе!</string>
   <string name="all_open_source_licenses">Открытые библиотеки/лицензии</string>
   <string name="all_open_source_licenses_msg">Мы стоим на плечах гигантов!</string>
@@ -393,7 +393,7 @@
   <string name="encryption_error_message">%s Форма не была сохранена как завёршенная.</string>
   <string name="analytics_preferences">Данные по использованию</string>
   <string name="analytics">Собирать анонимные данные об использовании</string>
-  <string name="analytics_summary">Анонимные данные об использовании помогут команде KoBo расставить приоритеты в исправлении ошибок и добавлении новых возможностей.</string>
+  <string name="analytics_summary">Анонимные данные об использовании помогут команде KoBoToolbox расставить приоритеты в исправлении ошибок и добавлении новых возможностей.</string>
   <string name="select_all">Выбрать все</string>
   <string name="clear_all">Очистить все</string>
   <string name="reset_settings">Все настройки (внутренние настройки, сохранённые настройки)</string>

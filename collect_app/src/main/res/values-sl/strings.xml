@@ -26,7 +26,7 @@
   <string name="capture_video">Posnemi video</string>
   <string name="change_language">Zamenjaj jezik</string>
   <string name="change_password">ODk geslo</string>
-  <string name="change_username">KoBo uporabniško ime</string>
+  <string name="change_username">KoBoToolbox uporabniško ime</string>
   <string name="clearanswer_confirm">Odstranim odgovor za \"%s\"?</string>
   <string name="clear_answer">Odstrani odgovor</string>
   <string name="clear_answer_ask">Odstranim odgovor?</string>
@@ -132,7 +132,7 @@
   <string name="client">Uporabniški vmesnik</string>
   <string name="show_splash_summary">Vidna ob zagonu aplikacije</string>
   <string name="splash_path">Izbrana zagonska slika</string>
-  <string name="default_splash_path">KoBo privzeto</string>
+  <string name="default_splash_path">KoBoToolbox privzeto</string>
   <string name="select_another_image">Izberi drugo sliko</string>
   <string name="use_odk_default">Uporabi privzeto sliko</string>
   <string name="change_splash_path">Zamenjaj sliko</string>
