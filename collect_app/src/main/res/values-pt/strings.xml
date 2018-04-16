@@ -17,7 +17,7 @@
   <string name="capture_video">Gravar Vídeo</string>
   <string name="change_language">Alterar Idioma</string>
   <string name="change_password">Senha</string>
-  <string name="change_username">Usuário ODK</string>
+  <string name="change_username">Usuário KoBo</string>
   <string name="clearanswer_confirm">Remover a resposta para \"%s\"?</string>
   <string name="clear_answer">Remover a resposta</string>
   <string name="clear_answer_ask">Remover esta Resposta?</string>
@@ -121,7 +121,7 @@
   <string name="client">Interface de usuário</string>
   <string name="show_splash_summary">Mostrar quando a aplicação iniciar</string>
   <string name="splash_path">Selecionada imagem Splash</string>
-  <string name="default_splash_path">ODK Default</string>
+  <string name="default_splash_path">KoBo Default</string>
   <string name="select_another_image">Selecionar Outra Imagem</string>
   <string name="use_odk_default">Usar Imagem Padrão</string>
   <string name="change_splash_path">Trocar Imagem</string>
@@ -155,7 +155,7 @@ Escolher Imagem</string>
   <string name="save_as_error">Nome salvo não pode ser em vazio!</string>
   <string name="edit_prompt">Editar Prompt</string>
   <string name="selected_google_account_text">Conta Google</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">Outro</string>
   <string name="font_size_extra_large">Extra Grande</string>
   <string name="font_size_large">Grande</string>
@@ -253,7 +253,7 @@ Escolher Imagem</string>
   <string name="go_drive">Meu Disco</string>
   <string name="go_shared">Compartilhado comigo</string>
   <string name="modified_on_date_at_time">\'Modificado em\' EEE, MMM dd, yyyy \'às\' HH:mm</string>
-  <string name="aggregate_preferences">Configurações do Agregador ODK.</string>
+  <string name="aggregate_preferences">Configurações do Agregador KoBo.</string>
   <string name="other_preferences">Configurações de outras plataformas.</string>
   <string name="drive_get_file">Obtendo %1$s e arquivos de mídia.</string>
   <string name="no_google_account">Nenhuma conta do Google foi selecionada!</string>
@@ -301,7 +301,7 @@ Escolher Imagem</string>
   <string name="gdrive_connection_exception">Esta imagem está armazenada no Google Drive e não pode ser acessada offline.</string>
   <string name="analytics_preferences">Uso de dados</string>
   <string name="analytics">Coletar dados anônimos</string>
-  <string name="analytics_summary">Os dados anônimos ajudam a equipe do ODK a priorizar a correção de erros e funcionalidades</string>
+  <string name="analytics_summary">Os dados anônimos ajudam a equipe do KoBo a priorizar a correção de erros e funcionalidades</string>
   <string name="select_all">Selecionar tudo</string>
   <string name="clear_all">Limpar tudo</string>
   <string name="reset_settings">Todas as configurações (configurações internas, configurações salvas)</string>

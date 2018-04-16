@@ -30,7 +30,7 @@ replace({
 
 replace({
     regex: "ODK Aggregate",
-    replacement: "KoboToolbox Aggregate",
+    replacement: "KoBoToolbox Aggregate",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true
@@ -38,7 +38,23 @@ replace({
 
 replace({
     regex: "ODK Collect",
-    replacement: "KoboCollect",
+    replacement: "KoBoCollect",
+    paths: ['collect_app/src/main/res'],
+    recursive: true,
+    silent: true
+});
+
+replace({
+    regex: 'Open Data Kit .ODK.',
+    replacement: "KoBoToolbox",
+    paths: ['collect_app/src/main/res'],
+    recursive: true,
+    silent: true
+});
+
+replace({
+    regex: 'ODK',
+    replacement: "KoBo",
     paths: ['collect_app/src/main/res'],
     recursive: true,
     silent: true

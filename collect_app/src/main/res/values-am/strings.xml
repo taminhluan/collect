@@ -132,7 +132,7 @@
   <string name="save_form_as">ይህን ቅጽ ይሰይሙ</string>
   <string name="save_as_error">የተቀመጠው ስም ባዶ መሆን የለበትም!</string>
   <string name="selected_google_account_text">የ Google መለያ</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <string name="server_platform_other">ሌላ</string>
   <string name="font_size_extra_large">በጣም ትልቅ</string>
   <string name="font_size_large">ትልቅ</string>
@@ -203,7 +203,7 @@
   <string name="google_drive">ጉግል Drive</string>
   <string name="go_drive">የእኔ Drive</string>
   <string name="go_shared">ከእኔ ጋር የተጋሩ</string>
-  <string name="aggregate_preferences">KoboToolbox Aggregate ቅንጅቶች</string>
+  <string name="aggregate_preferences">KoBoToolbox Aggregate ቅንጅቶች</string>
   <string name="other_preferences">ሌሎች ስርዓተ ቅንብሮች</string>
   <string name="no_google_account">ምንም የ Google መለያ አልተመረጠም!</string>
   <string name="google_set_account">Google ሉሆችን እንደ አገልጋይዎ መርጠዋል, እባክዎ ከመቀጠልዎ በፊት በአጠቃላይ ቅንብሮች ውስጥ ተዛማጅ የ Google መለያ ይምረጡ</string>
@@ -240,8 +240,8 @@
   <string name="record_geopoint">GeoPointን ይቅዱ</string>
   <string name="selected_answer">ተመርጧል: 1 %s</string>
   <string name="version_number">ሥሪት: 1 %s</string>
-  <string name="odk_website">የODKን ድረ ገፅ ይጎብኙ</string>
-  <string name="odk_forum">የODKን መድረክ ይቀላቀሉ</string>
+  <string name="odk_website">የKoBoን ድረ ገፅ ይጎብኙ</string>
+  <string name="odk_forum">የKoBoን መድረክ ይቀላቀሉ</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">ም 1 %1$s  2 %2$s  3%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->

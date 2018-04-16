@@ -19,8 +19,8 @@
   <string name="recapture_osm">फेरी OSM ट्याग गर्नुहोस्</string>
   <string name="capture_video">भिडियो रेकर्ड गर्नुहोस् </string>
   <string name="change_language">भाषा परिवर्तन गर्नुहोस् |</string>
-  <string name="change_password">ODK पासवर्ड </string>
-  <string name="change_username">ODK प्रयोगकर्ता नाम </string>
+  <string name="change_password">KoBo पासवर्ड </string>
+  <string name="change_username">KoBo प्रयोगकर्ता नाम </string>
   <string name="clearanswer_confirm">\"%s\"को जवाफ हटाउनु हुन्छ ?</string>
   <string name="clear_answer">जवाफ हटाउनुहोस् </string>
   <string name="clear_answer_ask">यो जवाफ हटाउनु हुन्छ?</string>
@@ -124,7 +124,7 @@
   <string name="client">प्रयोगकर्ता अन्तरक्रिया पृष्‍ठ</string>
   <string name="show_splash_summary">एप्लिकेशन सुरु हुँदा देखाइन्छ |</string>
   <string name="splash_path">पहिलो पर्दा दृश्यको लागि तस्बिर छानियो |</string>
-  <string name="default_splash_path">ODK डिफल्ट </string>
+  <string name="default_splash_path">KoBo डिफल्ट </string>
   <string name="select_another_image">अर्को तस्विर छान्नुहोला</string>
   <string name="use_odk_default">डिफल्ट तस्विर प्रयोग गर्नुहोस् </string>
   <string name="change_splash_path">तस्विर बदल्नुहोस् </string>
@@ -158,7 +158,7 @@
   <string name="save_as_error">संचित गर्दा नाम खाली छोड्न मिल्दैन !</string>
   <string name="edit_prompt">सम्पादन गर्न प्रेरित गर्नुहोस् </string>
   <string name="selected_google_account_text">गुगल एकाउण्ट</string>
-  <string name="server_platform_odk_aggregate">ODK एग्रिगेट</string>
+  <string name="server_platform_odk_aggregate">KoBo एग्रिगेट</string>
   <string name="server_platform_other">अन्य</string>
   <string name="font_size_extra_large">अझ ठूलो </string>
   <string name="font_size_large">ठूलो </string>
@@ -259,15 +259,15 @@
   <string name="go_drive">मेरो ड्राइभ</string>
   <string name="go_shared">म संग साझा गरिएको </string>
   <string name="modified_on_date_at_time">EEE, MMM dd, yyyy \'को\' HH:mm \'मा परिवर्तन गरिएको\'</string>
-  <string name="aggregate_preferences">ODK एग्रीगेट सेटिङ्स</string>
+  <string name="aggregate_preferences">KoBo एग्रीगेट सेटिङ्स</string>
   <string name="other_preferences">अन्य प्लेटफर्म सेटिङ्स</string>
   <string name="google_preferences">गुगल सिट्स सेटिङ्स</string>
   <string name="google_sheets_url_hint">फारमहरु पठाउनको लागि URL सेट गर्नुपर्दछ । अन्यथा यही URL प्रयोग हुनेछ ।</string>
   <string name="drive_get_file">%1$s र मिडिया फाइलहरु प्राप्त गरिदैछ |</string>
   <string name="no_google_account">एउटा गुगल खाता छान्नुहोस् ! </string>
   <string name="google_set_account">तपाईंले गुगल गुगल सिट्सलाई आफ्नो सर्भरको रूपमा छान्नुभयो , अघि बढ्नु पूर्व कृपया जनरल सेटिङ्समा त्यहि अनुरूपको गुगल खाता छान्नुहोस्</string>
-  <string name="odk_auth_auth_fail">ODK स्वत: प्रेषण प्रमाणीकरण असफल , कृपया आफ्नो सेटिङ्स सही छ छैन चेक गर्नुहोस्</string>
-  <string name="odk_auto_note">ODK स्वत: प्रेषण सूचना</string>
+  <string name="odk_auth_auth_fail">KoBo स्वत: प्रेषण प्रमाणीकरण असफल , कृपया आफ्नो सेटिङ्स सही छ छैन चेक गर्नुहोस्</string>
+  <string name="odk_auto_note">KoBo स्वत: प्रेषण सूचना</string>
   <string name="notification_error">सूचना देखाउन गल्ती भयो </string>
   <string name="delete_after_send">पठाए पछि डिलिट गर्नुहोस् </string>
   <string name="delete_after_send_summary">अन्तिम रुप दिइएको फारम र मिडिया सर्भरमा पठाए पछि डिलिट गर्छ </string>
@@ -320,7 +320,7 @@
   <string name="go_back">पछाडि जानुहोस्</string>
   <string name="download_selected">चुनिएका डाउनलोड गर्नुहोस्</string>
   <string name="record_geopoint">जियो पोइन्ट रेकर्ड गर्नुहोस्</string>
-  <string name="odk_forum">ODK मंचमा आवद्ध हुनुहोस्</string>
+  <string name="odk_forum">KoBo मंचमा आवद्ध हुनुहोस्</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">पश्चिम%1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->

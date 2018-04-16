@@ -92,10 +92,10 @@ public class AboutActivity extends AppCompatActivity implements
                 case 0:
                     websiteTabHelper.openUri(this, websiteUri);
                     break;
+                // case 1:
+                //     forumTabHelper.openUri(this, forumUri);
+                //     break;
                 case 1:
-                    forumTabHelper.openUri(this, forumUri);
-                    break;
-                case 2:
                     Intent shareIntent = new Intent(Intent.ACTION_SEND);
                     shareIntent.setType("text/plain");
                     shareIntent.putExtra(Intent.EXTRA_TEXT,
@@ -104,7 +104,7 @@ public class AboutActivity extends AppCompatActivity implements
                     startActivity(Intent.createChooser(shareIntent,
                             getString(R.string.tell_your_friends)));
                     break;
-                case 3:
+                case 2:
                     boolean intentStarted = false;
                     try {
                         // Open the google play store app if present
@@ -134,7 +134,7 @@ public class AboutActivity extends AppCompatActivity implements
                                 Uri.parse(GOOGLE_PLAY_URL + getPackageName())));
                     }
                     break;
-                case 4:
+                case 3:
                     Intent intent = new Intent(this, WebViewActivity.class);
                     intent.putExtra(CustomTabHelper.OPEN_URL, LICENSES_HTML_PATH);
                     startActivity(intent);

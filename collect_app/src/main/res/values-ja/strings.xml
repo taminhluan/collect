@@ -25,8 +25,8 @@
   <string name="recapture_osm">OSM タグ付けを繰り返す</string>
   <string name="capture_video">ビデオを録画</string>
   <string name="change_language">言語を変更</string>
-  <string name="change_password">ODK パスワード</string>
-  <string name="change_username">ODK ユーザー名</string>
+  <string name="change_password">KoBo パスワード</string>
+  <string name="change_username">KoBo ユーザー名</string>
   <string name="clearanswer_confirm">\"%s\" への回答を削除しますか?</string>
   <string name="clear_answer">回答を削除</string>
   <string name="clear_answer_ask">回答を削除しますか?</string>
@@ -132,7 +132,7 @@
   <string name="client">ユーザーインターフェイス</string>
   <string name="show_splash_summary">アプリケーションの起動時に表示します</string>
   <string name="splash_path">選択したスプラッシュ画像</string>
-  <string name="default_splash_path">ODK デフォルト</string>
+  <string name="default_splash_path">KoBo デフォルト</string>
   <string name="select_another_image">別の画像を選択</string>
   <string name="use_odk_default">デフォルト画像を使用</string>
   <string name="change_splash_path">画像を変更</string>
@@ -166,7 +166,7 @@
   <string name="save_as_error">保存する名前は空にできません!</string>
   <string name="edit_prompt">プロンプトを編集</string>
   <string name="selected_google_account_text">Google アカウント</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">その他</string>
   <string name="font_size_extra_large">特大</string>
   <string name="font_size_large">大</string>
@@ -268,7 +268,7 @@
   <string name="go_drive">マイ ドライブ</string>
   <string name="go_shared">私と共有</string>
   <string name="modified_on_date_at_time">yyyy/MM/dd HH:mm \'に変更しました\'</string>
-  <string name="aggregate_preferences">KoboToolbox Aggregate 設定</string>
+  <string name="aggregate_preferences">KoBoToolbox Aggregate 設定</string>
   <string name="other_preferences">その他のプラットフォーム設定</string>
   <string name="google_preferences">Google スプレッドシート設定</string>
   <string name="google_sheets_url_hint">フォームは送信 URL を設定する必要があります。 そうしない場合に、この URL が使用されます。</string>
@@ -276,8 +276,8 @@
   <string name="no_google_account">Google アカウントが選択されていません!</string>
   <string name="google_set_account">サーバーとして Google スプレッドシートを選択しています。続行する前に、全般設定で対応する Google アカウントを選択してください</string>
   <string name="media_upload_error">メディアファイルが存在しないため、アップロードできませんでした: %1$s</string>
-  <string name="odk_auth_auth_fail">ODK 自動送信の認証に失敗しました。設定が正しいことを確認してください</string>
-  <string name="odk_auto_note">ODK 自動送信通知</string>
+  <string name="odk_auth_auth_fail">KoBo 自動送信の認証に失敗しました。設定が正しいことを確認してください</string>
+  <string name="odk_auto_note">KoBo 自動送信通知</string>
   <string name="notification_error">通知テキストの表示中にエラー</string>
   <string name="delete_after_send">送信後に削除</string>
   <string name="delete_after_send_summary">サーバに送信した後、確定されたフォームやメディアを削除します</string>
@@ -293,8 +293,8 @@
   <string name="username_error_whitespace">ユーザー名の先頭または末尾に空白は使用できません</string>
   <string name="google_play_services_error_occured">Google マップにアクセスできません。 Google Play サービスはインストールされていますか?</string>
   <string name="about_preferences">アプリについて</string>
-  <string name="tell_your_friends">KoboCollect を共有</string>
-  <string name="tell_your_friends_msg">あなたの同僚はまだ紙でデータを収集しているのですか? KoboCollect を彼らと共有しましょう。</string>
+  <string name="tell_your_friends">KoBoCollect を共有</string>
+  <string name="tell_your_friends_msg">あなたの同僚はまだ紙でデータを収集しているのですか? KoBoCollect を彼らと共有しましょう。</string>
   <string name="leave_a_review">Play ストアにレビューを残す</string>
   <string name="leave_a_review_msg">あなたの (肯定的な) レビューが Play ストアでアプリの認知度を向上させてくれます</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -335,7 +335,7 @@
   <string name="polygon_or_polyline">名前を付けて GeoTrace を保存</string>
   <string name="minutes">分</string>
   <string name="geo_clear_warning">機能は既に作成済です。機能をクリアしますか?</string>
-  <string name="geo_exit_warning">変更を破棄して ODK の戻りますか?</string>
+  <string name="geo_exit_warning">変更を破棄して KoBo の戻りますか?</string>
   <string name="polygon_validator">ポリゴンを作成するには、少なくとも 3 点指定する必要があります</string>
   <string name="dialog_continue">続行</string>
   <string name="clear">クリア</string>
@@ -354,7 +354,7 @@
   <string name="geotrace_view_change_location">GeoTrace を表示または変更</string>
   <string name="bearing">方位: %.3f</string>
   <string name="direction">方角: %s</string>
-  <string name="select_odk_shortcut">ODK ショートカットを選択</string>
+  <string name="select_odk_shortcut">KoBo ショートカットを選択</string>
   <string name="bad_uri">間違った URI: %s</string>
   <string name="unrecognized_uri">認識できない URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -373,9 +373,9 @@
   <string name="parser_exception">XPathParser 例外: \"%s\"</string>
   <string name="selected_answer">選択済: %s</string>
   <string name="version_number">バージョン: %s</string>
-  <string name="odk_website">ODK ウェブサイトを訪問</string>
-  <string name="odk_website_summary">オープンデータキット (ODK) は、課題のある環境での社会的利益のためのデータを収集するために使用されます。</string>
-  <string name="odk_forum">ODK フォーラムに参加</string>
+  <string name="odk_website">KoBo ウェブサイトを訪問</string>
+  <string name="odk_website_summary">オープンデータキット (KoBo) は、課題のある環境での社会的利益のためのデータを収集するために使用されます。</string>
+  <string name="odk_forum">KoBo フォーラムに参加</string>
   <string name="odk_forum_summary">フォーラムに参加して、サポートを受けたり、機能をリクエストしたり、コード/翻訳に貢献してください!</string>
   <string name="all_open_source_licenses">オープンソースライブラリー/ライセンス</string>
   <string name="all_open_source_licenses_msg">私たちは巨人の肩の上に立っています!</string>
@@ -396,7 +396,7 @@
   <string name="encryption_error_message">%s フォームはファイナライズ済みとして保存されていません。</string>
   <string name="analytics_preferences">使用状況データ</string>
   <string name="analytics">匿名の使用状況データを収集</string>
-  <string name="analytics_summary">匿名の使用状況データは、ODK チームが修正および機能に優先順位付けするのに役立ちます</string>
+  <string name="analytics_summary">匿名の使用状況データは、KoBo チームが修正および機能に優先順位付けするのに役立ちます</string>
   <string name="select_all">すべて選択</string>
   <string name="clear_all">すべてクリア</string>
   <string name="reset_settings">すべての設定 (内部設定、保存された設定)</string>
@@ -431,7 +431,7 @@
   <string name="sort_by_status_asc">ステータス順、確定済が最初</string>
   <string name="sort_by_status_desc">ステータス順、未確定が最初</string>
   <string name="sort_the_list">一覧の並び替え</string>
-  <string name="request_permissions_google_account">KoboCollect は、空白のフォームを取得して、入力フォームを送信するために、Google アカウントへのアクセスが必要です。</string>
+  <string name="request_permissions_google_account">KoBoCollect は、空白のフォームを取得して、入力フォームを送信するために、Google アカウントへのアクセスが必要です。</string>
   <string name="filter_the_list">一覧をフィルター</string>
   <string name="language">言語</string>
   <string name="google_auth_io_exception_msg">API 呼び出しを行うことができません。 ローカルビルドを実行している場合は、プロジェクトのreadmeを確認してください。</string>

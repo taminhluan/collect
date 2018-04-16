@@ -119,7 +119,7 @@
   <string name="client">Fasada e përdoruesit</string>
   <string name="show_splash_summary">Shfaqet me hapjen e aplikacionit</string>
   <string name="splash_path">Zgjidh imazhin për faqen hyrëse</string>
-  <string name="default_splash_path">Alternativa e parapërcaktuar Kobo</string>
+  <string name="default_splash_path">Alternativa e parapërcaktuar KoBo</string>
   <string name="select_another_image">Zgjidh një imazh tjetër</string>
   <string name="use_odk_default">Përdor imazhin e parapërcaktuar</string>
   <string name="change_splash_path">Ndrysho imazhin</string>
@@ -241,15 +241,15 @@
   <string name="high_resolution_summary">Mundëso regjistrimin video me rezolucion të lartë</string>
   <string name="go_shared">Ndarë me mua</string>
   <string name="modified_on_date_at_time">\'Modifikuar më\' EEE, MMM dd, yyyy \'at\' HH:mm</string>
-  <string name="aggregate_preferences">Parametrat e KoboToolbox Aggregate</string>
+  <string name="aggregate_preferences">Parametrat e KoBoToolbox Aggregate</string>
   <string name="other_preferences">Parametrat e tjetër platforme</string>
   <string name="google_preferences">Parametrat e Google Sheets</string>
   <string name="google_sheets_url_hint">Formularët duhet të kenë një URL ku dërgohen. Nëse jo, do të përdoret kjo URL.</string>
   <string name="drive_get_file">Duke ngarkuar %1$s dhe file-t media.</string>
   <string name="no_google_account">Nuk keni përzgjedhur një llogari në Google!</string>
   <string name="google_set_account">Keni përzgjedhur Google Sheets si server, lutemi, zjidhni një llogari në  Google në parametrat e përgjithshëm përpara se të vazhdoni.</string>
-  <string name="odk_auth_auth_fail">Autentikimi i dërgimit automatik të ODK dështoi, lutemi sigurohuni që parametrat janë të saktë.</string>
-  <string name="odk_auto_note">Njoftim ODK për dërgimin automatik </string>
+  <string name="odk_auth_auth_fail">Autentikimi i dërgimit automatik të KoBo dështoi, lutemi sigurohuni që parametrat janë të saktë.</string>
+  <string name="odk_auto_note">Njoftim KoBo për dërgimin automatik </string>
   <string name="notification_error">Gabim në shfaqjen e tekstit të njoftimit</string>
   <string name="delete_after_send">Fshi formularët pasi të nisen</string>
   <string name="delete_after_send_summary">Fshi formularët e finalizuar dhe mediat pasi të jenë ngarkuar në server</string>
@@ -286,7 +286,7 @@
   <string name="polygon_or_polyline">Ruaj GeoTrace si</string>
   <string name="minutes">Minuta</string>
   <string name="geo_clear_warning">Tipari është krijuar tanimë. A doni ta pastroni këtë tipar?</string>
-  <string name="geo_exit_warning">Elimino ndryshimet dhe kthehu në ODK?</string>
+  <string name="geo_exit_warning">Elimino ndryshimet dhe kthehu në KoBo?</string>
   <string name="polygon_validator">Duhen së paku 3 pika për të krijuar Poligonin</string>
   <string name="dialog_continue">Vazhdo</string>
   <string name="clear">Pastro</string>
@@ -303,7 +303,7 @@
   <string name="geoshape_view_change_location">Shih ose ndrysho GeoShape</string>
   <string name="geotrace_view_change_location">Shih ose ndrysho GeoTrace</string>
   <string name="direction">Drejtim: %s</string>
-  <string name="select_odk_shortcut">Përzgjidh ODK Shortcut</string>
+  <string name="select_odk_shortcut">Përzgjidh KoBo Shortcut</string>
   <string name="bad_uri">URL e gabuar: %s</string>
   <string name="unrecognized_uri">URL e panjohur: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -322,9 +322,9 @@
   <string name="parser_exception">Përjashtim XPathParser \"%s\"</string>
   <string name="selected_answer">Përzgjedhur: %s</string>
   <string name="version_number">Versioni: %s</string>
-  <string name="odk_website">Vizitoni faqen e ODK në internet</string>
-  <string name="odk_website_summary">Open Data Kit (ODK) përdoret për mbledhur të dhëna për të mirën shoqërore në mjedise sfiduese.</string>
-  <string name="odk_forum">Bëhu pjesë e forumit ODK</string>
+  <string name="odk_website">Vizitoni faqen e KoBo në internet</string>
+  <string name="odk_website_summary">KoBoToolbox përdoret për mbledhur të dhëna për të mirën shoqërore në mjedise sfiduese.</string>
+  <string name="odk_forum">Bëhu pjesë e forumit KoBo</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">P %1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->
@@ -342,7 +342,7 @@
   <string name="encryption_error_message">Formulari %s nuk është ruajtur si i finalizuar</string>
   <string name="analytics_preferences">Përdorimi i të dhënave</string>
   <string name="analytics">Mblidh të dhëna përdorimi anonime</string>
-  <string name="analytics_summary">Mbledhja e të dhënave anonime ndihmon ekipin e ODK të vendosë prioritet në përmirësimet e aplikacionit</string>
+  <string name="analytics_summary">Mbledhja e të dhënave anonime ndihmon ekipin e KoBo të vendosë prioritet në përmirësimet e aplikacionit</string>
   <string name="select_all">Zgjidh të gjitha</string>
   <string name="clear_all">Pastro të gjitha</string>
   <string name="reset_settings">Të gjithë parametrat (paramterat e brendshëm, parametrat e ruajtur)</string>
@@ -369,7 +369,7 @@
   <string name="instance_scan_completed">Skanimi përfundoi</string>
   <string name="instance_scan_count">%1$d formë/a u shtuan.</string>
   <string name="sort_the_list">Rendit listën</string>
-  <string name="request_permissions_google_account">KoboCollect ka nevojë të aksesojë loogarinë tuaj në Google në mënyrë që të marrë formularë bosh dhe të ngarkojë formularë të plotësuar</string>
+  <string name="request_permissions_google_account">KoBoCollect ka nevojë të aksesojë loogarinë tuaj në Google në mënyrë që të marrë formularë bosh dhe të ngarkojë formularë të plotësuar</string>
   <string name="filter_the_list">Filtro listën</string>
   <string name="language">Gjuha</string>
   <string name="google_auth_io_exception_msg">Nuk është e mundur të kryhen thirrje API. Nëse jeni duke përdorur një ndërtim lokal, lutemi rishihni instruksionet (readme) e projektit. </string>
@@ -437,6 +437,6 @@
   <string name="form_entry">Hiq përzgjedhjen për ta fshehur nga Form Entry</string>
   <string name="use_device_language">Përdor gjuhën e aparatit</string>
   <string name="not_supported_offline_layer_format">Shtresa offline që përzgjodhët përdor format PBF, i cili nuk është i suportuar.</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox</string>
   <!--Displays dates in specialized calendars with the Gregorian dates in parentheses. This is translated so right-to-left languages can specify the correct order-->
 </resources>

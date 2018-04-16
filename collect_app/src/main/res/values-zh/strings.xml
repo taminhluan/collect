@@ -124,7 +124,7 @@
   <string name="client">用户界面</string>
   <string name="show_splash_summary">当应用开始时显示</string>
   <string name="splash_path">选定的开始图片</string>
-  <string name="default_splash_path">ODK默认图片</string>
+  <string name="default_splash_path">KoBo默认图片</string>
   <string name="select_another_image">选择其他图片</string>
   <string name="use_odk_default">使用默认图片</string>
   <string name="change_splash_path">修改图片</string>
@@ -157,7 +157,7 @@
   <string name="save_as_error">保存的名字不能为空!</string>
   <string name="edit_prompt">修改提示</string>
   <string name="selected_google_account_text">Google账号</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">其他</string>
   <string name="font_size_extra_large">极大</string>
   <string name="font_size_large">大</string>
@@ -232,7 +232,7 @@
   <string name="delete_after_send">发送后自动删除</string>
   <string name="change_server_url">服務器 URL</string>
   <string name="about_preferences">关于</string>
-  <string name="tell_your_friends">分享KoboCollect</string>
+  <string name="tell_your_friends">分享KoBoCollect</string>
   <!--Geo string added in feature-geofeatures branch-->
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->

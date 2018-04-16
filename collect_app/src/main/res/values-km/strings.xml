@@ -19,8 +19,8 @@
   <string name="recapture_osm">ធ្វើម្តងទៀត OSM tagging</string>
   <string name="capture_video">ថត​វីដេអូ</string>
   <string name="change_language">ប្ដូរ​ភាសា</string>
-  <string name="change_password">ពាក្យ​សម្ងាត់ ODK</string>
-  <string name="change_username">ឈ្មោះ​អ្នកប្រើ ODK</string>
+  <string name="change_password">ពាក្យ​សម្ងាត់ KoBo</string>
+  <string name="change_username">ឈ្មោះ​អ្នកប្រើ KoBo</string>
   <string name="clearanswer_confirm">បោះបង់ចម្លើយ​ដើម្បី \"%s\"?</string>
   <string name="clear_answer">បោះបង់ចម្លើយ</string>
   <string name="clear_answer_ask">បោះ​បង់ការឆ្លើយនេះ</string>
@@ -124,7 +124,7 @@
   <string name="client">ចំណុច​ប្រទាក់​អ្នក​ប្រើប្រាស់​</string>
   <string name="show_splash_summary">បង្ហាញពេលកម្មវិធីចាប់ផ្តើម</string>
   <string name="splash_path">ជ្រើសរើសរូបស្វាគមន៍</string>
-  <string name="default_splash_path">ODK លំនាំដើម</string>
+  <string name="default_splash_path">KoBo លំនាំដើម</string>
   <string name="select_another_image">ជ្រើសរើសរូបផ្សេងទៀត</string>
   <string name="use_odk_default">ប្រើប្រាស់រូបលំនាំដើម</string>
   <string name="change_splash_path">ផ្លាស់ប្តូររូបថត</string>
@@ -158,7 +158,7 @@
   <string name="save_as_error">ឈ្មោះរក្សាទុកមិនអាចទទេ!</string>
   <string name="edit_prompt">កែប្រែ Prompt</string>
   <string name="selected_google_account_text">គណនី Google</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">ផ្សេងៗ</string>
   <string name="font_size_extra_large">ធំបំផុត</string>
   <string name="font_size_large">ធំ</string>
@@ -259,15 +259,15 @@
   <string name="go_drive">ថាសរបស់ខ្ញុំ</string>
   <string name="go_shared">ចែក​រំលែក​ជាមួយ​ខ្ញុំ</string>
   <string name="modified_on_date_at_time">\'កែប្រែនៅថ្ងៃ\' EEE, MMM dd, yyyy \'នៅម៉ោង\' HH:mm</string>
-  <string name="aggregate_preferences">ការកំណត់របស់ KoboToolbox Aggregate</string>
+  <string name="aggregate_preferences">ការកំណត់របស់ KoBoToolbox Aggregate</string>
   <string name="other_preferences">ការកំណត់លើ platform ដទៃ</string>
   <string name="google_preferences">ការកំណត់សន្លឹក Google</string>
   <string name="google_sheets_url_hint">ទម្រង់​ត្រូវតែ​កំណត់ URLក្នុងការបញ្ជូន​។ ប្រសិន​មិន​បាន​កំណត់, URL នេះ​នឹង​ត្រូវ​បាន​ប្រើប្រាស់។</string>
   <string name="drive_get_file">កំពុង​ទទួល​ %1$s និង ឯកសារមេឌៀ</string>
   <string name="no_google_account">គ្មាន​គណនី​ Google បាន​ជ្រើស​រើស</string>
   <string name="google_set_account">អ្នក​បាន​ជ្រើស​សន្លឹក​ Google ជា​ម៉ាស៊ីន​មេ​របស់​អ្នក​សូម​ជ្រើស​រើស​គណនី Google ត្រូវគ្នា ដែលឋិតក្នុងការកំណត់ទូទៅមុននឹងបន្ត</string>
-  <string name="odk_auth_auth_fail">​ការផ្ទៀង​ផ្ទាត់​បរាជ័យដើម្បីឲ្យ ODK ផ្ញើរចេញដោយស្វ័យប្រវត្តិ សូមធ្វើឲ្យប្រាកដថា​ការកំណត់របស់​អ្នក​ត្រឹម​ត្រូវ</string>
-  <string name="odk_auto_note">ការជូនដំណឹងពីការផ្ញើរចេញដោយ​ស្វ័យ​ប្រវត្តិរបស់​ ODK </string>
+  <string name="odk_auth_auth_fail">​ការផ្ទៀង​ផ្ទាត់​បរាជ័យដើម្បីឲ្យ KoBo ផ្ញើរចេញដោយស្វ័យប្រវត្តិ សូមធ្វើឲ្យប្រាកដថា​ការកំណត់របស់​អ្នក​ត្រឹម​ត្រូវ</string>
+  <string name="odk_auto_note">ការជូនដំណឹងពីការផ្ញើរចេញដោយ​ស្វ័យ​ប្រវត្តិរបស់​ KoBo </string>
   <string name="notification_error">បង្ហាញសារជួនដំណឹងដែលមានបញ្ហា</string>
   <string name="delete_after_send">លុបទម្រង់បន្ទាប់ការផ្ញើចេញ</string>
   <string name="delete_after_send_summary">លុប​សំណុំ​​បែប​​បទ​ដែល​បាន​បញ្ចប់ និង​មីឌៀ ​បន្ទាប់​ពី​ការ​ផ្ញើ​ចេញ​ទៅ​កាន់​ម៉ាស៊ីន​មេ</string>
@@ -321,7 +321,7 @@
   <string name="polygon_or_polyline">រក្សាទុក GeoTrace ជា</string>
   <string name="minutes">នាទី</string>
   <string name="geo_clear_warning">លក្ខណះ​ពិសេស​ត្រូវ​បាន​បង្កើត។ តើ​អ្នក​ចង់​លុប​លក្ខណះ​នេះ​ដែរ​ឬ​ទេ?</string>
-  <string name="geo_exit_warning">បោះបង់​ការផ្លាស់​ប្តូរ និងត្រឡប់ទៅកាន់ ODK វិញ?</string>
+  <string name="geo_exit_warning">បោះបង់​ការផ្លាស់​ប្តូរ និងត្រឡប់ទៅកាន់ KoBo វិញ?</string>
   <string name="polygon_validator">ត្រូវការចំនុចយ៉ាងតិច 3 ដើម្បី​បង្កើតពហុកោណ</string>
   <string name="dialog_continue">បន្តរ</string>
   <string name="clear">លុ​បចេញ</string>
@@ -340,7 +340,7 @@
   <string name="geotrace_view_change_location">មើល ឬផ្លាស់ប្តូរ GeoTrace</string>
   <string name="bearing">ទ្រង់ទ្រាយ៖ %.3f</string>
   <string name="direction">ទិសដៅ៖ %s</string>
-  <string name="select_odk_shortcut">ជ្រើសរើសផ្លូវកាត់ ODK</string>
+  <string name="select_odk_shortcut">ជ្រើសរើសផ្លូវកាត់ KoBo</string>
   <string name="bad_uri">URI អាក្រក់: %s</string>
   <string name="unrecognized_uri">មិនស្គាល់ URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -359,9 +359,9 @@
   <string name="parser_exception">XPathParser Exception: \"%s\"</string>
   <string name="selected_answer">បានជ្រើសរើស៖ %s</string>
   <string name="version_number">ជំនាន់: %s</string>
-  <string name="odk_website">ចូលទៅកាន់គេហទំព័រ ODK</string>
-  <string name="odk_website_summary">Open Data Kit (ODK) បាន​ប្រើ​ប្រាស់​ដើម្បី​ប្រមូល​ទិន្នន័យសម្រាប់ភាពប្រសើរ​របស់​សង្គមនៅក្នុងបរិយាកាស​ប្រកួត​ប្រជែង​។</string>
-  <string name="odk_forum">ចូល​រួម​ជា​មួយ​វេទិកា ODK</string>
+  <string name="odk_website">ចូលទៅកាន់គេហទំព័រ KoBo</string>
+  <string name="odk_website_summary">KoBoToolbox បាន​ប្រើ​ប្រាស់​ដើម្បី​ប្រមូល​ទិន្នន័យសម្រាប់ភាពប្រសើរ​របស់​សង្គមនៅក្នុងបរិយាកាស​ប្រកួត​ប្រជែង​។</string>
+  <string name="odk_forum">ចូល​រួម​ជា​មួយ​វេទិកា KoBo</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">ខាងលិច %1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->
@@ -379,7 +379,7 @@
   <string name="encryption_error_message">%s ទម្រង់មិនត្រូវបានរក្សាជាទម្រង់បញ្ចប់។</string>
   <string name="analytics_preferences">ការប្រើប្រាស់ទិន្នន័យ</string>
   <string name="analytics">ប្រមូលទិន្នន័យប្រើប្រាស់អនាមិក</string>
-  <string name="analytics_summary">ផ្តល់​ទិន្នន័យ​ប្រើប្រាស់​ជា​អនាមិក​ដើម្បី​ជួយ​ឱ្យ​ក្រុម​មួយ​នេះ​បាន​ផ្តល់​អាទិភាព​ដល់​ការ​ជួស​ជុល​ ODK និង​លក្ខណៈ​ពិសេស​របស់​វា</string>
+  <string name="analytics_summary">ផ្តល់​ទិន្នន័យ​ប្រើប្រាស់​ជា​អនាមិក​ដើម្បី​ជួយ​ឱ្យ​ក្រុម​មួយ​នេះ​បាន​ផ្តល់​អាទិភាព​ដល់​ការ​ជួស​ជុល​ KoBo និង​លក្ខណៈ​ពិសេស​របស់​វា</string>
   <string name="select_all">ជ្រើសរើសទាំងអស់</string>
   <string name="clear_all">លុបចេញទាំងអស់</string>
   <string name="reset_settings">ការកំណត់ទាំងអស់ (ការកំណត់ខាងក្នុង, ការកំណត់ដែលរក្សាទុក)</string>
@@ -414,7 +414,7 @@
   <string name="sort_by_status_asc">ស្ថានភាព, បានបញ្ចប់មុនបំផុត</string>
   <string name="sort_by_status_desc">ស្ថានភាព, មិនបានបញ្ចប់មុនបំផុត</string>
   <string name="sort_the_list">តម្រៀបបញ្ជី</string>
-  <string name="request_permissions_google_account">កម្មវិធី KoboCollect ត្រូវ​ការ​ចូល​ទៅ​កាន់​គណនី​ Google របស់​អ្នក​ដើម្បី​ទាញ​យក​ទម្រង់​ទទេរ​ និង​បញ្ជូន​ទម្រង់​ដែល​បាន​បំពេញ​ហើយ។</string>
+  <string name="request_permissions_google_account">កម្មវិធី KoBoCollect ត្រូវ​ការ​ចូល​ទៅ​កាន់​គណនី​ Google របស់​អ្នក​ដើម្បី​ទាញ​យក​ទម្រង់​ទទេរ​ និង​បញ្ជូន​ទម្រង់​ដែល​បាន​បំពេញ​ហើយ។</string>
   <string name="filter_the_list">តម្រងបញ្ជី</string>
   <string name="language">ភាសា</string>
   <string name="google_auth_io_exception_msg">មិន​អាច​ប្រើប្រាស់​ API បាន​។ ប្រសិន​ជា​អ្នក​កំពុង​ដំណើរការ​កសាង​ក្នុង​ម៉ាស៊ីន (local), សូម​អាន​អំពី​គម្រោង​នេះ​សារ​ឡើង​វិញ​។</string>

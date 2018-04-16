@@ -25,8 +25,8 @@
   <string name="recapture_osm">Зробити наново OSM тегування</string>
   <string name="capture_video">Записати відео</string>
   <string name="change_language">Змінити мову</string>
-  <string name="change_password">Пароль ODK</string>
-  <string name="change_username">Ім\'я користувача ODK</string>
+  <string name="change_password">Пароль KoBo</string>
+  <string name="change_username">Ім\'я користувача KoBo</string>
   <string name="clearanswer_confirm">Видалити відповідь на \"%s\"?</string>
   <string name="clear_answer">Видалити відповідь</string>
   <string name="clear_answer_ask">Видалити цю відповідь?</string>
@@ -130,7 +130,7 @@
   <string name="client">Користувацький інтерфейс</string>
   <string name="show_splash_summary">Відображається при старті програми</string>
   <string name="splash_path">Обрати зображення для заставки</string>
-  <string name="default_splash_path">Стандартне для ODK</string>
+  <string name="default_splash_path">Стандартне для KoBo</string>
   <string name="select_another_image">Обрати інше зображення</string>
   <string name="use_odk_default">Використати стандартне</string>
   <string name="change_splash_path">Змінити зображення</string>
@@ -164,7 +164,7 @@
   <string name="save_as_error">Ім’я не може бути порожнім!</string>
   <string name="edit_prompt">Редагувати запит</string>
   <string name="selected_google_account_text">Обліковий запис Google</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">Інше</string>
   <string name="font_size_extra_large">Дуже великий</string>
   <string name="font_size_large">Великий</string>
@@ -266,7 +266,7 @@
   <string name="go_drive">Мій диск</string>
   <string name="go_shared">Розділене зі мною</string>
   <string name="modified_on_date_at_time">\'Зімінено в\' EEE, dd MMM, yyyy \'at\' HH:mm</string>
-  <string name="aggregate_preferences">Налаштування KoboToolbox Aggregate</string>
+  <string name="aggregate_preferences">Налаштування KoBoToolbox Aggregate</string>
   <string name="other_preferences">Налаштування інших платформ</string>
   <string name="google_preferences">Налаштування Google Сторінок</string>
   <string name="google_sheets_url_hint">URL для відправки має бути зазначено в анкетах. Інакше, буде використано цей URL.</string>
@@ -275,7 +275,7 @@
   <string name="google_set_account">Ви обрали своїм сервером Google Сторінки, для продовження, будь ласка, вкажіть відповідний обліковий запис Google в Загальних налаштуваннях</string>
   <string name="media_upload_error">Помилка завантаження неіснуючого медіа файлу: %1$s</string>
   <string name="odk_auth_auth_fail">Помилка авторизації під час автоматичного надсилання, будь ласка, перевірте налаштування</string>
-  <string name="odk_auto_note">Сповіщення автоматичного надсилання ODK</string>
+  <string name="odk_auto_note">Сповіщення автоматичного надсилання KoBo</string>
   <string name="notification_error">Помилка відображення тексту оповіщення</string>
   <string name="delete_after_send">Видалити після надсилання</string>
   <string name="delete_after_send_summary">Видаляє завершені анкети та медіа файли після надсилання на сервер</string>
@@ -291,8 +291,8 @@
   <string name="username_error_whitespace">в імені користувача заборонені початкові та кінцеві пробіли</string>
   <string name="google_play_services_error_occured">Нема доступу до Google Карт. Чи встановлено Google Play Services?</string>
   <string name="about_preferences">Про нас</string>
-  <string name="tell_your_friends">Поширити KoboCollect</string>
-  <string name="tell_your_friends_msg">Ваші колеги досі збирають дані через паперові акети? Поділіться з ними KoboCollect.</string>
+  <string name="tell_your_friends">Поширити KoBoCollect</string>
+  <string name="tell_your_friends_msg">Ваші колеги досі збирають дані через паперові акети? Поділіться з ними KoBoCollect.</string>
   <string name="leave_a_review">Залишити відгук в Play Store</string>
   <string name="leave_a_review_msg">Ваш (сподіваємось позитивний) відгук покращить помітність програми в Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -333,7 +333,7 @@
   <string name="polygon_or_polyline">Зберегти ГеоМаршрут як</string>
   <string name="minutes">Хвилини</string>
   <string name="geo_clear_warning">Ознака вже створена. Бажаєте очистити ознаку?</string>
-  <string name="geo_exit_warning">Скасувати зміни і повернутись до ODK?</string>
+  <string name="geo_exit_warning">Скасувати зміни і повернутись до KoBo?</string>
   <string name="polygon_validator">Для багатокутника необхідно мінімум 3 точки</string>
   <string name="dialog_continue">Продовжити</string>
   <string name="clear">Очистити</string>
@@ -352,7 +352,7 @@
   <string name="geotrace_view_change_location">Переглянути чи змінити ГеоМаршрут</string>
   <string name="bearing">Пеленг: %.3f</string>
   <string name="direction">Напрямок: %s</string>
-  <string name="select_odk_shortcut">Обрати посилання ODK</string>
+  <string name="select_odk_shortcut">Обрати посилання KoBo</string>
   <string name="bad_uri">Поганий URI: %s</string>
   <string name="unrecognized_uri">Нерозпізнаний URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -371,9 +371,9 @@
   <string name="parser_exception">XPathParser Exception: \"%s\"</string>
   <string name="selected_answer">Обрано: %s</string>
   <string name="version_number">Версія: %s</string>
-  <string name="odk_website">Перейти на сайт ODK</string>
-  <string name="odk_website_summary">Open Data Kit (ODK) використовується для збору даних для суспільних потреб.</string>
-  <string name="odk_forum">Долучитись до форуму ODK</string>
+  <string name="odk_website">Перейти на сайт KoBo</string>
+  <string name="odk_website_summary">KoBoToolbox використовується для збору даних для суспільних потреб.</string>
+  <string name="odk_forum">Долучитись до форуму KoBo</string>
   <string name="odk_forum_summary">Долучайтесь до форуму аби отримати допомогу, запросити нові функції, допомогти в створенні коду чи перекладу!</string>
   <string name="all_open_source_licenses">Відкриті бібліотеки/ліцензії</string>
   <string name="all_open_source_licenses_msg">Ми стоїмо на плечах гігантів!</string>
@@ -394,7 +394,7 @@
   <string name="encryption_error_message">%s анкета не була збережена як завершена.</string>
   <string name="analytics_preferences">Дані про використання</string>
   <string name="analytics">Анонімно збирати дані про використання</string>
-  <string name="analytics_summary">Анонімний збір даних про використання допомагає команді ODK пріоритетизувати правки та нові функції</string>
+  <string name="analytics_summary">Анонімний збір даних про використання допомагає команді KoBo пріоритетизувати правки та нові функції</string>
   <string name="select_all">Обрати всі</string>
   <string name="clear_all">Зняти всі позначки</string>
   <string name="reset_settings">Всі налаштування (внутрішні налаштування, збережені налаштування)</string>
@@ -429,7 +429,7 @@
   <string name="sort_by_status_asc">За статусом, завершені перші</string>
   <string name="sort_by_status_desc">За статусом, незавершені перші</string>
   <string name="sort_the_list">Відсортувати список</string>
-  <string name="request_permissions_google_account">KoboCollect потрібен доступ до Вашого Облікового запису Google щоб отримувати чисті і надсилати заповнені анкети.</string>
+  <string name="request_permissions_google_account">KoBoCollect потрібен доступ до Вашого Облікового запису Google щоб отримувати чисті і надсилати заповнені анкети.</string>
   <string name="filter_the_list">Фільтрувати список</string>
   <string name="language">Мова</string>
   <string name="google_auth_io_exception_msg">Неможливо здійснити виклики API. Якщо ви використовуєте локальну збірку, будь ласка, звурніться до документації проекту.</string>

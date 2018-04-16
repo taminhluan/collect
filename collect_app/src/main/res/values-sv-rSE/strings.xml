@@ -19,8 +19,8 @@
   <string name="recapture_osm">Upprepa OSM-taggning</string>
   <string name="capture_video">Spela in film</string>
   <string name="change_language">Ändra språk</string>
-  <string name="change_password">ODK lösenord</string>
-  <string name="change_username">ODK användarnamn</string>
+  <string name="change_password">lösenord</string>
+  <string name="change_username">användarnamn</string>
   <string name="clearanswer_confirm">Ta bort svar för \"%s\"</string>
   <string name="clear_answer">Ta bort svar</string>
   <string name="clear_answer_ask">Ska detta svar tas bort?</string>
@@ -124,7 +124,7 @@
   <string name="client">Användargränssnitt</string>
   <string name="show_splash_summary">Visas när programmet startas</string>
   <string name="splash_path">Vald välkomstbild</string>
-  <string name="default_splash_path">ODK standard</string>
+  <string name="default_splash_path">KoBo standard</string>
   <string name="select_another_image">Välj en annan bild</string>
   <string name="use_odk_default">Använd standardbild</string>
   <string name="change_splash_path">Byt bild</string>
@@ -158,7 +158,7 @@
   <string name="save_as_error">Sparat namn får inte vara tomt!</string>
   <string name="edit_prompt">Inmatningstext</string>
   <string name="selected_google_account_text">Google-konto</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">Övrig</string>
   <string name="font_size_extra_large">Extra stor</string>
   <string name="font_size_large">Stor</string>
@@ -259,15 +259,15 @@
   <string name="go_drive">My Drive</string>
   <string name="go_shared">Delat med mig</string>
   <string name="modified_on_date_at_time">\'Ändrad\' yyyy-MM-dd (EEE) \'kl\' HH:mm</string>
-  <string name="aggregate_preferences">KoboToolbox Aggregate inställningar</string>
+  <string name="aggregate_preferences">KoBoToolbox Aggregate inställningar</string>
   <string name="other_preferences">Övriga plattformsinställningar</string>
   <string name="google_preferences">Google Sheets inställningar</string>
   <string name="google_sheets_url_hint">Formulären måste ange en uppladdnings-URL. Om dem inte gör det används denna URL.</string>
   <string name="drive_get_file">Hämtar %1$s och mediafiler.</string>
   <string name="no_google_account">Inget Google-konto valt!</string>
   <string name="google_set_account">Du har valt Google Sheets som din server, vänligen välj motsvarande Google-konto under allmänna inställningar innan du fortsätter</string>
-  <string name="odk_auth_auth_fail">ODK autentiseringsfel vid automatisk sändning. Kontrollera att inställningarna är korrekta.</string>
-  <string name="odk_auto_note">ODK notifiering vid automatisk sändning</string>
+  <string name="odk_auth_auth_fail">KoBo autentiseringsfel vid automatisk sändning. Kontrollera att inställningarna är korrekta.</string>
+  <string name="odk_auto_note">KoBo notifiering vid automatisk sändning</string>
   <string name="notification_error">Fel vid visning av notifikationstext</string>
   <string name="delete_after_send">Radera efter sändning</string>
   <string name="delete_after_send_summary">Raderar avslutade formulär och media efter dessa sänts till servern</string>
@@ -321,7 +321,7 @@
   <string name="polygon_or_polyline">Spara GeoTrace som</string>
   <string name="minutes">Minuter</string>
   <string name="geo_clear_warning">Objekt redan skapat. Vill du rensa objektet?</string>
-  <string name="geo_exit_warning">Ignorera ändringar och återgå till ODK?</string>
+  <string name="geo_exit_warning">Ignorera ändringar och återgå till KoBo?</string>
   <string name="polygon_validator">Minst tre punkter krävs för att skapa en polygon</string>
   <string name="dialog_continue">Fortsätt</string>
   <string name="clear">Rensa</string>
@@ -340,7 +340,7 @@
   <string name="geotrace_view_change_location">Visa eller redigera GeoTrace</string>
   <string name="bearing">Riktning: %.3f</string>
   <string name="direction">Riktning: %s</string>
-  <string name="select_odk_shortcut">Välj ODK genväg</string>
+  <string name="select_odk_shortcut">Välj KoBo genväg</string>
   <string name="bad_uri">Ogiltig URI: %s</string>
   <string name="unrecognized_uri">Okänd URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -359,9 +359,9 @@
   <string name="parser_exception">XPathParser undantag: \"%s\"</string>
   <string name="selected_answer">Vald: %s</string>
   <string name="version_number">Version: %s</string>
-  <string name="odk_website">Besök ODKs hemsida</string>
-  <string name="odk_website_summary">Open Data Kit (ODK) används för att samla in data för socialt arbete i utmanande miljöer</string>
-  <string name="odk_forum">Gå med i ODK forumet</string>
+  <string name="odk_website">Besök KoBos hemsida</string>
+  <string name="odk_website_summary">KoBoToolbox används för att samla in data för socialt arbete i utmanande miljöer</string>
+  <string name="odk_forum">Gå med i KoBo forumet</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">V %1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->
@@ -379,7 +379,7 @@
   <string name="encryption_error_message">%s formulär har inte sparats som avslutat.</string>
   <string name="analytics_preferences">Användningsdata</string>
   <string name="analytics">Samla in anonym användningsdata</string>
-  <string name="analytics_summary">Anonym användningsdata hjälper ODKs utvecklare med prioritering av korrigeringar och funktioner </string>
+  <string name="analytics_summary">Anonym användningsdata hjälper KoBos utvecklare med prioritering av korrigeringar och funktioner </string>
   <string name="select_all">Välj alla</string>
   <string name="clear_all">Rensa alla</string>
   <string name="reset_settings">Alla inställningar (interna inställningar, sparade inställningar)</string>
@@ -414,7 +414,7 @@
   <string name="sort_by_status_asc">Status, avslutade först</string>
   <string name="sort_by_status_desc">Status, oavslutade first</string>
   <string name="sort_the_list">Sortera listan</string>
-  <string name="request_permissions_google_account">KoboCollect behöver få tillgång till ditt Google-konto för att hämta tomma formulär och ladda upp ifyllda formulär.</string>
+  <string name="request_permissions_google_account">KoBoCollect behöver få tillgång till ditt Google-konto för att hämta tomma formulär och ladda upp ifyllda formulär.</string>
   <string name="filter_the_list">Filtrera listan</string>
   <string name="language">Språk</string>
   <string name="google_auth_io_exception_msg">API-anrop misslyckades. Om du kör programmet lokalt, vänligen gå igenom projektets \'readme\'.</string>

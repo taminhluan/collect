@@ -19,8 +19,8 @@
   <string name="recapture_osm">Ulang tandai OSM</string>
   <string name="capture_video">Simpan video</string>
   <string name="change_language">Ubah bahasa</string>
-  <string name="change_password">Kata sandi ODK</string>
-  <string name="change_username">Nama pengguna ODK</string>
+  <string name="change_password">Kata sandi KoBo</string>
+  <string name="change_username">Nama pengguna KoBo</string>
   <string name="clearanswer_confirm">Hapus jawaban atas \"%s\"?</string>
   <string name="clear_answer">Hapus jawaban</string>
   <string name="clear_answer_ask">Hapus jawaban ini?</string>
@@ -124,7 +124,7 @@
   <string name="client">Antarmuka pengguna</string>
   <string name="show_splash_summary">Tampilkan pada awal aplikasi berjalan</string>
   <string name="splash_path">Gambar tampilan pembuka yang dipilih</string>
-  <string name="default_splash_path">ODK Bawaan</string>
+  <string name="default_splash_path">KoBo Bawaan</string>
   <string name="select_another_image">Pilih gambar lainnya</string>
   <string name="use_odk_default">Gunakan gambar bawaan</string>
   <string name="change_splash_path">Ubah gambar</string>
@@ -158,7 +158,7 @@
   <string name="save_as_error">Nama tidak boleh kosong!</string>
   <string name="edit_prompt">Ubah risalah</string>
   <string name="selected_google_account_text">Akun Google</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">Lainnya</string>
   <string name="font_size_extra_large">Sangat besar</string>
   <string name="font_size_large">Besar</string>
@@ -223,7 +223,7 @@
   <string name="replace_bearing">Mengganti arah suatu titik</string>
   <string name="getting_bearing">Memuat arah suatu titik</string>
   <string name="accept_bearing">Merekam arah suatu titik</string>
-  <string name="sdcard_unmounted">KoboCollect tidak dapat mengakses SD card. Mungkin itu terpasang melalui USB? (kondisi saat ini: %s)</string>
+  <string name="sdcard_unmounted">KoBoCollect tidak dapat mengakses SD card. Mungkin itu terpasang melalui USB? (kondisi saat ini: %s)</string>
   <string name="ext_file_no_data_error">File tidak memiliki data!</string>
   <string name="ext_conflicting_columns_error">Semua kolom %s sesuai!</string>
   <string name="ext_sortBy_numeric_error">Kolom terfilter anda harus hanya berisi nilai numerik. Nilai yang  konflik adalah \'%s\'.</string>
@@ -259,15 +259,15 @@
   <string name="go_drive">Drive saya</string>
   <string name="go_shared">Berbagi dengan saya</string>
   <string name="modified_on_date_at_time">\'dirubah pada tanggal\' EEE, MMM dd, yyyy \'di jam\' HH:mm</string>
-  <string name="aggregate_preferences">Pengaturan KoboToolbox Aggregate</string>
+  <string name="aggregate_preferences">Pengaturan KoBoToolbox Aggregate</string>
   <string name="other_preferences">Pengaturan platform lainnya</string>
   <string name="google_preferences">Pengaturan Google Sheets</string>
   <string name="google_sheets_url_hint">Tautan pengajuan harus ditetapkan pada formulir. Jika tidak, tautan ini yang akan digunakan.</string>
   <string name="drive_get_file">Mendapatkan %1$s dan berkas media.</string>
   <string name="no_google_account">Tidak ada Akun Google yang dipilih!</string>
   <string name="google_set_account">Google Sheet telah dipilih sebagai server kamu, silahkan tentukan akun Google pada Pengaturan Umum sebelum melanjutkan</string>
-  <string name="odk_auth_auth_fail">ODK pengiriman otomatis gagal berotentikasi, pastikan pengaturannya benar</string>
-  <string name="odk_auto_note">Notifikasi ODK Kirim otomatis</string>
+  <string name="odk_auth_auth_fail">KoBo pengiriman otomatis gagal berotentikasi, pastikan pengaturannya benar</string>
+  <string name="odk_auto_note">Notifikasi KoBo Kirim otomatis</string>
   <string name="notification_error">Gagal menampilkan teks notifikasi</string>
   <string name="delete_after_send">Hapus setelah mengirim</string>
   <string name="delete_after_send_summary">Menghapus media dan formulir yang sempurna setelah mengirim ke server  </string>
@@ -321,7 +321,7 @@
   <string name="polygon_or_polyline">Simpan GeoTrace sebagai</string>
   <string name="minutes">Menit</string>
   <string name="geo_clear_warning">Fitur sudah dibuat. Apakah anda ingin menghapus fitur ini?</string>
-  <string name="geo_exit_warning">Abaikan perubahan dan kembali ke ODK?</string>
+  <string name="geo_exit_warning">Abaikan perubahan dan kembali ke KoBo?</string>
   <string name="polygon_validator">Minimal harus memiliki 3 poin untuk membuat Polygon</string>
   <string name="dialog_continue">Lanjut</string>
   <string name="clear">Hapus</string>
@@ -340,7 +340,7 @@
   <string name="geotrace_view_change_location">Tampilkan atau Ubah GeoTrace</string>
   <string name="bearing">Bantalan: %.3f</string>
   <string name="direction">Arah: %s</string>
-  <string name="select_odk_shortcut">Pilih pintasan ODK</string>
+  <string name="select_odk_shortcut">Pilih pintasan KoBo</string>
   <string name="bad_uri">Salah URI: %s</string>
   <string name="unrecognized_uri">URI tidak dikenal: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -359,9 +359,9 @@
   <string name="parser_exception">XPathParser Kesalahan: \"%s\"</string>
   <string name="selected_answer">Terpilih: %s</string>
   <string name="version_number">Versi: %s</string>
-  <string name="odk_website">Kunjungi situs ODK </string>
-  <string name="odk_website_summary">Open Data Kit (ODK) digunakan untuk mengumpulkan data untuk kepentingan sosial di lingkungan yang menantang.</string>
-  <string name="odk_forum">Gabung forum ODK</string>
+  <string name="odk_website">Kunjungi situs KoBo </string>
+  <string name="odk_website_summary">KoBoToolbox digunakan untuk mengumpulkan data untuk kepentingan sosial di lingkungan yang menantang.</string>
+  <string name="odk_forum">Gabung forum KoBo</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
   <string name="west">B %1$s%2$s%3$s</string>
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in E 18°48'8"-->
@@ -379,7 +379,7 @@
   <string name="encryption_error_message">%s tersimpan sebagai formulir belum selesai.</string>
   <string name="analytics_preferences">Penggunaan data</string>
   <string name="analytics">Kumpulkan data penggunaan anonim</string>
-  <string name="analytics_summary">Data penggunaan anonim membantu tim ODK memprioritaskan perbaikan dan fitur</string>
+  <string name="analytics_summary">Data penggunaan anonim membantu tim KoBo memprioritaskan perbaikan dan fitur</string>
   <string name="select_all">Pilih Semua</string>
   <string name="clear_all">Hapus Semua</string>
   <string name="reset_settings">Seluruh pengaturan (pengaturan internal, pengaturan tersimpan)</string>
@@ -414,7 +414,7 @@
   <string name="sort_by_status_asc">Statusnya finalisasi terlebih dahulu</string>
   <string name="sort_by_status_desc">Statusnya tidak difinalisasi terlebih dahulu</string>
   <string name="sort_the_list">Urutkan daftar</string>
-  <string name="request_permissions_google_account">KoboCollect membutuhkan akses akun Google anda untuk mendapatkan formulir kosong dan mengirimkan isi formulir.</string>
+  <string name="request_permissions_google_account">KoBoCollect membutuhkan akses akun Google anda untuk mendapatkan formulir kosong dan mengirimkan isi formulir.</string>
   <string name="filter_the_list">Pilah daftar</string>
   <string name="language">Bahasa</string>
   <string name="google_auth_io_exception_msg">Tidak dapat memanggil API. Jika Anda melakukan kompilasi  lokal, silahkan baca readme.</string>

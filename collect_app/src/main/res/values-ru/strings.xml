@@ -25,8 +25,8 @@
   <string name="recapture_osm">Переделать метки OSM</string>
   <string name="capture_video">Записать видео</string>
   <string name="change_language">Выбрать язык</string>
-  <string name="change_password">Пароль ODK</string>
-  <string name="change_username">Имя пользователя ODK</string>
+  <string name="change_password">Пароль KoBo</string>
+  <string name="change_username">Имя пользователя KoBo</string>
   <string name="clearanswer_confirm">Удалить ответ к \"%s\"?</string>
   <string name="clear_answer">Удалить ответ</string>
   <string name="clear_answer_ask">Удалить этот ответ?</string>
@@ -164,7 +164,7 @@
   <string name="save_as_error">Имя формы не может быть пустым!</string>
   <string name="edit_prompt">Изменить вопрос</string>
   <string name="selected_google_account_text">Учётная запись Google</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">Другое</string>
   <string name="font_size_extra_large">Очень большой</string>
   <string name="font_size_large">Большой</string>
@@ -266,15 +266,15 @@
   <string name="go_drive">Мой диск</string>
   <string name="go_shared">Доступные мне</string>
   <string name="modified_on_date_at_time">\'Изменено\' EEE, MMM dd, yyyy \'в\' HH:mm</string>
-  <string name="aggregate_preferences">Настройки KoboToolbox Aggregate</string>
+  <string name="aggregate_preferences">Настройки KoBoToolbox Aggregate</string>
   <string name="other_preferences">Настройки других платформ</string>
   <string name="google_preferences">Настройки Google Таблиц</string>
   <string name="google_sheets_url_hint">В формах должен быть указан URL отправки. В противном случае, этот URL будет использоваться в качестве URL отправки</string>
   <string name="drive_get_file">Получение %1$s и медиа-файлов.</string>
   <string name="no_google_account">Учётная запись Google не выбрана!</string>
   <string name="google_set_account">Вы выбрали Google Таблицы в качестве сервера. Перед тем, как продолжить, пожалуйста, укажите соответствующую учётную запись Google в общих настройках.</string>
-  <string name="odk_auth_auth_fail">Ошибка аутентификации при автоматической отправке ODK. Пожалуйста, проверьте настройки</string>
-  <string name="odk_auto_note">Уведомление автоматической отправки ODK</string>
+  <string name="odk_auth_auth_fail">Ошибка аутентификации при автоматической отправке KoBo. Пожалуйста, проверьте настройки</string>
+  <string name="odk_auto_note">Уведомление автоматической отправки KoBo</string>
   <string name="notification_error">Ошибка отображения текста уведомления</string>
   <string name="delete_after_send">Удалить после отправки</string>
   <string name="delete_after_send_summary">Удаляет завершённые формы и их медиа после отправки данных на сервер</string>
@@ -290,8 +290,8 @@
   <string name="username_error_whitespace">Не допускается использовать пробельные символы в начале и конце имени пользователя</string>
   <string name="google_play_services_error_occured">Не удалось получить доступ к Google Картам. Установлены ли службы Google Play?</string>
   <string name="about_preferences">О программе</string>
-  <string name="tell_your_friends">Поделиться KoboCollect</string>
-  <string name="tell_your_friends_msg">Ваши колеги всё ещё ведут сбор данных на бумаге? Поделитесь KoboCollect с ними.</string>
+  <string name="tell_your_friends">Поделиться KoBoCollect</string>
+  <string name="tell_your_friends_msg">Ваши колеги всё ещё ведут сбор данных на бумаге? Поделитесь KoBoCollect с ними.</string>
   <string name="leave_a_review">Оставить отзыв в Play Store</string>
   <string name="leave_a_review_msg">Ваш отзыв (надеемся, положительный) делает приложение более заметным в Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->
@@ -332,7 +332,7 @@
   <string name="polygon_or_polyline">Сохранить геослед как</string>
   <string name="minutes">Минуты</string>
   <string name="geo_clear_warning">Географическая особенность уже создана. Хотите очистить особенность?</string>
-  <string name="geo_exit_warning">Отказаться от изменений и вернуться к ODK?</string>
+  <string name="geo_exit_warning">Отказаться от изменений и вернуться к KoBo?</string>
   <string name="polygon_validator">В многоугольнике должно быть как минимум 3 точки</string>
   <string name="dialog_continue">Продолжить</string>
   <string name="clear">Очистить</string>
@@ -351,7 +351,7 @@
   <string name="geotrace_view_change_location">Показать или изменить геослед</string>
   <string name="bearing">Азимут: %.3f</string>
   <string name="direction">Направление: %s</string>
-  <string name="select_odk_shortcut">Выбрать ярлык ODK</string>
+  <string name="select_odk_shortcut">Выбрать ярлык KoBo</string>
   <string name="bad_uri">Неправильный URI: %s</string>
   <string name="unrecognized_uri">Не удалось распознать URI: %s</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
@@ -370,9 +370,9 @@
   <string name="parser_exception">Исключение XPathParser: \"%s\"</string>
   <string name="selected_answer">Выбрано: %s</string>
   <string name="version_number">Версия: %s</string>
-  <string name="odk_website">Посетить вебсайт ODK</string>
-  <string name="odk_website_summary">Open Data Kit (ODK) используется для сбора данных на общее благо в трудных условиях.</string>
-  <string name="odk_forum">Войти на форум ODK</string>
+  <string name="odk_website">Посетить вебсайт KoBo</string>
+  <string name="odk_website_summary">KoBoToolbox используется для сбора данных на общее благо в трудных условиях.</string>
+  <string name="odk_forum">Войти на форум KoBo</string>
   <string name="odk_forum_summary">Зайдите на форум, чтобы получить тех. поддержку, оставить предложение, принять участие в разработке/переводе!</string>
   <string name="all_open_source_licenses">Открытые библиотеки/лицензии</string>
   <string name="all_open_source_licenses_msg">Мы стоим на плечах гигантов!</string>
@@ -393,7 +393,7 @@
   <string name="encryption_error_message">%s Форма не была сохранена как завёршенная.</string>
   <string name="analytics_preferences">Данные по использованию</string>
   <string name="analytics">Собирать анонимные данные об использовании</string>
-  <string name="analytics_summary">Анонимные данные об использовании помогут команде ODK расставить приоритеты в исправлении ошибок и добавлении новых возможностей.</string>
+  <string name="analytics_summary">Анонимные данные об использовании помогут команде KoBo расставить приоритеты в исправлении ошибок и добавлении новых возможностей.</string>
   <string name="select_all">Выбрать все</string>
   <string name="clear_all">Очистить все</string>
   <string name="reset_settings">Все настройки (внутренние настройки, сохранённые настройки)</string>
@@ -428,7 +428,7 @@
   <string name="sort_by_status_asc">По статусу, завершённые сначала</string>
   <string name="sort_by_status_desc">По статусу, незавершённые сначала</string>
   <string name="sort_the_list">Сортировать список</string>
-  <string name="request_permissions_google_account">KoboCollect требуется доступ к Вашему аккаунту Google, чтобы получать пустые формы и отправлять заполненные формы.</string>
+  <string name="request_permissions_google_account">KoBoCollect требуется доступ к Вашему аккаунту Google, чтобы получать пустые формы и отправлять заполненные формы.</string>
   <string name="filter_the_list">Фильтровать список</string>
   <string name="language">Язык</string>
   <string name="google_auth_io_exception_msg">Не удалось вызвать API. Если Вы запустили локальную сборку, пожалуйста, почитайте readme проекта.</string>

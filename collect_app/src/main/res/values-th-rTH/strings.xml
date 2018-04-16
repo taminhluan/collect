@@ -16,8 +16,8 @@
   <string name="capture_osm">เปิด OpenMapKit</string>
   <string name="capture_video">บันทึกภาพเคลื่อนไหว</string>
   <string name="change_language">เปลี่ยนภาษา</string>
-  <string name="change_password">รหัสผ่าน ODK</string>
-  <string name="change_username">ชื่อผู้ใช้งาน ODK</string>
+  <string name="change_password">รหัสผ่าน KoBo</string>
+  <string name="change_username">ชื่อผู้ใช้งาน KoBo</string>
   <string name="clearanswer_confirm">ย้ายคำตอบไปที่ \"%s\" หรือไม่?</string>
   <string name="clear_answer">ปิดคำตอบ</string>
   <string name="clear_answer_ask">ปิดคำตอบนี้หรือไม่?</string>
@@ -118,7 +118,7 @@
   <string name="general_preferences">ตั้งค่าทั่วไป</string>
   <string name="show_splash_summary">แสดงเมื่อเริ่มการทำงาน</string>
   <string name="splash_path">เลือกภาพเริ่มต้น</string>
-  <string name="default_splash_path">ค่าเริ่มต้น ODK</string>
+  <string name="default_splash_path">ค่าเริ่มต้น KoBo</string>
   <string name="select_another_image">เลือกภาพอื่น</string>
   <string name="use_odk_default">ใช้ภาพที่กำหนดไว้</string>
   <string name="change_splash_path">เปลี่ยนภาพใหม่</string>
@@ -151,7 +151,7 @@
   <string name="save_as_error">Saved name must not be blank!</string>
   <string name="edit_prompt">แก้ไขจุดที่เลือก</string>
   <string name="selected_google_account_text">บัญชีกูเกิล</string>
-  <string name="server_platform_odk_aggregate">KoboToolbox Aggregate</string>
+  <string name="server_platform_odk_aggregate">KoBoToolbox Aggregate</string>
   <string name="server_platform_other">อื่นๆ</string>
   <string name="font_size_extra_large">ขนาดใหญ่พิเศษ</string>
   <string name="font_size_large">ขนาดใหญ่</string>
@@ -244,7 +244,7 @@
   <string name="go_drive">My Drive</string>
   <string name="go_shared">แบ่งปันกับฉัน</string>
   <string name="modified_on_date_at_time">\'แก้ไขเมื่อ\' EEE, MMM dd, yyy \'เวลา\' HH:mm</string>
-  <string name="aggregate_preferences">ตั้งค่า KoboToolbox Aggregate</string>
+  <string name="aggregate_preferences">ตั้งค่า KoBoToolbox Aggregate</string>
   <string name="other_preferences">ตั้งค่า Platform อื่น</string>
   <string name="google_preferences">การตั้งค่า Google Sheets</string>
   <string name="drive_get_file">ได้รับ %1$s และไฟล์ภาพและเสียง</string>
@@ -299,7 +299,7 @@
   <string name="select_offline_layer">เลือกเลเยอร์ที่บันทึกไว้</string>
   <string name="polygon_or_polyline">บันทึก GeoTrace เป็น</string>
   <string name="minutes">นาที</string>
-  <string name="geo_exit_warning">ยกเลิกการเปลี่ยนแปลงและกลับไปที่ ODK?</string>
+  <string name="geo_exit_warning">ยกเลิกการเปลี่ยนแปลงและกลับไปที่ KoBo?</string>
   <string name="polygon_validator">ต้องมีจุดพิกัด 3 จุดขึ้นไปเพื่อสร้าง Polygon</string>
   <string name="dialog_continue">ดำเนินการต่อ</string>
   <string name="clear">ลบ</string>
@@ -314,7 +314,7 @@
   <string name="zoom_to_location">ซูมไปที่ตำแหน่งปัจจุบัน</string>
   <string name="geoshape_view_change_location">แสดงหรือแก้ไข GeoShape</string>
   <string name="geotrace_view_change_location">แสดงหรือแก้ไข GeoTrace</string>
-  <string name="select_odk_shortcut">เลือก ODK Shortcut</string>
+  <string name="select_odk_shortcut">เลือก KoBo Shortcut</string>
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
   <string name="corrupt_settings_file_notification">ขออภัย ไฟล์ตั้งค่าเสียหาย กรุณาลบทิ้งหรือแทนที่ด้วยไฟล์ใหม่</string>
   <string name="edited_osm_file">แก้ไขไฟล์ OSM XML:</string>
@@ -338,7 +338,7 @@
   <string name="invalid_rsa_public_key">RSA public key ไม่ถูกต้อง</string>
   <string name="analytics_preferences">ข้อมูลการใช้งาน</string>
   <string name="analytics">บันทึกค่าการใช้งานแบบไม่เจาะจงผู้ใช้</string>
-  <string name="analytics_summary">ค่าการใช้งานแบบไม่เจาะจงผู้ใช้จะช่วยทีมODK จัดลำดับการแก้ไขและเพิ่มความสามารถใหม่</string>
+  <string name="analytics_summary">ค่าการใช้งานแบบไม่เจาะจงผู้ใช้จะช่วยทีมKoBo จัดลำดับการแก้ไขและเพิ่มความสามารถใหม่</string>
   <string name="select_all">เลือกทั้งหมด</string>
   <string name="clear_all">ลบทั้งหมด</string>
   <string name="reset_settings">ค่าการติดตั้งทั้งหมด(การตั้งค่าภายใน, ค่าที่บันทึกไว้)</string>
@@ -359,7 +359,7 @@
   <string name="deleted_form">แบบสำรวจที่ถูกลบ</string>
   <string name="instance_scan_completed">สแกนเสร็จสิ้น</string>
   <string name="sort_the_list">จัดเรียงรายการ</string>
-  <string name="request_permissions_google_account">KoboCollect ต้องการเชื่อมต่อกับบัญชี Google เพื่อนำเข้าแบบสำรวจเปล่าและส่งข้อมูลที่เก็บแล้ว</string>
+  <string name="request_permissions_google_account">KoBoCollect ต้องการเชื่อมต่อกับบัญชี Google เพื่อนำเข้าแบบสำรวจเปล่าและส่งข้อมูลที่เก็บแล้ว</string>
   <string name="language">ภาษา</string>
   <string name="form_metadata_title">Metadata ของแบบสำรวจ</string>
   <string name="form_metadata">Form metadata</string>
