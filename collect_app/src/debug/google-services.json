@@ -1,25 +1,25 @@
 {
   "project_info": {
-    "project_number": "422392826654",
-    "project_id": "opendatakit-collect-debug"
+    "project_number": "520795394788",
+    "project_id": "kobocollect-47a4d"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:422392826654:android:5e1d7c3c296329e8",
+        "mobilesdk_app_id": "1:520795394788:android:3b0a466019a89dac",
         "android_client_info": {
-          "package_name": "org.odk.collect.android"
+          "package_name": "org.koboc.collect.android"
         }
       },
       "oauth_client": [
         {
-          "client_id": "422392826654-aj7or9nvv10cmk76tbrjhaffq2c8t1lt.apps.googleusercontent.com",
+          "client_id": "520795394788-lu8u9b6v3tk4f6r4929efvn1q5iapnuh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDBd6lcoo2QqHmj6tzjQXJWkqiswhRkoCA"
+          "current_key": "AIzaSyAzHDJAYmLmUbd_YX908CZVYHM-eU8JyU8"
         }
       ],
       "services": {

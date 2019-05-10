@@ -68,7 +68,7 @@ android {
     compileSdkVersion(28)
 
     defaultConfig {
-        applicationId('org.odk.collect.android')
+        applicationId('org.koboc.collect.android')
         minSdkVersion(16)
         targetSdkVersion(26)
         versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
@@ -87,6 +87,15 @@ android {
                 keyAlias secrets.getProperty('RELEASE_KEY_ALIAS')
                 keyPassword secrets.getProperty('RELEASE_KEY_PASSWORD')
             }
+        }
+    }
+
+    flavorDimensions "version"
+
+    productFlavors {
+        kobo {
+            applicationId "org.koboc.collect.android"
+            buildConfigField 'String', 'AUTHORITY', '"org.koboc.collect.android"'
         }
     }
 
