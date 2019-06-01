@@ -9,6 +9,7 @@
 -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bgMainMenu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="0dp"
@@ -45,16 +46,6 @@
             android:textSize="21sp"
             android:textStyle="bold"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:paddingBottom="10dp"
-            android:paddingTop="1dp"
-            android:text="@string/main_menu_details"
-            android:textColor="?primaryTextColor"
-            android:textSize="17sp"/>
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -64,91 +55,285 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingEnd="10dp"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:paddingStart="10dp">
+                android:paddingEnd="40dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingStart="40dp">
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="10dp"/>
 
-                <Button
+                <LinearLayout
                     android:id="@+id/enter_data"
+                    android:background="@drawable/bg_flat_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:textAllCaps="false"
-                    android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_edit_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvEnterData"
+                        android:text="@string/enter_data_button"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="5dp"/>
 
-                <Button
+                <LinearLayout
                     android:id="@+id/review_data"
+                    android:background="@drawable/bg_flat_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:textAllCaps="false"
-                    android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_spellcheck_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvReviewData"
+                        android:text="@string/review_data_button"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
 
                 <View
                     android:id="@+id/review_spacer"
                     android:layout_width="match_parent"
                     android:layout_height="5dp"/>
 
-                <Button
+                <LinearLayout
                     android:id="@+id/send_data"
+                    android:background="@drawable/bg_flat_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:textAllCaps="false"
-                    android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_send_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvSendData"
+                        android:text="@string/send_data_button"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="5dp"/>
 
-                <Button
+                <LinearLayout
                     android:id="@+id/view_sent_forms"
+                    android:background="@drawable/bg_flat_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/view_sent_forms"
-                    android:textAllCaps="false"
-                    android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_storage_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvViewSentForms"
+                        android:text="@string/view_sent_forms"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="20dp"/>
 
-                <Button
+                <LinearLayout
                     android:id="@+id/get_forms"
+                    android:background="@drawable/bg_flat_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:textAllCaps="false"
-                    android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_cloud_download_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvGetForm"
+                        android:text="@string/get_forms"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
 
                 <View
                     android:id="@+id/get_forms_spacer"
                     android:layout_width="match_parent"
                     android:layout_height="5dp"/>
 
-                <Button
+                <LinearLayout
                     android:id="@+id/manage_forms"
+                    android:background="@drawable/bg_flat_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:textAllCaps="false"
-                    android:textSize="21sp"
-                    android:textStyle="normal"/>
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_delete_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvManagerFiles"
+                        android:text="@string/manage_files"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"/>
+
+                <LinearLayout
+                    android:id="@+id/llAbout"
+                    android:background="@drawable/bg_flat_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:padding="12dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:background="@drawable/bg_blue_rounded"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="8dp">
+                        <ImageView
+                            android:padding="5dp"
+                            android:background="@drawable/baseline_info_24"
+                            android:backgroundTint="@color/blueDarker"
+                            android:contentDescription="@string/image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tvAbout"
+                        android:text="@string/about_preferences"
+                        android:textSize="21sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
             </LinearLayout>
 
         </ScrollView>

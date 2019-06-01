@@ -9,5 +9,5 @@
     app:contentInsetEnd="0dp"
     app:contentInsetStart="0dp"
     app:contentInsetStartWithNavigation="0dp"
-    app:navigationIcon="@drawable/notes"
+    app:navigationIcon="@drawable/ic_note_36"
     app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />

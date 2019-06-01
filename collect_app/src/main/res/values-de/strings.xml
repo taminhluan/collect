@@ -302,8 +302,8 @@
   <string name="username_error_whitespace">Leerzeichen am Anfang und Ende von Benutzernamen nicht erlaubt</string>
   <string name="google_play_services_error_occured">Zugriff auf Google Maps nicht möglich. Sind die Google Play Services installiert?</string>
   <string name="about_preferences">Über</string>
-  <string name="tell_your_friends">KoBoCollect teilen</string>
-  <string name="tell_your_friends_msg">Erfassen Ihre Kollegen Daten immer noch auf Papier. Empfehlen Sie Ihnen KoBoCollect.</string>
+  <string name="tell_your_friends">The bridging bonds teilen</string>
+  <string name="tell_your_friends_msg">Erfassen Ihre Kollegen Daten immer noch auf Papier. Empfehlen Sie Ihnen The bridging bonds.</string>
   <string name="leave_a_review">Geben Sie eine Play Store Bewertung ab</string>
   <string name="leave_a_review_msg">Ihre (hoffentlich positive) Bewertung steigert die Bekanntheit der App im Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->

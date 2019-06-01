@@ -235,7 +235,7 @@
   <string name="replace_bearing">Mengganti arah suatu titik</string>
   <string name="getting_bearing">Memuat arah suatu titik</string>
   <string name="accept_bearing">Merekam arah suatu titik</string>
-  <string name="sdcard_unmounted">KoBoCollect tidak dapat mengakses SD card. Mungkin itu terpasang melalui USB? (kondisi saat ini: %s)</string>
+  <string name="sdcard_unmounted">The bridging bonds tidak dapat mengakses SD card. Mungkin itu terpasang melalui USB? (kondisi saat ini: %s)</string>
   <string name="ext_file_no_data_error">File tidak memiliki data!</string>
   <string name="ext_conflicting_columns_error">Semua kolom %s sesuai!</string>
   <string name="ext_sortBy_numeric_error">Kolom terfilter anda harus hanya berisi nilai numerik. Nilai yang  konflik adalah \'%s\'.</string>

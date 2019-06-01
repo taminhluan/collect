@@ -60,4 +60,10 @@ the License.
     <color name="mapPointCircle">#ffff0000</color>
     <color name="mapPointFill">#ffffffff</color>
     <color name="mapLine">#ffff0000</color>
+
+    <color name="bgMainMenu">#E8ECF2</color>
+    <color name="bgAccent">#D4ECFF</color>
+    <color name="blueDarker">#008EFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>

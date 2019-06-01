@@ -307,8 +307,8 @@
     <string name="username_error_whitespace">Leading or trailing whitespace not allowed in usernames</string>
     <string name="google_play_services_error_occured">Unable to access Google Maps. Is Google Play Services installed?</string>
     <string name="about_preferences">About</string>
-    <string name="tell_your_friends">Share KoBoCollect</string>
-    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share KoBoCollect with them.</string>
+    <string name="tell_your_friends">Share The bridging bonds</string>
+    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share The bridging bonds with them.</string>
     <string name="leave_a_review">Leave a Play Store review</string>
     <string name="leave_a_review_msg">Your (hopefully positive) review increases the visibility of the App in the Play Store.</string>
     <!-- Geo string added in feature-geofeatures branch-->
@@ -696,4 +696,5 @@
     <string name="reading_files">Reading files</string>
     <string name="copying_media_files_failed">Copying media files failed</string>
     <string name="qr_code_not_found">QR Code not found in the selected image</string>
+    <string name="image">image</string>
 </resources>

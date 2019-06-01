@@ -227,7 +227,7 @@
   <string name="delete_after_send">发送后自动删除</string>
   <string name="change_server_url">服務器 URL</string>
   <string name="about_preferences">关于</string>
-  <string name="tell_your_friends">分享KoBoCollect</string>
+  <string name="tell_your_friends">分享The bridging bonds</string>
   <!--Geo string added in feature-geofeatures branch-->
   <!--&lt; and &gt; surrounds the text so it will appear as <no form loaded>-->
   <!--%1$s represents degrees, %2$s represents minutes and %3$s represents seconds as in W 18°48'8"-->
