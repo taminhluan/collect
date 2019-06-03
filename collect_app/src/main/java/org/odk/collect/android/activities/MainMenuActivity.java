@@ -224,6 +224,17 @@ public class MainMenuActivity extends CollectAbstractActivity {
             }
         });
 
+        llAbout = findViewById(R.id.llAbout);
+        llAbout.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (Collect.allowClick(getClass().getName())) {
+                    Intent aboutIntent = new Intent(MainMenuActivity.this, AboutActivity.class);
+                    startActivity(aboutIntent);
+                }
+            }
+        });
+
         // must be at the beginning of any activity that can be called from an
         // external intent
         Timber.i("Starting up, creating directories");

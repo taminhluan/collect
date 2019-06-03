@@ -39,8 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:paddingBottom="1dp"
-            android:paddingTop="6dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="16dp"
             android:text="@string/app_name"
             android:textColor="?primaryTextColor"
             android:textSize="21sp"
@@ -67,6 +67,7 @@
                 <LinearLayout
                     android:id="@+id/enter_data"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
@@ -106,6 +107,7 @@
                 <LinearLayout
                     android:id="@+id/review_data"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
@@ -146,6 +148,7 @@
                 <LinearLayout
                     android:id="@+id/send_data"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
@@ -185,6 +188,7 @@
                 <LinearLayout
                     android:id="@+id/view_sent_forms"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
@@ -224,6 +228,7 @@
                 <LinearLayout
                     android:id="@+id/get_forms"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
@@ -264,6 +269,7 @@
                 <LinearLayout
                     android:id="@+id/manage_forms"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
@@ -303,6 +309,7 @@
                 <LinearLayout
                     android:id="@+id/llAbout"
                     android:background="@drawable/bg_flat_button"
+                    android:foreground="?android:attr/selectableItemBackground"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="left|center_vertical"
