@@ -63,9 +63,18 @@ public class HierarchyListAdapter extends RecyclerView.Adapter<HierarchyListAdap
         if (hierarchyElements.get(position).getSecondaryText() != null && !hierarchyElements.get(position).getSecondaryText().isEmpty()) {
             holder.secondaryText.setVisibility(View.VISIBLE);
             holder.secondaryText.setText(TextUtils.textToHtml(hierarchyElements.get(position).getSecondaryText()));
+            holder.primaryText.setTextColor(Color.parseColor("#000000"));
         } else {
             holder.secondaryText.setVisibility(View.GONE);
-            holder.primaryText.setTextColor(Color.parseColor("#F44336"));
+
+            if (hierarchyElements.get(position).getFp() != null) {
+                FormEntryPrompt fp = hierarchyElements.get(position).getFp();
+                if (fp.getDataType() != 1) {
+                    holder.primaryText.setTextColor(Color.parseColor("#F44336"));
+                } else {
+                    holder.primaryText.setTextColor(Color.parseColor("#000000"));
+                }
+            }
         }
     }
 

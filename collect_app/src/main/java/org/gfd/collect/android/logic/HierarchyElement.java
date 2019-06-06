@@ -19,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.javarosa.core.model.FormIndex;
+import org.javarosa.form.api.FormEntryPrompt;
 
 /**
  * Represents a question or repeat to be shown in
@@ -49,6 +50,8 @@ public class HierarchyElement {
     @Nullable
     private final String secondaryText;
 
+    private FormEntryPrompt fp;
+
     /**
      * An optional icon.
      */
@@ -62,6 +65,16 @@ public class HierarchyElement {
         this.icon = icon;
         this.type = type;
         this.formIndex = formIndex;
+    }
+
+    public HierarchyElement(@NonNull String primaryText, @Nullable String secondaryText,
+                            @Nullable Drawable icon, @NonNull Type type, @NonNull FormIndex formIndex, FormEntryPrompt fp) {
+        this.primaryText = primaryText;
+        this.secondaryText = secondaryText;
+        this.icon = icon;
+        this.type = type;
+        this.formIndex = formIndex;
+        this.fp = fp;
     }
 
     @NonNull
@@ -95,6 +108,14 @@ public class HierarchyElement {
 
     public void setType(@NonNull Type newType) {
         type = newType;
+    }
+
+    public FormEntryPrompt getFp() {
+        return fp;
+    }
+
+    public void setFp(FormEntryPrompt fp) {
+        this.fp = fp;
     }
 
     /**

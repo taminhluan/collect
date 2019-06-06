@@ -587,11 +587,12 @@ public class FormHierarchyActivity extends CollectAbstractActivity {
                         }
 
                         FormEntryPrompt fp = formController.getQuestionPrompt();
+                        int dataType = fp.getDataType();
                         String label = fp.getShortText();
                         String answerDisplay = FormEntryPromptUtils.getAnswerText(fp, this, formController);
                         elementsToDisplay.add(
                                 new HierarchyElement(FormEntryPromptUtils.markQuestionIfIsRequired(label, fp.isRequired()), answerDisplay, null,
-                                        HierarchyElement.Type.QUESTION, fp.getIndex()));
+                                        HierarchyElement.Type.QUESTION, fp.getIndex(), fp));
                         break;
                     }
                     case FormEntryController.EVENT_GROUP: {
