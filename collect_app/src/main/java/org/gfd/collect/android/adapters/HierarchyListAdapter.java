@@ -18,6 +18,9 @@ package org.gfd.collect.android.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +30,7 @@ import android.widget.TextView;
 import org.gfd.collect.android.R;
 import org.gfd.collect.android.logic.HierarchyElement;
 import org.gfd.collect.android.utilities.TextUtils;
+import org.javarosa.form.api.FormEntryPrompt;
 
 import java.util.List;
 
@@ -61,6 +65,7 @@ public class HierarchyListAdapter extends RecyclerView.Adapter<HierarchyListAdap
             holder.secondaryText.setText(TextUtils.textToHtml(hierarchyElements.get(position).getSecondaryText()));
         } else {
             holder.secondaryText.setVisibility(View.GONE);
+            holder.primaryText.setTextColor(Color.parseColor("#F44336"));
         }
     }
 

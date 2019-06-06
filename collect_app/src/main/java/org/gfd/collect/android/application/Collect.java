@@ -241,7 +241,8 @@ public class Collect extends Application {
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         JodaTimeAndroid.init(this);
 
-        defaultSysLanguage = Locale.getDefault().getLanguage();
+//        defaultSysLanguage = Locale.getDefault().getLanguage();
+        defaultSysLanguage = "VI";
         new LocaleHelper().updateLocale(this);
 
         FormMetadataMigrator.migrate(PreferenceManager.getDefaultSharedPreferences(this));

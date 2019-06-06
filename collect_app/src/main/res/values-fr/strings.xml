@@ -302,8 +302,8 @@
   <string name="username_error_whitespace">Les espaces ne sont pas permis au début ou à la fin du nom d\'utilisateur</string>
   <string name="google_play_services_error_occured">Impossible d’accéder à Google Maps. Google Play Services est-il installé ?</string>
   <string name="about_preferences">À propos</string>
-  <string name="tell_your_friends">Partager The bridging bonds</string>
-  <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier? Partager The bridging bondser avec eux.</string>
+  <string name="tell_your_friends">Partager Gắn kết</string>
+  <string name="tell_your_friends_msg">Vos collègues continuent-ils à collecter des données sur papier? Partager Gắn kếter avec eux.</string>
   <string name="leave_a_review">Laissez un avis sur Play Store</string>
   <string name="leave_a_review_msg">Votre avis (ce qu\'on espère est positif) augmente la visibilité de l\'application dans le Play Store.</string>
   <!--Geo string added in feature-geofeatures branch-->

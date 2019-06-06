@@ -56,25 +56,25 @@ public class AboutActivity extends CollectAbstractActivity implements
         setContentView(R.layout.about_layout);
         initToolbar();
 
-        int[][] items = {
-                {R.drawable.ic_website, R.string.odk_website, R.string.odk_website_summary},
-                {R.drawable.ic_forum, R.string.odk_forum, R.string.odk_forum_summary},
-                {R.drawable.ic_share, R.string.tell_your_friends, R.string.tell_your_friends_msg},
-                {R.drawable.ic_review_rate, R.string.leave_a_review, R.string.leave_a_review_msg},
-                {R.drawable.ic_stars, R.string.all_open_source_licenses, R.string.all_open_source_licenses_msg}
-        };
-
-        RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(new AboutListAdapter(items, this, this));
-        recyclerView.setItemAnimator(new DefaultItemAnimator());
-
-        websiteTabHelper = new CustomTabHelper();
-        forumTabHelper = new CustomTabHelper();
-
-        websiteUri = Uri.parse(ODK_WEBSITE);
-        forumUri = Uri.parse(ODK_FORUM);
+//        int[][] items = {
+//                {R.drawable.baseline_edit_24, R.string.odk_website, R.string.odk_website_summary},
+//                {R.drawable.baseline_edit_24, R.string.odk_forum, R.string.odk_forum_summary},
+//                {R.drawable.baseline_edit_24, R.string.tell_your_friends, R.string.tell_your_friends_msg},
+//                {R.drawable.baseline_edit_24, R.string.leave_a_review, R.string.leave_a_review_msg},
+//                {R.drawable.baseline_edit_24, R.string.all_open_source_licenses, R.string.all_open_source_licenses_msg}
+//        };
+//
+//        RecyclerView recyclerView = findViewById(R.id.recyclerView);
+//        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+//        recyclerView.setLayoutManager(layoutManager);
+//        recyclerView.setAdapter(new AboutListAdapter(items, this, this));
+//        recyclerView.setItemAnimator(new DefaultItemAnimator());
+//
+//        websiteTabHelper = new CustomTabHelper();
+//        forumTabHelper = new CustomTabHelper();
+//
+//        websiteUri = Uri.parse(ODK_WEBSITE);
+//        forumUri = Uri.parse(ODK_FORUM);
     }
 
     private void initToolbar() {
@@ -86,72 +86,72 @@ public class AboutActivity extends CollectAbstractActivity implements
     @Override
     public void onClick(int position) {
         if (Collect.allowClick(getClass().getName())) {
-            switch (position) {
-                case 0:
-                    websiteTabHelper.openUri(this, websiteUri);
-                    break;
-                case 1:
-                    forumTabHelper.openUri(this, forumUri);
-                    break;
-                case 2:
-                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                    shareIntent.setType("text/plain");
-                    shareIntent.putExtra(Intent.EXTRA_TEXT,
-                            getString(R.string.tell_your_friends_msg) + " " + GOOGLE_PLAY_URL
-                                    + getPackageName());
-                    startActivity(Intent.createChooser(shareIntent,
-                            getString(R.string.tell_your_friends)));
-                    break;
-                case 3:
-                    boolean intentStarted = false;
-                    try {
-                        // Open the google play store app if present
-                        Intent intent = new Intent(Intent.ACTION_VIEW,
-                                Uri.parse("market://details?id=" + getPackageName()));
-                        List<ResolveInfo> list = getPackageManager().queryIntentActivities(intent, 0);
-                        for (ResolveInfo info : list) {
-                            ActivityInfo activity = info.activityInfo;
-                            if (activity.name.contains("com.google.android")) {
-                                ComponentName name = new ComponentName(
-                                        activity.applicationInfo.packageName,
-                                        activity.name);
-                                intent.setComponent(name);
-                                startActivity(intent);
-                                intentStarted = true;
-                            }
-                        }
-                    } catch (android.content.ActivityNotFoundException anfe) {
-                        Toast.makeText(Collect.getInstance(),
-                                getString(R.string.activity_not_found, "market view"),
-                                Toast.LENGTH_SHORT).show();
-                        Timber.d(anfe);
-                    }
-                    if (!intentStarted) {
-                        // Show a list of all available browsers if user doesn't have a default browser
-                        startActivity(new Intent(Intent.ACTION_VIEW,
-                                Uri.parse(GOOGLE_PLAY_URL + getPackageName())));
-                    }
-                    break;
-                case 4:
-                    Intent intent = new Intent(this, WebViewActivity.class);
-                    intent.putExtra(CustomTabHelper.OPEN_URL, LICENSES_HTML_PATH);
-                    startActivity(intent);
-                    break;
-            }
+//            switch (position) {
+//                case 0:
+//                    websiteTabHelper.openUri(this, websiteUri);
+//                    break;
+//                case 1:
+//                    forumTabHelper.openUri(this, forumUri);
+//                    break;
+//                case 2:
+//                    Intent shareIntent = new Intent(Intent.ACTION_SEND);
+//                    shareIntent.setType("text/plain");
+//                    shareIntent.putExtra(Intent.EXTRA_TEXT,
+//                            getString(R.string.tell_your_friends_msg) + " " + GOOGLE_PLAY_URL
+//                                    + getPackageName());
+//                    startActivity(Intent.createChooser(shareIntent,
+//                            getString(R.string.tell_your_friends)));
+//                    break;
+//                case 3:
+//                    boolean intentStarted = false;
+//                    try {
+//                        // Open the google play store app if present
+//                        Intent intent = new Intent(Intent.ACTION_VIEW,
+//                                Uri.parse("market://details?id=" + getPackageName()));
+//                        List<ResolveInfo> list = getPackageManager().queryIntentActivities(intent, 0);
+//                        for (ResolveInfo info : list) {
+//                            ActivityInfo activity = info.activityInfo;
+//                            if (activity.name.contains("com.google.android")) {
+//                                ComponentName name = new ComponentName(
+//                                        activity.applicationInfo.packageName,
+//                                        activity.name);
+//                                intent.setComponent(name);
+//                                startActivity(intent);
+//                                intentStarted = true;
+//                            }
+//                        }
+//                    } catch (android.content.ActivityNotFoundException anfe) {
+//                        Toast.makeText(Collect.getInstance(),
+//                                getString(R.string.activity_not_found, "market view"),
+//                                Toast.LENGTH_SHORT).show();
+//                        Timber.d(anfe);
+//                    }
+//                    if (!intentStarted) {
+//                        // Show a list of all available browsers if user doesn't have a default browser
+//                        startActivity(new Intent(Intent.ACTION_VIEW,
+//                                Uri.parse(GOOGLE_PLAY_URL + getPackageName())));
+//                    }
+//                    break;
+//                case 4:
+//                    Intent intent = new Intent(this, WebViewActivity.class);
+//                    intent.putExtra(CustomTabHelper.OPEN_URL, LICENSES_HTML_PATH);
+//                    startActivity(intent);
+//                    break;
+//            }
         }
     }
 
     @Override
     public void onStart() {
         super.onStart();
-        websiteTabHelper.bindCustomTabsService(this, websiteUri);
-        forumTabHelper.bindCustomTabsService(this, forumUri);
+//        websiteTabHelper.bindCustomTabsService(this, websiteUri);
+//        forumTabHelper.bindCustomTabsService(this, forumUri);
     }
 
     @Override
     public void onDestroy() {
-        unbindService(websiteTabHelper.getServiceConnection());
-        unbindService(forumTabHelper.getServiceConnection());
+//        unbindService(websiteTabHelper.getServiceConnection());
+//        unbindService(forumTabHelper.getServiceConnection());
         super.onDestroy();
     }
 }

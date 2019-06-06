@@ -307,8 +307,8 @@
     <string name="username_error_whitespace">Leading or trailing whitespace not allowed in usernames</string>
     <string name="google_play_services_error_occured">Unable to access Google Maps. Is Google Play Services installed?</string>
     <string name="about_preferences">About</string>
-    <string name="tell_your_friends">Share The bridging bonds</string>
-    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share The bridging bonds with them.</string>
+    <string name="tell_your_friends">Share Gắn kết</string>
+    <string name="tell_your_friends_msg">Are your colleagues still collecting data on paper? Share Gắn kết with them.</string>
     <string name="leave_a_review">Leave a Play Store review</string>
     <string name="leave_a_review_msg">Your (hopefully positive) review increases the visibility of the App in the Play Store.</string>
     <!-- Geo string added in feature-geofeatures branch-->
@@ -697,4 +697,8 @@
     <string name="copying_media_files_failed">Copying media files failed</string>
     <string name="qr_code_not_found">QR Code not found in the selected image</string>
     <string name="image">image</string>
+    <string name="about_1">Gắn kết là một sáng kiến thử nghiệm ứng dụng công nghệ thông tin giúp cộng đồng tham gia hiệu quả hơn vào giám sát tác động của các chính sách, công trình, dự án đầu tư của nhà nước tại cộng đồng mà họ đang sinh sống.</string>
+    <string name="about_2">Gắn kết bao gồm một Ứng dụng giúp thu thập thông tin về các tác động của thủy điện đến các mặt đời sống, văn hóa, xã hội, môi trường tại cộng đồng, và một Phần mềm xử lý và phân tích các thông tin mà anh/chị thu thập được.</string>
+    <string name="about_3">Báo cáo chiết xuất từ phần mềm phân tích thông tin có thể được dùng bởi các cơ quan quản lý công trình thủy điện, và người dân sinh sống tại vùng thủy điện vận hành, để có thể nắm được một cách có hệ thống các tác động chính, từ đó đưa ra các quyết sách giúp cải thiện các tác động xấu, và phát huy các tác động tích cực.</string>
+    <string name="about_4">Gắn kết nhấn mạnh sự hợp tác, chung tay của cộng đồng và các bên liên quan nhằm tăng cường hiệu quả thực hiện các chương trình, chính sách của nhà nước để cùng nhau tạo ra sự phồn thịnh chung của cộng đồng”</string>
 </resources>
