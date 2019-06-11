@@ -67,9 +67,11 @@ import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 import org.apache.commons.io.IOUtils;
+import org.gfd.collect.android.utilities.FormEntryPromptUtils;
 import org.javarosa.core.model.FormDef;
 import org.javarosa.core.model.FormIndex;
 import org.javarosa.core.model.data.IAnswerData;
+import org.javarosa.core.model.data.helper.Selection;
 import org.javarosa.core.model.instance.TreeElement;
 import org.javarosa.form.api.FormEntryCaption;
 import org.javarosa.form.api.FormEntryController;
@@ -1270,6 +1272,40 @@ public class FormEntryActivity extends CollectAbstractActivity implements Animat
      * a button for saving and exiting.
      */
     private View createViewForFormEnd(FormController formController) {
+        formController.jumpToIndex(FormIndex.createBeginningOfFormIndex());
+        int event = formController.getEvent();
+        List<String> answers = new ArrayList<>();
+        String collectorID = "";
+
+        while (event != FormEntryController.EVENT_END_OF_FORM) {
+            if (event == FormEntryController.EVENT_QUESTION) {
+                FormEntryPrompt fp = formController.getQuestionPrompt();
+                String answerDisplay = FormEntryPromptUtils.getAnswerText(fp, this, formController);
+                answers.add(answerDisplay);
+                String treeElementName = null;
+                if (fp.getTreeElement() != null) {
+                    treeElementName = fp.getTreeElement().getName();
+                }
+                if ("question_4".equals(treeElementName)) {
+                    collectorID = answerDisplay;
+                    // Test get answer value luantm (11-JUN-2019)
+//                    if (fp.getAnswerValue() != null) {
+//                        try {
+//                            Selection value = (Selection) fp.getAnswerValue().getValue();
+//                            collectorID = value.xmlValue;
+//                        } catch (Exception e) {
+//
+//                        }
+//                    }
+                    // End Test get answer value luantm (11-JUN-2019)
+                }
+            } else if (event == FormEntryController.EVENT_GROUP) {
+
+            }
+            event = formController.stepToNextEvent(FormController.STEP_INTO_GROUP);
+        }
+
+
         View endView = View.inflate(this, R.layout.form_entry_end, null);
         ((TextView) endView.findViewById(R.id.description))
                 .setText(getString(R.string.save_enter_data_description,
@@ -1362,6 +1398,10 @@ public class FormEntryActivity extends CollectAbstractActivity implements Animat
                     .findViewById(R.id.save_form_as);
             sa.setVisibility(View.GONE);
         }
+
+        // Change saveAs text = collector ID luantm (11-Jun-2019)
+        saveAs.setText(collectorID);
+        // END Change saveAs text = collector ID luantm (11-Jun-2019)
 
         // Create 'save' button
         endView.findViewById(R.id.save_exit_button)

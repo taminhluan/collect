@@ -82,7 +82,8 @@ the specific language governing permissions and limitations under the License.
 
     <application
         android:name="org.gfd.collect.android.application.Collect"
-        android:icon="@drawable/ic_care_48"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:installLocation="auto"
         android:label="@string/app_name"
         android:largeHeap="true"

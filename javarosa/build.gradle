@@ -1,0 +1,86 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+    id 'jacoco'
+    id "me.champeau.gradle.jmh" version "0.4.8"
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceSets {
+    main.java.srcDirs = ['src/main/java']
+    main.resources.srcDirs = ['src/main/resources']
+    test.java.srcDirs = ['src/test/java']
+    test.resources.srcDirs = ['src/test/resources']
+}
+
+compileJava {
+    options.compilerArgs << "-Xlint:deprecation"
+}
+
+compileTestJava {
+    options.compilerArgs << "-Xlint:deprecation"
+}
+
+targetCompatibility = '1.8'
+sourceCompatibility = '1.8'
+
+dependencies {
+    // Be sure to update dependencies in pom.xml to match
+    compile group: 'joda-time', name: 'joda-time', version: '2.9.9'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compileOnly group: 'net.sf.kxml', name: 'kxml2', version: '2.3.0'
+    testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'net.sf.kxml', name: 'kxml2', version: '2.3.0'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+    }
+}
+
+// Required to use fileExtensions property in checkstyle file
+checkstyle {
+    toolVersion = '7.6.1'
+}
+
+jar {
+    baseName = 'opendatakit-javarosa'
+    // Be sure to update version in pom.xml to match
+    // snapshot release = x.x.x-SNAPSHOT
+    // production release = x.x.x
+    version = '2.15.0-SNAPSHOT'
+    archiveName = baseName + '-' + version + '.jar'
+
+    manifest {
+        attributes 'Manifest-Version': "$jar.version"
+    }
+}
+
+// Useful for testing
+task explodedJar(type: Copy) {
+    into "$buildDir/libs/$jar.baseName $jar.version"
+    with jar
+}
+
+// TODO: does not build UML diagrams
+javadoc {
+    failOnError = false
+}
+
+jmh {
+    iterations = 1
+    fork = 0
+    timeOnIteration = '1s'
+    timeout = '1s'
+    warmup = '1s'
+    warmupBatchSize = 1
+    warmupForks = 0
+    warmupIterations = 1
+    includeTests = true
+}

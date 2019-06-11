@@ -73,8 +73,8 @@ android {
         targetSdkVersion(26)
 //        versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
 //        versionName getVersionName()
-        versionCode 2
-        versionName "0.2"
+        versionCode 3
+        versionName "0.3"
         testInstrumentationRunner('androidx.test.runner.AndroidJUnitRunner')
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
@@ -156,6 +156,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+        encoding 'windows-1251'
     }
 
     dexOptions {
@@ -227,10 +228,10 @@ dependencies {
     implementation "commons-io:commons-io:2.6"
     implementation "net.sf.kxml:kxml2:2.3.0"
     implementation "net.sf.opencsv:opencsv:2.3"
-    implementation("org.opendatakit:opendatakit-javarosa:2.14.0") {
-        exclude group: 'joda-time'
-        exclude group: 'org.slf4j'
-    }
+//    implementation("org.opendatakit:opendatakit-javarosa:2.14.0") {
+//        exclude group: 'joda-time'
+//        exclude group: 'org.slf4j'
+//    }
     implementation "com.karumi:dexter:5.0.0"
     implementation "org.osmdroid:osmdroid-android:5.6.4"
     implementation("com.google.api-client:google-api-client-android:1.22.0") {
@@ -335,6 +336,10 @@ dependencies {
     androidTestImplementation "com.squareup.okhttp3:mockwebserver:${rootProject.okhttp3Version}"
 
     androidTestImplementation "android.arch.work:work-testing:${rootProject.workManagerVersion}"
+    implementation(project(path: ':javarosa')) {
+        exclude group: 'joda-time'
+        exclude group: 'org.slf4j'
+    }
 }
 
 // Must be at bottom to prevent dependency collisions
