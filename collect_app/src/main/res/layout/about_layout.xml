@@ -80,14 +80,28 @@ limitations under the License.
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:weightSum="4"
+        android:weightSum="5"
         >
         <ImageView
             android:contentDescription="@string/image"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:padding="20dp"
+            android:padding="5dp"
+            android:src="@drawable/logo_cirum"/>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            app:srcCompat="@drawable/logo_lhpn"/>
+        <ImageView
+            android:contentDescription="@string/image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
             app:srcCompat="@drawable/logo_care"/>
         <ImageView
             android:contentDescription="@string/image"
@@ -95,12 +109,7 @@ limitations under the License.
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:src="@drawable/logo_warecod"/>
-        <ImageView
-            android:contentDescription="@string/image"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/logo_cirum"/>
+
         <ImageView
             android:contentDescription="@string/image"
             android:layout_width="0dp"
