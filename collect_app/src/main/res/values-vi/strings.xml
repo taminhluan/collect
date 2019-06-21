@@ -693,10 +693,9 @@
   <string name="copying_media_files_failed">Lỗi sao chép các tập tin</string>
   <string name="qr_code_not_found">QR Code không tìm thấy trong ảnh được chọn</string>
   <string name="image">ảnh</string>
-  <string name="about_1">\t\t\t\tGắn kết là một sáng kiến thử nghiệm ứng dụng công nghệ thông tin giúp cộng đồng tham gia hiệu quả hơn vào giám sát tác động của các chính sách, công trình, dự án đầu tư của nhà nước tại cộng đồng mà họ đang sinh sống.</string>
-  <string name="about_2">\t\t\t\tGắn kết bao gồm một Ứng dụng giúp thu thập thông tin về các tác động của thủy điện đến các mặt đời sống, văn hóa, xã hội, môi trường tại cộng đồng, và một Phần mềm xử lý và phân tích các thông tin mà anh/chị thu thập được.</string>
-  <string name="about_3">\t\t\t\tBáo cáo chiết xuất từ phần mềm phân tích thông tin có thể được dùng bởi các cơ quan quản lý công trình thủy điện, và người dân sinh sống tại vùng thủy điện vận hành, để có thể nắm được một cách có hệ thống các tác động chính, từ đó đưa ra các quyết sách giúp cải thiện các tác động xấu, và phát huy các tác động tích cực.</string>
-  <string name="about_4">\t\t\t\tGắn kết nhấn mạnh sự hợp tác, chung tay của cộng đồng và các bên liên quan nhằm tăng cường hiệu quả thực hiện các chương trình, chính sách của nhà nước để cùng nhau tạo ra sự phồn thịnh chung của cộng đồng</string>
+  <string name="about_1">\t\t\t\t\'Gắn kết\' là một sáng kiến thử nghiệm ứng dụng công nghệ giúp cộng đồng tham gia giám sát các dự án và hỗ trợ địa phương.</string>
+  <string name="about_2">\t\t\t\tKèm theo là một phần mềm giúp xử lý và phân tích thông tin thu được. Từ đó sẽ hình thành các báo cáo, kiến nghị giúp các cơ quan, doanh nghiệp và cộng đồng phát huy điểm mạnh và hạn chế các tác động không mong muốn.</string>
+  <string name="about_3">\t\t\t\t\'Gắn kết\' trên cơ sở hợp tác tự nguyện giữa các bên để thực hiện tốt hơn các chính sách, chương trình phát triển, hướng tới cộng đồng thịnh vượng.</string>
 
 
   <!--Geo string added in feature-geofeatures branch-->

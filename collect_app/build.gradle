@@ -80,8 +80,8 @@ android {
         targetSdkVersion(26)
 //        versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
 //        versionName getVersionName()
-        versionCode 7
-        versionName "0.7"
+        versionCode 8
+        versionName "0.8"
         testInstrumentationRunner('androidx.test.runner.AndroidJUnitRunner')
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
