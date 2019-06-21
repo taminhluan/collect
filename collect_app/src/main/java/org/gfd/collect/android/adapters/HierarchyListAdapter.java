@@ -70,7 +70,7 @@ public class HierarchyListAdapter extends RecyclerView.Adapter<HierarchyListAdap
             if (hierarchyElements.get(position).getFp() != null) {
                 FormEntryPrompt fp = hierarchyElements.get(position).getFp();
                 String treeElementName = fp.getTreeElement().getName();
-                if (treeElementName != null && treeElementName.startsWith("question")) {
+                if (treeElementName != null && treeElementName.startsWith("q")) {
                     holder.primaryText.setTextColor(Color.parseColor("#F44336"));
                 } else {
                     holder.primaryText.setTextColor(Color.parseColor("#000000"));

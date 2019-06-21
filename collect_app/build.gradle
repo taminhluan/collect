@@ -67,14 +67,21 @@ if (secretsFile.exists()) {
 android {
     compileSdkVersion(28)
 
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
     defaultConfig {
         applicationId('org.gfd.collect.android')
         minSdkVersion(16)
         targetSdkVersion(26)
 //        versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
 //        versionName getVersionName()
-        versionCode 5
-        versionName "0.5"
+        versionCode 7
+        versionName "0.7"
         testInstrumentationRunner('androidx.test.runner.AndroidJUnitRunner')
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
