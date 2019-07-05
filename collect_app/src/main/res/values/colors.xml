@@ -15,7 +15,9 @@ the License.
 -->
 <resources>
     <!-- Material Design color palette -->
+    <color name="red_800">#c62828</color>
     <color name="red_500">#F44336</color>
+    <color name="red_100">#ffcdd2</color>
     <color name="blue_500">#2196F3</color>
     <color name="green_500">#4CAF50</color>
     <color name="deep_purple_500">#673AB7</color>

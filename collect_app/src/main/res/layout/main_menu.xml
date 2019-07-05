@@ -42,7 +42,7 @@
             android:paddingBottom="10dp"
             android:paddingTop="16dp"
             android:text="@string/app_name"
-            android:textColor="?primaryTextColor"
+            android:textColor="@color/red_500"
             android:textSize="21sp"
             android:textStyle="bold"/>
 
@@ -76,7 +76,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -85,7 +85,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_edit_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
@@ -116,7 +116,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -125,7 +125,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_spellcheck_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
@@ -157,7 +157,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -166,7 +166,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_send_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
@@ -197,7 +197,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -206,7 +206,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_storage_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
@@ -237,7 +237,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -246,7 +246,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_cloud_download_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
@@ -278,7 +278,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -287,7 +287,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_delete_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />
@@ -318,7 +318,7 @@
                     android:orientation="horizontal"
                     >
                     <LinearLayout
-                        android:background="@drawable/bg_blue_rounded"
+                        android:background="@drawable/bg_red_rounded"
                         android:layout_width="48dp"
                         android:layout_height="48dp"
                         android:layout_marginEnd="10dp"
@@ -327,7 +327,7 @@
                         <ImageView
                             android:padding="5dp"
                             android:background="@drawable/baseline_info_24"
-                            android:backgroundTint="@color/blueDarker"
+                            android:backgroundTint="@color/red_500"
                             android:contentDescription="@string/image"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" />

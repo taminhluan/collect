@@ -306,8 +306,8 @@
   <string name="password_error_whitespace">Khảng trắng hoặc dấu không được phép trong mật khẩu</string>
   <string name="username_error_whitespace">Khoảng trắng hoặc dấu không được phép trong tên người dùng</string>
   <string name="google_play_services_error_occured">Không thể truy cập Google Maps. Có thể dịch vụ Google Play chưa được cài đặt?</string>
-  <string name="tell_your_friends">Share Gắn kết</string>
-  <string name="tell_your_friends_msg">Các đồng nghiệp của bạn vẫn đang thu thập dữ liệu trên giấy? Share Gắn kết với họ.</string>
+  <string name="tell_your_friends">Share Cafe REDD</string>
+  <string name="tell_your_friends_msg">Các đồng nghiệp của bạn vẫn đang thu thập dữ liệu trên giấy? Share Cafe REDD với họ.</string>
   <string name="leave_a_review">Để lại đánh giá Play Store</string>
   <string name="leave_a_review_msg">Đánh giá của bạn sẽ tăng khả năng hiển thị của Ứng dụng trong Play Store.</string>
   <!-- Geo string added in feature-geofeatures branch-->
@@ -693,9 +693,9 @@
   <string name="copying_media_files_failed">Lỗi sao chép các tập tin</string>
   <string name="qr_code_not_found">QR Code không tìm thấy trong ảnh được chọn</string>
   <string name="image">ảnh</string>
-  <string name="about_1">\t\t\t\t\'Gắn kết\' là một sáng kiến thử nghiệm ứng dụng công nghệ giúp cộng đồng tham gia giám sát các dự án và hỗ trợ địa phương.</string>
+  <string name="about_1">\t\t\t\t\Đây là công cụ thu thập dữ liệu hiện trường cho dự án Cafe REDD do tổ chức SNV thực hiện tại tỉnh Lâm Đồng.</string>
   <string name="about_2">\t\t\t\tKèm theo là một phần mềm giúp xử lý và phân tích thông tin thu được. Từ đó sẽ hình thành các báo cáo, kiến nghị giúp các cơ quan, doanh nghiệp và cộng đồng phát huy điểm mạnh và hạn chế các tác động không mong muốn.</string>
-  <string name="about_3">\t\t\t\t\'Gắn kết\' trên cơ sở hợp tác tự nguyện giữa các bên để thực hiện tốt hơn các chính sách, chương trình phát triển, hướng tới cộng đồng thịnh vượng.</string>
+  <string name="about_3">\t\t\t\t\'Cafe REDD\' trên cơ sở hợp tác tự nguyện giữa các bên để thực hiện tốt hơn các chính sách, chương trình phát triển, hướng tới cộng đồng thịnh vượng.</string>
 
 
   <!--Geo string added in feature-geofeatures branch-->

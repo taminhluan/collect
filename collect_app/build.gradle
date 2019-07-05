@@ -75,13 +75,13 @@ android {
     }
 
     defaultConfig {
-        applicationId('org.gfd.collect.android')
+        applicationId('org.gfd.collect.caferedd')
         minSdkVersion(16)
         targetSdkVersion(26)
 //        versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()
 //        versionName getVersionName()
-        versionCode 8
-        versionName "0.8"
+        versionCode 1
+        versionName "0.1.redd"
         testInstrumentationRunner('androidx.test.runner.AndroidJUnitRunner')
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
