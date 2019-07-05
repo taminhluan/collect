@@ -45,7 +45,7 @@
         android:gravity="end"
         android:orientation="vertical">
 
-        <org.gfd.collect.android.views.AudioButton
+        <org.gfd.collect.caferedd.views.AudioButton
             android:id="@+id/audioButton"
             style="@style/MediaButtonStyle"
             android:layout_width="wrap_content"

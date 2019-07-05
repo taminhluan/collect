@@ -103,8 +103,8 @@ android {
 
     productFlavors {
         kobo {
-            applicationId "org.gfd.collect.android"
-            buildConfigField 'String', 'AUTHORITY', '"org.gfd.collect.android"'
+            applicationId "org.gfd.collect.caferedd"
+            buildConfigField 'String', 'AUTHORITY', '"org.gfd.collect.caferedd"'
         }
     }
 

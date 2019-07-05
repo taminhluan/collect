@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="org.gfd.collect.android.activities.DrawActivity">
+    tools:context="org.gfd.collect.caferedd.activities.DrawActivity">
 
-    <org.gfd.collect.android.views.DrawView
+    <org.gfd.collect.caferedd.views.DrawView
         android:id="@+id/drawView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-    </org.gfd.collect.android.views.DrawView>
+    </org.gfd.collect.caferedd.views.DrawView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_clear"

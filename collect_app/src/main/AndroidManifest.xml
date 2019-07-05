@@ -9,7 +9,7 @@ the specific language governing permissions and limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.gfd.collect.android">
+    package="org.gfd.collect.caferedd">
 
     <uses-feature
         android:name="android.hardware.location"
@@ -81,7 +81,7 @@ the specific language governing permissions and limitations under the License.
         android:xlargeScreens="true" />
 
     <application
-        android:name="org.gfd.collect.android.application.Collect"
+        android:name="org.gfd.collect.caferedd.application.Collect"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:installLocation="auto"
@@ -89,12 +89,12 @@ the specific language governing permissions and limitations under the License.
         android:largeHeap="true"
         android:supportsRtl="true">
         <provider
-            android:name="org.gfd.collect.android.provider.FormsProvider"
+            android:name="org.gfd.collect.caferedd.provider.FormsProvider"
             android:authorities="${applicationId}.provider.odk.forms"
             android:exported="false"
             android:multiprocess="true" />
         <provider
-            android:name="org.gfd.collect.android.provider.InstanceProvider"
+            android:name="org.gfd.collect.caferedd.provider.InstanceProvider"
             android:authorities="${applicationId}.provider.odk.instances"
             android:exported="false"
             android:multiprocess="true" />
@@ -109,15 +109,15 @@ the specific language governing permissions and limitations under the License.
         </provider>
 
         <activity
-            android:name="org.gfd.collect.android.activities.MainMenuActivity"
+            android:name="org.gfd.collect.caferedd.activities.MainMenuActivity"
             android:configChanges="locale|orientation|screenSize" />
         <activity
-            android:name="org.gfd.collect.android.activities.ScannerWithFlashlightActivity"
+            android:name="org.gfd.collect.caferedd.activities.ScannerWithFlashlightActivity"
             android:screenOrientation="portrait"
             android:stateNotNeeded="true"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="org.gfd.collect.android.activities.FormEntryActivity"
+            android:name="org.gfd.collect.caferedd.activities.FormEntryActivity"
             android:configChanges="orientation"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -131,19 +131,19 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity>
         <activity
-            android:name="org.gfd.collect.android.activities.NotificationActivity"
+            android:name="org.gfd.collect.caferedd.activities.NotificationActivity"
             android:excludeFromRecents="true"
             android:launchMode="singleTask"
             android:taskAffinity=""
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
         <activity
-            android:name="org.gfd.collect.android.activities.DrawActivity"
+            android:name="org.gfd.collect.caferedd.activities.DrawActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="org.gfd.collect.android.activities.GoogleDriveActivity"
+            android:name="org.gfd.collect.caferedd.activities.GoogleDriveActivity"
             android:configChanges="orientation|screenSize"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name="org.gfd.collect.android.activities.InstanceChooserList">
+        <activity android:name="org.gfd.collect.caferedd.activities.InstanceChooserList">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
@@ -153,7 +153,7 @@ the specific language governing permissions and limitations under the License.
                 <data android:mimeType="vnd.android.cursor.dir/vnd.odk.instance" />
             </intent-filter>
         </activity>
-        <activity android:name="org.gfd.collect.android.activities.FormChooserList">
+        <activity android:name="org.gfd.collect.caferedd.activities.FormChooserList">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
@@ -164,7 +164,7 @@ the specific language governing permissions and limitations under the License.
                 <data android:mimeType="vnd.android.cursor.dir/vnd.odk.form" />
             </intent-filter>
         </activity>
-        <activity android:name="org.gfd.collect.android.activities.FormDownloadList">
+        <activity android:name="org.gfd.collect.caferedd.activities.FormDownloadList">
             <intent-filter>
                 <action android:name="org.odk.collect.android.FORM_DOWNLOAD" />
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -172,18 +172,18 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity>
         <activity
-            android:name="org.gfd.collect.android.activities.FileManagerTabs"
+            android:name="org.gfd.collect.caferedd.activities.FileManagerTabs"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="org.gfd.collect.android.activities.GoogleSheetsUploaderActivity"
+            android:name="org.gfd.collect.caferedd.activities.GoogleSheetsUploaderActivity"
             android:configChanges="orientation|screenSize" />
         <activity
-            android:name="org.gfd.collect.android.activities.InstanceUploaderListActivity"
+            android:name="org.gfd.collect.caferedd.activities.InstanceUploaderListActivity"
             android:configChanges="orientation|screenSize">
         </activity>
         <activity-alias
             android:name=".activities.InstanceUploaderList"
-            android:targetActivity="org.gfd.collect.android.activities.InstanceUploaderListActivity" >
+            android:targetActivity="org.gfd.collect.caferedd.activities.InstanceUploaderListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.intent.action.EDIT" />
@@ -192,28 +192,28 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </activity-alias>
         <activity
-            android:name="org.gfd.collect.android.activities.InstanceUploaderActivity">
+            android:name="org.gfd.collect.caferedd.activities.InstanceUploaderActivity">
             <intent-filter>
                 <action android:name="org.odk.collect.android.INSTANCE_UPLOAD" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="vnd.android.cursor.dir/vnd.odk.instance" />
             </intent-filter>
         </activity>
-        <activity android:name="org.gfd.collect.android.activities.AboutActivity" />
-        <activity android:name="org.gfd.collect.android.preferences.PreferencesActivity" />
-        <activity android:name="org.gfd.collect.android.preferences.AdminPreferencesActivity" />
-        <activity android:name="org.gfd.collect.android.activities.FormHierarchyActivity" />
-        <activity android:name="org.gfd.collect.android.activities.ViewOnlyFormHierarchyActivity" />
-        <activity android:name="org.gfd.collect.android.activities.GeoPointActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.AboutActivity" />
+        <activity android:name="org.gfd.collect.caferedd.preferences.PreferencesActivity" />
+        <activity android:name="org.gfd.collect.caferedd.preferences.AdminPreferencesActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.FormHierarchyActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.ViewOnlyFormHierarchyActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.GeoPointActivity" />
         <activity
-            android:name="org.gfd.collect.android.activities.GeoPointMapActivity"
+            android:name="org.gfd.collect.caferedd.activities.GeoPointMapActivity"
             android:configChanges="orientation" />
         <activity
-            android:name="org.gfd.collect.android.activities.GeoPolyActivity"
+            android:name="org.gfd.collect.caferedd.activities.GeoPolyActivity"
             android:configChanges="orientation" />
-        <activity android:name="org.gfd.collect.android.activities.BearingActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.BearingActivity" />
         <activity
-            android:name="org.gfd.collect.android.activities.SplashScreenActivity"
+            android:name="org.gfd.collect.caferedd.activities.SplashScreenActivity"
             android:theme="@android:style/Theme.Dialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -224,7 +224,7 @@ the specific language governing permissions and limitations under the License.
         </activity>
         <!-- Enable Shortcuts for Command Actions -->
         <activity
-            android:name="org.gfd.collect.android.activities.AndroidShortcuts"
+            android:name="org.gfd.collect.caferedd.activities.AndroidShortcuts"
             android:label="ODK Form"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -233,8 +233,8 @@ the specific language governing permissions and limitations under the License.
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="org.gfd.collect.android.activities.CaptureSelfieActivity" />
-        <activity android:name="org.gfd.collect.android.activities.CaptureSelfieActivityNewApi" />
+        <activity android:name="org.gfd.collect.caferedd.activities.CaptureSelfieActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.CaptureSelfieActivityNewApi" />
 
         <!--
         Register AnalyticsReceiver and AnalyticsService to support background
@@ -270,8 +270,8 @@ the specific language governing permissions and limitations under the License.
             android:name="com.google.android.maps"
             android:required="false" />
 
-        <activity android:name="org.gfd.collect.android.activities.WebViewActivity" />
-        <activity android:name="org.gfd.collect.android.activities.CaptureSelfieVideoActivity" />
-        <activity android:name="org.gfd.collect.android.activities.CaptureSelfieVideoActivityNewApi" />
+        <activity android:name="org.gfd.collect.caferedd.activities.WebViewActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.CaptureSelfieVideoActivity" />
+        <activity android:name="org.gfd.collect.caferedd.activities.CaptureSelfieVideoActivityNewApi" />
     </application>
 </manifest>

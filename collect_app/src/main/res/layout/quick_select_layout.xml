@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-    <org.gfd.collect.android.views.MediaLayout
+    <org.gfd.collect.caferedd.views.MediaLayout
         android:id="@+id/mediaLayout"
         android:orientation="horizontal"
         android:layout_width="0dp"
