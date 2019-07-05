@@ -15,6 +15,7 @@ limitations under the License.
 -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="0dp"
@@ -52,9 +53,12 @@ limitations under the License.
             android:textStyle="bold"/>
         <TextView
             android:text="@string/about_1"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            tools:ignore="UnusedAttribute" />
     </LinearLayout>
     <LinearLayout
         android:layout_below="@+id/top"
